@@ -1,0 +1,58 @@
+site_name: Android y apps móviles · Apuntes
+site_description: "Apuntes de tecnologías móviles: Android Studio, emuladores y ciclo de vida, con Kotlin y Compose."
+site_url: https://apuntes-dam.github.io/android-apuntes/
+repo_url: https://github.com/apuntes-dam/android-apuntes
+repo_name: GitHub
+theme:
+  name: material
+  language: es
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+extra_css:
+  - assets/extra.css
+  - assets/lenguajes.css
+extra_javascript:
+  - assets/lenguajes.js
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/apuntes-dam/
+      name: Síguenos en GitHub
+copyright: Practica los Lenguajes de Programación para 1º DAM y 2º DAM · <a href="https://github.com/apuntes-dam/">Síguenos en GitHub</a>
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+nav:
+  - Inicio: index.md
+  - "U1 · Tecnologías móviles":
+      - u01/index.md
+      - "1. Dispositivos y redes": u01/dispositivos.md
+      - "2. Sistemas operativos": u01/sistemas.md
+      - "3. Nativo y multiplataforma": u01/tecnologias.md
+      - "4. Android Studio": u01/android-studio.md
+      - "5. Emuladores": u01/emuladores.md
+      - "6. Estructura y ciclo de vida": u01/estructura-ciclo.md
+      - "7. Buenas prácticas y resumen": u01/buenas-practicas.md
+      - "A1 Ejercicios": u01/ejercicios.md
