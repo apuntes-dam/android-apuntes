@@ -22,3 +22,6 @@ Apuntes para aprender a **programar aplicaciones Android**: desde las tecnologí
 
 !!! warning "Código sin ejecutar en este entorno"
     Los fragmentos de Android no se han ejecutado al escribir estas páginas (hacen falta el SDK y un emulador). Pruébalos en tu proyecto y, si algo no compila, revisa los `import` (**Alt+Enter** en Android Studio).
+
+!!! tip "¿Quieres ir más allá?"
+    Activa el interruptor **Avanzado** de la cabecera para ver el [material avanzado](avanzado/index.md): arquitectura y estado, corrutinas y `Flow`, repositorios, inyección de dependencias y pruebas, rendimiento y publicación.

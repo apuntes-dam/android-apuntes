@@ -5,6 +5,7 @@ repo_url: https://github.com/apuntes-dam/android-apuntes
 repo_name: GitHub
 theme:
   name: material
+  custom_dir: overrides
   language: es
   logo: assets/logo.svg
   favicon: assets/logo.svg
@@ -27,8 +28,6 @@ theme:
 extra_css:
   - assets/extra.css
   - assets/lenguajes.css?v=ed6a84c1
-extra_javascript:
-  - assets/lenguajes.js?v=ed6a84c1
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -117,3 +116,29 @@ nav:
       - "9.3 RecyclerView": u09/03-recyclerview.md
       - "9.4 Menús, Activities y Fragments": u09/04-menus-fragments.md
       - "A9 Ejercicios": u09/ejercicios.md
+  - "Avanzado": avanzado/index.md
+  - "AA1 · Arquitectura y estado":
+      - avanzado/a1/index.md
+      - "AA1.1 Estado de pantalla y flujo unidireccional": avanzado/a1/01-estado-udf.md
+      - "AA1.2 Eventos de un solo disparo y estado que sobrevive": avanzado/a1/02-eventos-estado.md
+      - "AA1 Ejercicios": avanzado/a1/ejercicios.md
+  - "AA2 · Corrutinas y Flow en la app":
+      - avanzado/a2/index.md
+      - "AA2.1 Corrutinas estructuradas y cancelación": avanzado/a2/01-corrutinas.md
+      - "AA2.2 Flow: operadores y estado derivado": avanzado/a2/02-flow.md
+      - "AA2 Ejercicios": avanzado/a2/ejercicios.md
+  - "AA3 · Datos y repositorios":
+      - avanzado/a3/index.md
+      - "AA3.1 Repositorio, errores y mapeo": avanzado/a3/01-repositorio.md
+      - "AA3.2 Sin conexión primero: caché y sincronización": avanzado/a3/02-offline.md
+      - "AA3 Ejercicios": avanzado/a3/ejercicios.md
+  - "AA4 · Inyección de dependencias y pruebas":
+      - avanzado/a4/index.md
+      - "AA4.1 Inyección de dependencias": avanzado/a4/01-inyeccion.md
+      - "AA4.2 Probar la lógica de la app": avanzado/a4/02-pruebas.md
+      - "AA4 Ejercicios": avanzado/a4/ejercicios.md
+  - "AA5 · Rendimiento y publicación":
+      - avanzado/a5/index.md
+      - "AA5.1 Recomposición y rendimiento": avanzado/a5/01-rendimiento.md
+      - "AA5.2 Preparar y publicar la app": avanzado/a5/02-publicar.md
+      - "AA5 Ejercicios": avanzado/a5/ejercicios.md
