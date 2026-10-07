@@ -66,6 +66,3 @@ Observa tres ideas:
 
 !!! info "Para ir más allá"
     Con muchos campos, agrupa el estado en una `data class FormState(...)` y guárdala en un `ViewModel` ([U8](../u08/index.md)).
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

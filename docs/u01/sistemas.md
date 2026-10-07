@@ -4,7 +4,7 @@
 
 * Sistema de **código abierto** (AOSP) desarrollado por Google, basado en Linux.
 * Lo montan muchos fabricantes, con gran variedad de dispositivos.
-* Las apps se programan en **Kotlin** (recomendado) o Java y se distribuyen como paquetes `.apk` o `.aab`, sobre todo por **Google Play**.
+* Las apps se programan en **Kotlin** (recomendado) o Java y se distribuyen como paquetes `.apk` (instalación directa) o `.aab` (el formato que exige **Google Play**).
 * Cada versión tiene un **nivel de API** (*API level*) que indica qué funciones ofrece.
 
 ## iOS

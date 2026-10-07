@@ -40,4 +40,8 @@ Reparte los hijos en filas y pasa a la siguiente cuando no caben (ideal para eti
 
 ## Insets y barras del sistema
 
-En Android moderno la app se dibuja bajo la barra de estado y la de navegación. `enableEdgeToEdge()` en `onCreate` lo activa y `Modifier.safeDrawingPadding()` evita que el contenido quede tapado.
+En Android moderno la app se dibuja bajo la barra de estado y la de navegación (y bajo la cámara). `enableEdgeToEdge()` en `onCreate` lo activa y `Modifier.safeDrawingPadding()` o `Modifier.safeContentPadding()` evitan que el contenido quede tapado. Si un título aparece oculto por la cámara, es lo primero que debes revisar.
+
+## Aviso: APIs experimentales
+
+Algunos componentes (`FlowRow`, `TopAppBar`, `DatePicker`, `AssistChip`…) están marcados como experimentales. Si el compilador lo pide, añade sobre la función `@OptIn(ExperimentalMaterial3Api::class)` (o `ExperimentalLayoutApi`).

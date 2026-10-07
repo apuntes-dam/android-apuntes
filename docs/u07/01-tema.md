@@ -68,6 +68,3 @@ En Android 12 o superior el tema puede coger los colores del **fondo de pantalla
 ```kotlin
 val esquema = if (oscuro) dynamicDarkColorScheme(LocalContext.current) else dynamicLightColorScheme(LocalContext.current)
 ```
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

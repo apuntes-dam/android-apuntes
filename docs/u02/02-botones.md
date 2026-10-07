@@ -54,7 +54,7 @@ El **Toast** es un aviso breve que desaparece solo. Necesita un `Context`, que s
 
 ## Pulsación larga y doble toque
 
-`Button` solo conoce el toque normal. Para otros gestos se usa el modificador `combinedClickable`:
+`Button` solo conoce el toque normal. Para otros gestos se usa el modificador `combinedClickable` (API marcada como experimental: añade `@OptIn(ExperimentalFoundationApi::class)` a la función):
 
 ```kotlin
 Text(
@@ -69,6 +69,3 @@ Text(
 
 !!! warning "Un botón no es un texto con `clickable`"
     Cualquier composable se puede hacer pulsable con `Modifier.clickable { }`. Pero un `Button` ya trae el área táctil correcta, el efecto de ondas y la accesibilidad. Úsalo siempre que haya una acción.
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

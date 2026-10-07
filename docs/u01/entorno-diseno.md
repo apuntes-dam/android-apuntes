@@ -1,12 +1,8 @@
 # 9. El entorno de diseño de interfaces
 
-## Instalación en tres pasos
+## Instalación
 
-1. **Descargar** el instalador de Android Studio para tu sistema desde la web oficial.
-2. Seguir el asistente con la instalación **Standard**: instala el SDK, las plataformas y las herramientas del emulador.
-3. En el **primer arranque**, dejar que el asistente de configuración (*setup wizard*) descargue los componentes que falten.
-
-**Lo que no tienes que instalar aparte:** el JDK (Android Studio trae uno embebido) y Jetpack Compose (el asistente de proyectos lo añade solo).
+Los pasos están en el [apartado 4](android-studio.md). Dos detalles importantes: elige la instalación **Standard** y **no instales aparte** ni el JDK (Android Studio trae uno embebido) ni Jetpack Compose (el asistente de proyectos lo añade solo).
 
 ## Partes del entorno
 

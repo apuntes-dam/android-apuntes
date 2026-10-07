@@ -61,6 +61,3 @@ OutlinedTextField(
 ```
 
 (`Visibility` está en el paquete de iconos extendidos.)
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

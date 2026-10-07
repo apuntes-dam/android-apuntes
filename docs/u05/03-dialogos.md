@@ -59,6 +59,8 @@ Mostrar un snackbar es una función **suspendida**, por eso se lanza dentro de `
 
 ## Selector de fecha
 
+Requiere `@OptIn(ExperimentalMaterial3Api::class)`.
+
 ```kotlin
 val estado = rememberDatePickerState()
 DatePicker(state = estado)
@@ -73,6 +75,3 @@ DatePicker(state = estado)
 | Confirmar algo peligroso | `AlertDialog` |
 | Informar sin interrumpir | `Snackbar` (o `Toast`) |
 | Elegir una fecha | `DatePicker` |
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

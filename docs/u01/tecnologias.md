@@ -17,7 +17,8 @@ Un único código genera apps para varias plataformas.
 | Tecnología | Lenguaje | Idea |
 |---|---|---|
 | **Flutter** | Dart | Dibuja la interfaz con su propio motor |
-| **Kotlin Multiplatform / Compose Multiplatform** | Kotlin | Comparte la lógica (y la interfaz) entre plataformas |
+| **Kotlin Multiplatform / Compose Multiplatform** | Kotlin | Comparte la lógica y, con Compose Multiplatform, también la interfaz (Android, iOS, escritorio y web) |
+| **.NET MAUI** | C# | La opción de Microsoft; sustituye a **Xamarin**, que ya no tiene soporte |
 | **React Native** | JavaScript/TypeScript | Usa componentes nativos controlados desde JavaScript |
 | **Web / PWA** | HTML, CSS, JavaScript | Una web instalable que funciona en el navegador |
 

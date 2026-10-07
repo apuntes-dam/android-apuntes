@@ -82,6 +82,3 @@ fun AppPreview() {
 | `Log`, `Toast`, `Context` | Solo existen en Android; no se pueden usar en `commonMain` |
 
 Todo lo demás (`Column`, `Row`, `Text`, `Button`, estado, listas, temas) se escribe igual. Por eso las unidades siguientes valen para los dos.
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

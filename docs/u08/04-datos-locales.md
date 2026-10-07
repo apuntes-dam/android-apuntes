@@ -24,6 +24,14 @@ suspend fun guardar(valor: Boolean) = contexto.datos.edit { it[CLAVE_OSCURO] = v
 
 ## Room: base de datos
 
+Dependencias (Room genera código con el plugin **KSP**, que hay que añadir en `plugins { }`):
+
+```kotlin
+implementation("androidx.room:room-runtime:2.6.1")
+implementation("androidx.room:room-ktx:2.6.1")
+ksp("androidx.room:room-compiler:2.6.1")
+```
+
 Room traduce clases Kotlin a tablas SQL. Tiene tres piezas:
 
 **Entidad** (una tabla):
@@ -71,6 +79,3 @@ Como `todas()` devuelve un `Flow`, la lista de la pantalla **se actualiza sola**
 
 !!! note "Un paso más"
     Las migraciones (cambiar la estructura al actualizar la app) y las relaciones entre tablas son temas de acceso a datos que se verán con más detalle en el módulo correspondiente.
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

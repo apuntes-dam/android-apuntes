@@ -63,6 +63,3 @@ val x by animateFloatAsState(if (mover) 300f else 0f, animationSpec = spring(dam
 
 !!! warning "Con medida"
     Una animación debe ayudar, no distraer. Mantén las transiciones cortas (150–400 ms) y evita animar muchas cosas a la vez.
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

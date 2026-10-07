@@ -77,6 +77,3 @@ Las tres opciones de `navigate { }` evitan que, al pulsar varias veces una pesta
 | Volver | `nav.popBackStack()` |
 | Pasar un dato | `nav.navigate("detalle/$id")` |
 | Saber en qué pantalla estoy | `currentBackStackEntryAsState()` |
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

@@ -85,6 +85,3 @@ fun cargar() {
 
 !!! info "Resumen"
     **Regla de oro:** la interfaz nunca hace trabajo pesado ni toca la red o la base de datos. Todo eso va en el ViewModel o por debajo.
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

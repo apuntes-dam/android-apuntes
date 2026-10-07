@@ -58,7 +58,7 @@ fun Dado() {
 
 ## Ejercicio A2.9
 
-⭐ **Reto: giro de pantalla.** Pon en marcha el contador de A2.5, gira el emulador y comprueba si el valor se pierde. Arréglalo y explica en tus palabras la diferencia entre `remember` y `rememberSaveable`.
+⭐ **Reto: dos contadores.** Muestra dos contadores independientes (A y B) y, debajo, su **suma**, calculada sin guardarla en una tercera variable. Ambos deben conservar su valor al girar la pantalla.
 
 ## Ejercicio A2.10
 

@@ -7,7 +7,7 @@ Apuntes para aprender a **programar aplicaciones Android**: desde las tecnologí
 
 | Unidad | Contenido |
 |---|---|
-| [U1 · Tecnologías móviles](u01/index.md) | Dispositivos, redes, sistemas, Android Studio, emuladores y ciclo de vida |
+| [U1 · Tecnologías móviles](u01/index.md) | Dispositivos, redes, sistemas, Android Studio, emuladores, ciclo de vida, paradigmas de interfaces y primer proyecto multiplataforma |
 | [U2 · Componentes y botones](u02/index.md) | `Text`, botones de todo tipo, eventos y estado (`remember`) |
 | [U3 · Layouts y Modifier](u03/index.md) | `Column`, `Row`, `Box`, `Modifier`, `Scaffold` y `Card` |
 | [U4 · Imágenes e iconos](u04/index.md) | `Image`, iconos, imágenes de internet con Coil e icono de la app |

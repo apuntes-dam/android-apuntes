@@ -7,8 +7,11 @@ Las imágenes que no van dentro de la app (fotos de usuarios, productos…) se d
 1. Dependencia en `build.gradle.kts` del módulo `app`:
 
 ```kotlin
-implementation("io.coil-kt:coil-compose:2.7.0")
+implementation("io.coil-kt.coil3:coil-compose:3.0.4")
+implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
 ```
+
+Coil 3 es la versión actual y funciona también en Compose Multiplatform. La segunda línea es el *motor de red* que descarga las imágenes.
 
 2. Permiso de internet en `AndroidManifest.xml`, **antes** de `<application>`:
 
@@ -17,9 +20,11 @@ implementation("io.coil-kt:coil-compose:2.7.0")
 ```
 
 !!! tip "Comprueba la versión"
-    La versión de la librería cambia con frecuencia. Mira la última en la documentación de Coil o deja que Android Studio te sugiera una actualización.
+    El número de versión cambia con frecuencia: mira la última en la documentación de Coil. Con la versión antigua (Coil 2) la dependencia era `io.coil-kt:coil-compose` y el `import` de `AsyncImage` distinto.
 
 ## Mostrar la imagen
+
+Importa `coil3.compose.AsyncImage`.
 
 ```kotlin
 AsyncImage(

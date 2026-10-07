@@ -22,9 +22,11 @@ onCreate -> onStart -> onResume   (la app está visible y activa)
                        onPause     (pierde el foco: otra pantalla encima)
                           |
                        onStop      (ya no es visible)
-                          |
-                      onDestroy    (se cierra)
+                        /    \
+         onRestart -> onStart     onDestroy    (se cierra)
 ```
+
+Si el usuario vuelve a una pantalla que estaba detenida, se llama a `onRestart` y se repite `onStart` → `onResume`.
 
 | Método | Cuándo se llama |
 |---|---|

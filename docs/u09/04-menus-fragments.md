@@ -31,6 +31,9 @@ override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId)
 
 `showAsAction="ifRoom"` lo muestra como icono en la barra si cabe; `never`, dentro del menú de tres puntos.
 
+!!! note "Forma actual de hacerlo"
+    `onCreateOptionsMenu` sigue funcionando, pero Google recomienda registrar un **`MenuProvider`** (`addMenuProvider`) para no mezclar el menú con la `Activity`. Es lo mismo con otra estructura.
+
 ## Varias Activities
 
 Cada pantalla puede ser una `Activity`. Para abrir otra, se usa un **Intent**:

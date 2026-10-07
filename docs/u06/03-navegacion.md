@@ -65,5 +65,5 @@ object Rutas {
 }
 ```
 
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.
+!!! info "Rutas con tipo (versiones recientes)"
+    Desde Navigation 2.8 las rutas pueden ser **clases `@Serializable`** (`composable<Detalle> { ... }` y `nav.navigate(Detalle(id = 7))`), de modo que el compilador comprueba los argumentos. Las rutas de texto de esta unidad siguen funcionando y son más fáciles de entender al empezar.

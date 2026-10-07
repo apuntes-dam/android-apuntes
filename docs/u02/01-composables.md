@@ -62,6 +62,3 @@ fun SaludoPreview() {
 * **dp**: tamaño de elementos y espacios. Es independiente de la densidad de la pantalla.
 * **sp**: solo para tamaño de texto.
 * Escribe `16.dp` y `18.sp` (necesitas `import androidx.compose.ui.unit.dp` y `sp`).
-
-!!! note "Código de Android sin ejecutar aquí"
-    Los fragmentos de esta unidad usan Jetpack Compose y no se han ejecutado en este entorno (hace falta el SDK y un emulador). Pruébalos siempre en tu proyecto; si algo no compila, suele faltar un `import`: pulsa **Alt+Enter** sobre el nombre en rojo.

@@ -52,4 +52,4 @@ Kotlin es un lenguaje de **alto nivel**: se compila a *bytecode* que ejecuta una
 |---|---|---|
 | Android Studio | IDE oficial de Android | Libre y gratuito |
 | Gradle | Sistema que compila el proyecto | Libre |
-| MonoDevelop | IDE (base de Xamarin) | Libre |
+| MonoDevelop | IDE histórico (base de Xamarin, hoy sin soporte) | Libre |

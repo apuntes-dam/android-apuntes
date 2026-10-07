@@ -9,7 +9,7 @@
 3. En el primer arranque, el asistente descarga los componentes necesarios (puede tardar y ocupa varios GB).
 
 !!! note "Requisitos"
-    Necesitas un equipo con suficiente memoria RAM (se recomiendan 8 GB o más) y espacio en disco. Se necesita un JDK, pero Android Studio incluye el suyo.
+    Necesitas un equipo con suficiente memoria RAM (mínimo 8 GB; con 16 GB va mucho mejor, sobre todo con el emulador abierto) y espacio en disco. Se necesita un JDK, pero Android Studio incluye el suyo.
 
 ## Crear tu primer proyecto
 
@@ -29,6 +29,9 @@ mi-app/
 │   └── build.gradle.kts               <- dependencias y configuración del módulo
 └── build.gradle.kts                   <- configuración del proyecto
 ```
+
+!!! info "Dependencias en proyectos nuevos"
+    En las plantillas actuales las versiones de las librerías se declaran en `gradle/libs.versions.toml` y se usan con alias (`libs.androidx.core.ktx`). En esta web se escribe la cadena directa (`implementation("grupo:artefacto:versión")`), que también funciona. Comprueba siempre la **última versión** estable de cada librería.
 
 ## El primer código
 
