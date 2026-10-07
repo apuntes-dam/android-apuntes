@@ -10,7 +10,7 @@ Una app que no se puede probar es una app que da miedo tocar. Las dos ideas de e
 ## Antes de empezar: qué debes dominar
 
 * La [AA1](../a1/index.md), la [AA2](../a2/index.md) y la [AA3](../a3/index.md): `UiState`, reductores, corrutinas, `Flow` y repositorios.
-* Las pruebas con JUnit de la [web de Kotlin](https://apuntes-dam.github.io/kotlin-apuntes/avanzado/index.md), si ya las has visto.
+* Las pruebas con JUnit de la [web de Kotlin](https://apuntes-dam.github.io/kotlin-apuntes/avanzado/), si ya las has visto.
 
 ## Ejercicios de la unidad
 
