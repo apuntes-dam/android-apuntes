@@ -2,7 +2,7 @@
 
 🌐 **Web: https://apuntes-dam.github.io/android-apuntes/**
 
-Apuntes de tecnologías móviles: Android Studio, emuladores y ciclo de vida, con Kotlin y Compose.
+Apuntes de Android y apps móviles con Kotlin y Compose: botones, imágenes, formularios, listas, navegación, temas y datos.
 
 Forma parte de [Practica los Lenguajes de Programación para 1º DAM y 2º DAM](https://apuntes-dam.github.io/apuntes-lenguajes/).
 

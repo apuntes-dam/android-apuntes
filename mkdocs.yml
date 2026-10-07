@@ -1,5 +1,5 @@
 site_name: Android y apps móviles · Apuntes
-site_description: "Apuntes de tecnologías móviles: Android Studio, emuladores y ciclo de vida, con Kotlin y Compose."
+site_description: "Apuntes de Android y apps móviles con Kotlin y Compose: botones, imágenes, formularios, listas, navegación, temas y datos."
 site_url: https://apuntes-dam.github.io/android-apuntes/
 repo_url: https://github.com/apuntes-dam/android-apuntes
 repo_name: GitHub
@@ -55,4 +55,65 @@ nav:
       - "5. Emuladores": u01/emuladores.md
       - "6. Estructura y ciclo de vida": u01/estructura-ciclo.md
       - "7. Buenas prácticas y resumen": u01/buenas-practicas.md
+      - "8. Interfaces: paradigmas": u01/interfaces.md
+      - "9. Entorno de diseño": u01/entorno-diseno.md
+      - "10. Proyecto multiplataforma": u01/multiplataforma.md
       - "A1 Ejercicios": u01/ejercicios.md
+  - "U2 · Componentes y botones":
+      - u02/index.md
+      - "2.1 Composables y texto": u02/01-composables.md
+      - "2.2 Botones y eventos": u02/02-botones.md
+      - "2.3 Estado: remember": u02/03-estado.md
+      - "2.4 Para ir más allá": u02/04-avanzado.md
+      - "A2 Ejercicios": u02/ejercicios.md
+  - "U3 · Layouts y Modifier":
+      - u03/index.md
+      - "3.1 Column, Row y Box": u03/01-column-row-box.md
+      - "3.2 Modifier": u03/02-modifier.md
+      - "3.3 Scaffold y Card": u03/03-scaffold.md
+      - "3.4 Para ir más allá": u03/04-avanzado.md
+      - "A3 Ejercicios": u03/ejercicios.md
+  - "U4 · Imágenes e iconos":
+      - u04/index.md
+      - "4.1 Imágenes del proyecto": u04/01-imagenes.md
+      - "4.2 Iconos": u04/02-iconos.md
+      - "4.3 Imágenes de internet": u04/03-internet.md
+      - "4.4 El icono de la app": u04/04-icono-app.md
+      - "4.5 Imágenes multiplataforma": u04/05-multiplataforma.md
+      - "A4 Ejercicios": u04/ejercicios.md
+  - "U5 · Formularios":
+      - u05/index.md
+      - "5.1 Campos de texto": u05/01-textfield.md
+      - "5.2 Casillas y deslizadores": u05/02-controles.md
+      - "5.3 Menús y diálogos": u05/03-dialogos.md
+      - "5.4 Validación": u05/04-validacion.md
+      - "A5 Ejercicios": u05/ejercicios.md
+  - "U6 · Listas y navegación":
+      - u06/index.md
+      - "6.1 LazyColumn": u06/01-lazycolumn.md
+      - "6.2 Listas que cambian": u06/02-listas-dinamicas.md
+      - "6.3 Navegar entre pantallas": u06/03-navegacion.md
+      - "6.4 Argumentos y barra inferior": u06/04-argumentos.md
+      - "A6 Ejercicios": u06/ejercicios.md
+  - "U7 · Temas y accesibilidad":
+      - u07/index.md
+      - "7.1 Tema Material 3": u07/01-tema.md
+      - "7.2 Recursos e idiomas": u07/02-recursos.md
+      - "7.3 Accesibilidad": u07/03-accesibilidad.md
+      - "7.4 UI y UX": u07/04-ui-ux.md
+      - "A7 Ejercicios": u07/ejercicios.md
+  - "U8 · Avanzado":
+      - u08/index.md
+      - "8.1 Animaciones": u08/01-animaciones.md
+      - "8.2 ViewModel": u08/02-viewmodel.md
+      - "8.3 Retrofit": u08/03-retrofit.md
+      - "8.4 DataStore y Room": u08/04-datos-locales.md
+      - "8.5 Gestos y Canvas": u08/05-gestos-canvas.md
+      - "A8 Ejercicios": u08/ejercicios.md
+  - "U9 · Vistas XML clásicas":
+      - u09/index.md
+      - "9.1 Layouts XML": u09/01-layouts-xml.md
+      - "9.2 Vistas y ViewBinding": u09/02-vistas.md
+      - "9.3 RecyclerView": u09/03-recyclerview.md
+      - "9.4 Menús, Activities y Fragments": u09/04-menus-fragments.md
+      - "A9 Ejercicios": u09/ejercicios.md

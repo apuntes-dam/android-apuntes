@@ -20,10 +20,13 @@ Antes de programar una aplicación móvil conviene conocer qué dispositivos exi
 5. [Emuladores y dispositivos reales](emuladores.md)
 6. [Estructura de una app y ciclo de vida](estructura-ciclo.md)
 7. [Buenas prácticas, errores frecuentes y resumen](buenas-practicas.md)
+8. [Interfaces: paradigmas y modelos](interfaces.md)
+9. [El entorno de diseño de interfaces](entorno-diseno.md)
+10. [Tu primer proyecto multiplataforma](multiplataforma.md)
 
 ## Ejercicios de la unidad
 
-Hay [8 ejercicios](ejercicios.md) de esta unidad.
+Hay [19 ejercicios](ejercicios.md) de esta unidad.
 
 ## Antes de pasar a los ejercicios
 
