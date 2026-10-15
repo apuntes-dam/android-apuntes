@@ -1,5 +1,12 @@
 # U4 · Imágenes e iconos
 
+<div class="narrador" data-slug="u04-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 4"></div>
+
+??? note "Leer el resumen"
+    Casi ninguna app vive solo de texto.
+    Aprendes a mostrar imágenes del proyecto, iconos vectoriales e imágenes que vienen de internet. Y también cómo preparar el icono de tu aplicación, y cómo mostrar imágenes en un proyecto multiplataforma.
+
+
 Casi ninguna app vive solo de texto. En esta unidad aprendes a mostrar **imágenes** del proyecto, **iconos** vectoriales, imágenes que vienen de **internet** y cómo preparar el **icono de tu aplicación**.
 
 ## Teoría

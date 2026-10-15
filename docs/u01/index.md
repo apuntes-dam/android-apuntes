@@ -1,5 +1,12 @@
 # U1 · Tecnologías para dispositivos móviles
 
+<div class="narrador" data-slug="u01-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 1"></div>
+
+??? note "Leer el resumen"
+    Antes de programar una app conviene conocer el terreno: qué dispositivos hay, qué redes usan, cómo se organizan los sistemas operativos móviles y qué tecnologías de desarrollo existen. Elegir entre desarrollo nativo y multiplataforma condiciona el rendimiento, el coste y el alcance de la app.
+    Después instalas Android Studio, creas tu primer proyecto, usas emuladores y dispositivos reales, y conoces la estructura de una app y su ciclo de vida.
+
+
 Antes de programar una aplicación móvil conviene conocer qué dispositivos existen, qué redes usan, cómo se organizan sus sistemas operativos y qué tecnologías de desarrollo hay. Elegir bien la tecnología condiciona el rendimiento, el coste y el alcance de la app.
 
 ## Qué deberías saber al terminar

@@ -1,5 +1,12 @@
 # U3 · Layouts y Modifier
 
+<div class="narrador" data-slug="u03-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 3"></div>
+
+??? note "Leer el resumen"
+    Un layout decide dónde se coloca cada elemento: en columna, en fila o apilado. El Modifier ajusta el tamaño, el margen, el fondo y el comportamiento de cualquier componente.
+    Con estas dos ideas, y con Scaffold para la estructura de la pantalla, construyes cualquier pantalla.
+
+
 Un **layout** decide dónde se coloca cada elemento: en columna, en fila o apilado. El **Modifier** ajusta el tamaño, el margen, el fondo y el comportamiento de cualquier componente. Con estas dos ideas se construye cualquier pantalla.
 
 ## Teoría

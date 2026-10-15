@@ -1,5 +1,13 @@
 # U6 · Listas y navegación
 
+<div class="narrador" data-slug="u06-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 6"></div>
+
+??? note "Leer el resumen"
+    Casi toda app muestra listas y tiene varias pantallas.
+    Con LazyColumn pintas listas largas de forma eficiente, y aprendes a que cambien cuando cambian los datos.
+    Con Navigation Compose te mueves entre pantallas y pasas datos de una a otra, y creas una barra de navegación inferior.
+
+
 Casi toda app muestra **listas** (contactos, tareas, productos) y tiene **varias pantallas** entre las que se mueve. Aquí aprendes `LazyColumn`, a pintar los elementos de una lista y a navegar con **Navigation Compose**, pasando datos entre pantallas.
 
 ## Teoría

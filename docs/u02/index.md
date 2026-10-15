@@ -1,5 +1,12 @@
 # U2 · Componentes y botones
 
+<div class="narrador" data-slug="u02-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 2"></div>
+
+??? note "Leer el resumen"
+    Una interfaz moderna de Android se construye con funciones composables. Cada elemento visible, un texto, un botón o una imagen, es una función que describe cómo se ve.
+    Aprendes los componentes más básicos, cómo reaccionar a un toque, y cómo guardar con remember el valor que cambia en pantalla, que es el estado.
+
+
 Una interfaz Android moderna se construye con **funciones composables**: cada elemento visible (un texto, un botón, una imagen) es una función que describe cómo se ve. En esta unidad aprendes los componentes más básicos, cómo reaccionar a un toque y cómo guardar el valor que cambia en pantalla.
 
 ## Teoría

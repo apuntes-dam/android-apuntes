@@ -1,5 +1,12 @@
 # U7 · Temas, recursos y accesibilidad
 
+<div class="narrador" data-slug="u07-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 7"></div>
+
+??? note "Leer el resumen"
+    Una app profesional se ve coherente, está traducida, funciona en modo oscuro y puede usarla cualquier persona.
+    Lo consigues con el tema de Material 3, con los recursos de la app, que incluyen idiomas y colores, y con las buenas prácticas de accesibilidad y de diseño de interfaces, el UI y el UX.
+
+
 Una app profesional se ve **coherente** (mismos colores y letras en todas las pantallas), está **traducida**, funciona en **modo oscuro** y la puede usar **cualquier persona**. En esta unidad aprendes a conseguirlo con el tema de Material 3, los recursos de la app y las buenas prácticas de accesibilidad y diseño (UI/UX).
 
 ## Teoría

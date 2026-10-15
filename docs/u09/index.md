@@ -1,5 +1,13 @@
 # U9 · Vistas XML: la forma clásica
 
+<div class="narrador" data-slug="u09-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 9"></div>
+
+??? note "Leer el resumen"
+    Antes de Compose, las pantallas de Android se describían en archivos XML, y millones de apps todavía las usan.
+    Aprendes a hacer lo mismo de las unidades anteriores, botones, imágenes, listas y menús, con vistas XML y ConstraintLayout, usando RecyclerView para las listas.
+    Y cómo conviven con Compose en un mismo proyecto.
+
+
 Antes de Compose, las pantallas de Android se describían en archivos **XML**. Millones de apps siguen usándolas y en muchos módulos de interfaces se estudian. Aquí aprendes cómo se hace lo mismo que en las unidades anteriores —botones, imágenes, listas, menús— con **vistas XML**, y cómo conviven con Compose.
 
 ## Teoría
