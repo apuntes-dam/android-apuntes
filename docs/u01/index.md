@@ -30,6 +30,7 @@ Antes de programar una aplicación móvil conviene conocer qué dispositivos exi
 8. [Interfaces: paradigmas y modelos](interfaces.md)
 9. [El entorno de diseño de interfaces](entorno-diseno.md)
 10. [Tu primer proyecto multiplataforma](multiplataforma.md)
+11. [Administrador de aplicaciones: adb](adb.md)
 
 ## Ejercicios de la unidad
 

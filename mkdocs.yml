@@ -60,6 +60,7 @@ nav:
       - "8. Interfaces: paradigmas": u01/interfaces.md
       - "9. Entorno de diseño": u01/entorno-diseno.md
       - "10. Proyecto multiplataforma": u01/multiplataforma.md
+      - "11. Administrador de aplicaciones (adb)": u01/adb.md
       - "A1 Ejercicios": u01/ejercicios.md
   - "U2 · Componentes y botones":
       - u02/index.md
