@@ -31,6 +31,22 @@ Column {
 }
 ```
 
+## Cambiar los colores de un botón
+
+Los colores se cambian con el parámetro `colors`, que recibe un objeto creado con `ButtonDefaults.buttonColors`. `containerColor` es el **fondo** y `contentColor` el color del **texto o icono**:
+
+```kotlin
+Button(
+    onClick = { },
+    colors = ButtonDefaults.buttonColors(
+        containerColor = Color(0xFF2E7D32),   // fondo verde
+        contentColor = Color.White            // texto blanco
+    )
+) { Text("Aceptar") }
+```
+
+Si solo indicas una cosa, la otra conserva el valor del tema. También existen `disabledContainerColor` y `disabledContentColor` para cómo se ve el botón con `enabled = false`. Al cambiar el fondo, comprueba que el texto se sigue **leyendo** (un texto blanco sobre amarillo no se lee).
+
 ## Desactivar un botón
 
 ```kotlin

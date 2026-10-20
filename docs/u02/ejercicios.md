@@ -87,3 +87,45 @@ fun PracticaContador() {
         modifier = Modifier.fillMaxSize().safeContentPadding().padding(16.dp),
 // ... (resto de la solución bloqueado)</code></pre></div>
 </details>
+
+## Ejercicio A2.12
+
+**Tarjeta de producto.** Crea una clase `Producto(nombre, precio, stock)` y un composable `TarjetaProducto(producto)` con una `Card` que muestre los tres datos. Si el stock es 0, el texto debe decir «Agotado» en rojo. Pinta tres productos en una `Column`.
+
+<details class="sol" data-key="android/u02/A2.12">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>class Producto(val nombre: String, val precio: Double, val stock: Int)
+@Composable
+fun TarjetaProducto(producto: Producto) {
+    Card(modifier = Modifier.fillMaxWidth().padding(8.dp)) {
+        Column(modifier = Modifier.padding(16.dp)) {
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio A2.13
+
+**Un contador como objeto.** Crea una clase `Contador` con un atributo `valor` que sea estado, un método `sumar()` y un método `reiniciar()`. En pantalla, un `Text` con el valor y dos botones. Después cambia `mutableIntStateOf(0)` por un `Int` normal y explica por qué deja de funcionar.
+
+<details class="sol" data-key="android/u02/A2.13">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>class Contador {
+    var valor by mutableIntStateOf(0)
+        private set
+    fun sumar() { valor++ }
+    fun reiniciar() { valor = 0 }
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio A2.14
+
+**Semáforo.** Tres botones («Rojo», «Ámbar» y «Verde») con el color de fondo de cada nombre, usando `ButtonDefaults.buttonColors`. Al pulsar uno, un `Text` dice «Has pulsado ...». Pon el texto del botón ámbar en negro para que se lea.
+
+<details class="sol" data-key="android/u02/A2.14">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>@Composable
+fun Semaforo() {
+    var texto by remember { mutableStateOf("Pulsa un botón") }
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(texto)
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>

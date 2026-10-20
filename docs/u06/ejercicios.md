@@ -59,3 +59,35 @@ fun MiApp() {
 ## Ejercicio A6.9
 
 ⭐ **Reto: buscador.** Añade a la lista de contactos un campo de búsqueda que filtre mientras escribes y un mensaje «Sin resultados» cuando no haya coincidencias.
+
+## Ejercicio A6.10
+
+**Login con aviso.** Parte del caso 6.5 y haz que, tras tres intentos fallidos seguidos, el botón «Entrar» se desactive y aparezca el texto «Demasiados intentos». Guarda el número de intentos como estado.
+
+<details class="sol" data-key="android/u06/A6.10">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>// En PantallaLogin, junto a los demás estados:
+var intentos by remember { mutableStateOf(0) }
+// Botón:
+Button(
+    enabled = intentos &lt; 3,
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio A6.11
+
+**Bienvenida con el nombre.** En el caso 6.5, la pantalla de bienvenida muestra siempre «admin». Pasa el nombre que se escribió en el login como **argumento de la ruta** ([6.4](04-argumentos.md)) para que la bienvenida diga «¡Hola, <nombre>!».
+
+## Ejercicio A6.12
+
+**Teclado numérico.** Una rejilla 3×4 con los botones 1 a 9, «0» y dos más («C» y «OK»). Un `Text` arriba muestra los dígitos pulsados; «C» lo borra. Usa `LazyVerticalGrid` y una lista con los textos de las teclas.
+
+<details class="sol" data-key="android/u06/A6.12">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>@Composable
+fun Teclado() {
+    val teclas = listOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "C", "0", "OK")
+    var texto by remember { mutableStateOf("") }
+    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>

@@ -63,3 +63,21 @@ fun CalculadoraImc() {
 ## Ejercicio A5.10
 
 ⭐ **Reto: el estado en una clase.** Reescribe A5.8 agrupando todos los datos en una `data class RegistroUi` y la validación en funciones que reciban esa clase.
+
+## Ejercicio A5.11
+
+**Selector de provincia.** Con `ExposedDropdownMenuBox`, un campo «Provincia» con las ocho provincias andaluzas y, debajo, un `Text` que diga «Has elegido: ...». Empieza sin ninguna elegida (el campo vacío con la etiqueta).
+
+<details class="sol" data-key="android/u05/A5.11">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SelectorProvincia() {
+    val provincias = listOf("Almería", "Cádiz", "Córdoba", "Granada", "Huelva", "Jaén", "Málaga", "Sevilla")
+    var abierto by remember { mutableStateOf(false) }
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio A5.12
+
+**Dos selectores.** Reutiliza una función `Selector(etiqueta, opciones, elegido, alElegir)` para hacer un formulario con «Curso» (1º DAM, 2º DAM) y «Turno» (mañana, tarde). Un botón «Enviar» solo debe estar activo cuando se han elegido las dos cosas.

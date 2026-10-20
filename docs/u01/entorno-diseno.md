@@ -40,6 +40,15 @@ class MainActivity : ComponentActivity() {
 
 Una analogía: la actividad es el **edificio**, los composables son la **decoración** de una habitación y `setContent` es la puerta que los une.
 
+## Insertar y quitar elementos
+
+En el entorno de Compose no se arrastran componentes: **se escriben y se borran en el código**, y la vista Split lo refleja al momento.
+
+* **Insertar**: escribe el nombre (`But`) y acepta la sugerencia con el autocompletado (**Ctrl+Espacio**); el IDE añade el `import` si falta (Alt+Intro). Colócalo **dentro del contenedor** donde quieres que aparezca: el orden en el código es el orden en pantalla.
+* **Quitar**: borra la llamada completa, con sus llaves (`Button(...) { ... }`). Si solo quieres probar sin ese elemento, **coméntalo** (Ctrl+/ sobre las líneas) y lo recuperas después.
+* **Mover**: cortar y pegar el bloque en otro lugar, o dentro de otro contenedor. En el *Component Tree* ves la jerarquía y, al hacer clic en un elemento, saltas a su línea.
+* Si te equivocas, **Ctrl+Z** deshace y la preview vuelve a su estado anterior.
+
 ## Importar librerías
 
 Para usar un componente de Material 3 hay que importarlo. Puedes importar uno o todos:

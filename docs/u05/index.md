@@ -16,6 +16,7 @@ Una app útil pide datos al usuario: un nombre, una fecha, una opción. En esta 
 2. [Casillas, interruptores y deslizadores](02-controles.md)
 3. [Menús, diálogos y mensajes](03-dialogos.md)
 4. [Validación y formularios completos](04-validacion.md)
+5. [Lista desplegable con ExposedDropdownMenuBox](05-dropdown.md)
 
 ## Antes de empezar: qué debes dominar
 
@@ -23,7 +24,7 @@ Una app útil pide datos al usuario: un nombre, una fecha, una opción. En esta 
 
 ## Ejercicios de la unidad
 
-Hay [10 ejercicios](ejercicios.md) de esta unidad.
+Hay [12 ejercicios](ejercicios.md) de esta unidad.
 
 ## Antes de pasar a los ejercicios
 

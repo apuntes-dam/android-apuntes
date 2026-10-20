@@ -67,6 +67,7 @@ nav:
       - "2.2 Botones y eventos": u02/02-botones.md
       - "2.3 Estado: remember": u02/03-estado.md
       - "2.4 Para ir más allá": u02/04-avanzado.md
+      - "2.5 Objetos y atributos": u02/05-objetos-interfaz.md
       - "A2 Ejercicios": u02/ejercicios.md
   - "U3 · Layouts y Modifier":
       - u03/index.md
@@ -89,6 +90,7 @@ nav:
       - "5.2 Casillas y deslizadores": u05/02-controles.md
       - "5.3 Menús y diálogos": u05/03-dialogos.md
       - "5.4 Validación": u05/04-validacion.md
+      - "5.5 Lista desplegable": u05/05-dropdown.md
       - "A5 Ejercicios": u05/ejercicios.md
   - "U6 · Listas y navegación":
       - u06/index.md
@@ -96,6 +98,8 @@ nav:
       - "6.2 Listas que cambian": u06/02-listas-dinamicas.md
       - "6.3 Navegar entre pantallas": u06/03-navegacion.md
       - "6.4 Argumentos y barra inferior": u06/04-argumentos.md
+      - "6.5 Caso: login con navegación": u06/05-caso-login.md
+      - "6.6 Caso: reproductor en rejilla": u06/06-caso-reproductor.md
       - "A6 Ejercicios": u06/ejercicios.md
   - "U7 · Temas y accesibilidad":
       - u07/index.md

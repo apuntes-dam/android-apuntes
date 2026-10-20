@@ -16,6 +16,8 @@ Casi toda app muestra **listas** (contactos, tareas, productos) y tiene **varias
 2. [Listas que cambian](02-listas-dinamicas.md)
 3. [Navegar entre pantallas](03-navegacion.md)
 4. [Pasar datos y barra inferior](04-argumentos.md)
+5. [Caso práctico: login con navegación](05-caso-login.md)
+6. [Caso práctico: reproductor con botones en rejilla](06-caso-reproductor.md)
 
 ## Antes de empezar: qué debes dominar
 
@@ -23,7 +25,7 @@ Casi toda app muestra **listas** (contactos, tareas, productos) y tiene **varias
 
 ## Ejercicios de la unidad
 
-Hay [9 ejercicios](ejercicios.md) de esta unidad.
+Hay [12 ejercicios](ejercicios.md) de esta unidad.
 
 ## Antes de pasar a los ejercicios
 

@@ -26,6 +26,31 @@ Box {
 }
 ```
 
+## Paneles: los composables que contienen a otros
+
+En otros sistemas de interfaces se habla de **paneles** (*layouts*): componentes cuya función es **contener** a otros y colocarlos. En Compose un panel no es nada especial, es **un composable que recibe otros composables entre sus llaves**:
+
+* `Column`, `Row` y `Box` colocan a sus hijos en vertical, en horizontal o apilados.
+* `Card` y `Surface` los agrupan visualmente (borde, fondo, sombra).
+* `Scaffold` ([3.3](03-scaffold.md)) es el panel de **toda la pantalla**, con huecos para la cabecera, la barra inferior y el botón flotante.
+
+Se pueden **anidar** a voluntad: una `Column` con una `Row` dentro, que tiene un `Card`, que tiene otra `Column`...
+
+```kotlin
+Scaffold { margen ->
+    Column(modifier = Modifier.padding(margen)) {        // panel vertical
+        Card {                                           // panel con borde
+            Row {                                        // panel horizontal
+                Icon(Icons.Default.Person, contentDescription = null)
+                Text("Ana")
+            }
+        }
+    }
+}
+```
+
+El árbol de la interfaz es exactamente esa anidación de paneles, y es lo que muestra el *Component Tree* ([9. El entorno de diseño](../u01/entorno-diseno.md)).
+
 ## Alinear y repartir
 
 Cada layout tiene dos ejes. En una `Column` el eje **principal** es el vertical y el **cruzado** el horizontal; en una `Row` es al revés.

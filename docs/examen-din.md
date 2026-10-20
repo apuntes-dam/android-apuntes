@@ -3,7 +3,7 @@
 Practica el **examen de Desarrollo de Interfaces (Tema 1)** con tiempo. Al entregar, o cuando se acaba el tiempo, el **test se corrige al momento** y la **parte de desarrollo y código** la califica **cualquier IA que quieras** (ChatGPT, Claude, Gemini…): la página te prepara un **prompt** con tus respuestas y las soluciones modelo, lo copias y lo pegas. No hace falta ninguna clave ni API.
 
 !!! info "Cómo funciona"
-    * **Examen**: 60 minutos (ajustables), 20 preguntas de test y 3 ejercicios. Si recargas la página, el cronómetro y tus respuestas siguen ahí.
+    * **Examen**: 60 minutos (ajustables), 20 preguntas de test y 3 ejercicios. **Cada intento es distinto**: las preguntas se sortean de un banco de 68 (con el peso de cada bloque del tema), cambia el orden de las opciones y hay varias versiones de cada ejercicio. Si recargas la página, el cronómetro y tus respuestas siguen ahí.
     * **Prácticas**: 10 ejercicios de código y de proyecto, sin tiempo.
     * Tus respuestas se guardan solo **en tu navegador**; no se envían a ningún sitio.
 

@@ -15,6 +15,7 @@ Una interfaz Android moderna se construye con **funciones composables**: cada el
 2. [Botones y eventos](02-botones.md)
 3. [Estado: remember](03-estado.md)
 4. [Para ir más allá](04-avanzado.md)
+5. [Objetos y atributos en la interfaz](05-objetos-interfaz.md)
 
 ## Antes de empezar: qué debes dominar
 
@@ -23,7 +24,7 @@ Una interfaz Android moderna se construye con **funciones composables**: cada el
 
 ## Ejercicios de la unidad
 
-Hay [11 ejercicios](ejercicios.md) de esta unidad.
+Hay [14 ejercicios](ejercicios.md) de esta unidad.
 
 ## Antes de pasar a los ejercicios
 
