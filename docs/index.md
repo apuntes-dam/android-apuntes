@@ -16,6 +16,9 @@ Apuntes para aprender a **programar aplicaciones Android**: desde las tecnologí
 | [U7 · Temas y accesibilidad](u07/index.md) | Tema de Material 3, `strings.xml`, idiomas, modo oscuro, accesibilidad y UI/UX |
 | [U8 · Avanzado](u08/index.md) | Animaciones, `ViewModel`, Retrofit, DataStore, Room, gestos y `Canvas` |
 | [U9 · Vistas XML clásicas](u09/index.md) | Layouts XML, `ConstraintLayout`, ViewBinding, `RecyclerView`, menús y Fragments |
+| [U10 · Componentes propios (DIN T4)](u10/index.md) | **DIN tema 4**: crear componentes propios (parámetros, `modifier`, eventos), dibujar con `DrawScope`, pruebas, documentación y empaquetado |
+| [U11 · Explotar componentes (DIN T5)](u11/index.md) | **DIN tema 5**: explotar componentes: semántica, `rememberSaveable` y `Saver`, eventos con `Modifier`, foco, teclado y pruebas |
+| [U12 · Usabilidad y accesibilidad (DIN T6)](u12/index.md) | **DIN tema 6**: usabilidad y accesibilidad: estándares ISO, WCAG 2.2, contraste, área de toque, Nielsen y SUS |
 
 !!! note "Android Studio es una herramienta, no un lenguaje"
     **Android Studio** es el entorno de desarrollo (IDE) oficial de Android. El lenguaje que se usa dentro es **Kotlin** (o Java). Por eso esta web enlaza con la de [Kotlin](https://apuntes-dam.github.io/kotlin-apuntes/) y, para apps multiplataforma, con la de [Dart y Flutter](https://apuntes-dam.github.io/dart-flutter-apuntes/).

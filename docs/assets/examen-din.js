@@ -1,11 +1,13 @@
-/* Examen de test de DIN (Tema 1). Todas las preguntas son de test, también las de código. Cada intento sortea las preguntas
+/* Examen de test de DIN (Tema 1 o Temas 4, 5 y 6, según el banco de la página). Todas las preguntas son de test, también las de código. Cada intento sortea las preguntas
    (con cuota por bloque en el examen) y mezcla el orden de las respuestas. Modos: Examen (cronómetro, se corrige al final)
    y Repaso (se corrige cada pregunta al momento, con su explicación). */
 (function () {
   "use strict";
-  var D = window.EXAMEN_DIN, root = document.getElementById("examen-din");
+  var root = document.getElementById("examen-din");
+  var D = root && window[root.getAttribute("data-datos") || "EXAMEN_DIN"];   // cada página trae su banco: data-datos y data-clave
   if (!D || !root) return;
-  var KEY = "examenDIN.v3", L = "abcd";
+  var KEY = "examenDIN.v3" + (root.getAttribute("data-clave") || ""), L = "abcd";
+  var NT = D.nteo || 20, NC = D.ncod || 10;
 
   function cargar() { try { return JSON.parse(localStorage.getItem(KEY)); } catch (e) { return null; } }
   function guardar() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* sin almacenamiento */ } }
@@ -73,7 +75,7 @@
     var cuantas = h("input", { type: "number", min: "5", max: "60", value: "20", "aria-label": "Número de preguntas" });
     root.appendChild(h("div", { class: "din-card" }, [
       h("h2", {}, "Elige cómo practicar"),
-      h("p", {}, [h("strong", {}, "Examen"), " — 30 preguntas de test (20 de teoría y 10 de código), con cronómetro. Se corrige al entregar o cuando se acaba el tiempo."]),
+      h("p", {}, [h("strong", {}, "Examen"), " — " + (NT + NC) + " preguntas de test (" + NT + " de teoría y " + NC + " de código), con cronómetro. Se corrige al entregar o cuando se acaba el tiempo."]),
       h("p", {}, ["Tiempo: ", min, " minutos"]),
       h("button", { class: "din-btn", onclick: function () { empezar({ modo: "examen", limite: Math.max(5, parseInt(min.value, 10) || D.minutos) * 60 }); } }, "Empezar el examen"),
       h("hr"),
@@ -175,7 +177,7 @@
       fallos.push((fallos.length + 1) + ". " + q.q.replace(/```\w*\n?/g, "").replace(/\n{2,}/g, "\n") + "\n   Respondí: " + (r == null ? "(en blanco)" : L[r] + ") " + q.o[r].replace(/```\w*\n?/g, "").replace(/\n/g, " ")) +
         "\n   Correcta: " + L[q.c] + ") " + q.o[q.c].replace(/```\w*\n?/g, "").replace(/\n/g, " "));
     });
-    return "Soy un alumno de 2.º DAM y acabo de hacer un test del Tema 1 de «Desarrollo de Interfaces» (Android Studio, Kotlin y Jetpack Compose). " +
+    return "Soy un alumno de 2.º DAM y acabo de hacer un test de " + (D.tema || "Tema 1") + " de «Desarrollo de Interfaces» (Android Studio, Kotlin y Jetpack Compose). " +
       "Estas son las preguntas que he fallado. Para cada una, explícame en pocas frases por qué la respuesta correcta lo es y en qué me equivoqué, " +
       "con ejemplos de código cortos si ayudan. Al final, dime en 3 puntos qué debería repasar.\n\n" + fallos.join("\n\n");
   }

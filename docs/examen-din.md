@@ -42,5 +42,5 @@ Practica el **examen de Desarrollo de Interfaces (Tema 1)**, todo **tipo test**:
 
 <div id="examen-din"><noscript>El examen necesita JavaScript.</noscript></div>
 
-<script src="../assets/examen-din-datos.js"></script>
-<script src="../assets/examen-din.js"></script>
+<script src="../assets/examen-din-datos.js?v=ed19de8b"></script>
+<script src="../assets/examen-din.js?v=8e9f372a"></script>

@@ -1,6 +1,6 @@
 # Avanzado
 
-Material para ir más allá de las nueve unidades: cómo se organiza una app que crece, cómo se programa lo asíncrono, cómo se guardan y sincronizan los datos, cómo se prueba y cómo se publica.
+Material para ir más allá de las doce unidades: cómo se organiza una app que crece, cómo se programa lo asíncrono, cómo se guardan y sincronizan los datos, cómo se prueba y cómo se publica.
 
 !!! info "Es un modo aparte"
     Esta sección solo aparece en el menú cuando activas el interruptor **Avanzado** de la cabecera. Así, quien está empezando no ve nada que no necesite todavía. Tu elección se guarda en el navegador.
@@ -17,4 +17,4 @@ Material para ir más allá de las nueve unidades: cómo se organiza una app que
 | [AA5 · Rendimiento y publicación](a5/index.md) | Estabilidad, `derivedStateOf`, `key`, perfiles, R8, firma, `.aab` y Play Console |
 
 !!! note "Antes de empezar"
-    Da por sabidas las nueve unidades de la web, sobre todo la [U8 · Avanzado](../u08/index.md) (animaciones, `ViewModel`, Retrofit y Room) y la [web de Kotlin](https://apuntes-dam.github.io/kotlin-apuntes/) (corrutinas y colecciones).
+    Da por sabidas las doce unidades de la web, sobre todo la [U8 · Avanzado](../u08/index.md) (animaciones, `ViewModel`, Retrofit y Room) y la [web de Kotlin](https://apuntes-dam.github.io/kotlin-apuntes/) (corrutinas y colecciones).

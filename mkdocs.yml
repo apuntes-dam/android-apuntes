@@ -124,7 +124,37 @@ nav:
       - "9.3 RecyclerView": u09/03-recyclerview.md
       - "9.4 Menús, Activities y Fragments": u09/04-menus-fragments.md
       - "A9 Ejercicios": u09/ejercicios.md
+  - "U10 · Componentes propios (DIN T4)":
+      - u10/index.md
+      - "10.1 Qué es un componente": u10/01-componente.md
+      - "10.2 Propiedades y modifier": u10/02-propiedades.md
+      - "10.3 BadgeEstado y SelectorMes": u10/03-badge-selector.md
+      - "10.4 Dibujar con DrawScope": u10/04-dibujo.md
+      - "10.5 Herramientas, pruebas y docs": u10/05-pruebas-docs.md
+      - "10.6 Empaquetar el kit": u10/06-empaquetar.md
+      - "10.7 Lo marcado en verde": u10/07-verde.md
+      - "A10 Ejercicios": u10/ejercicios.md
+  - "U11 · Explotar componentes (DIN T5)":
+      - u11/index.md
+      - "11.1 Un componente explotado": u11/01-explotado.md
+      - "11.2 Persistencia": u11/02-persistencia.md
+      - "11.3 Eventos": u11/03-eventos.md
+      - "11.4 Foco, teclado y acciones": u11/04-foco-acciones.md
+      - "11.5 Pruebas del componente": u11/05-pruebas.md
+      - "11.6 Lo marcado en verde": u11/06-verde.md
+      - "A11 Ejercicios": u11/ejercicios.md
+  - "U12 · Usabilidad y accesibilidad (DIN T6)":
+      - u12/index.md
+      - "12.1 Usabilidad y estándares": u12/01-usabilidad-estandares.md
+      - "12.2 WCAG 2.2 y Android": u12/02-wcag-android.md
+      - "12.3 Perfiles y formatos alternativos": u12/03-perfiles-formatos.md
+      - "12.4 Contraste": u12/04-contraste.md
+      - "12.5 Toque, letra al 200 % y auditoría": u12/05-toque-fuente.md
+      - "12.6 Evaluar la usabilidad": u12/06-evaluacion.md
+      - "12.7 Lo marcado en verde": u12/07-verde.md
+      - "A12 Ejercicios": u12/ejercicios.md
   - "Examen DIN · Tema 1": examen-din.md
+  - "Examen DIN · Temas 4, 5 y 6": examen-din-t456.md
   - "Avanzado": avanzado/index.md
   - "AA1 · Arquitectura y estado":
       - avanzado/a1/index.md
