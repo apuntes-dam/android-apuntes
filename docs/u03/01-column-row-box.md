@@ -58,6 +58,15 @@ Cada layout tiene dos ejes. En una `Column` el eje **principal** es el vertical 
 * `verticalArrangement` / `horizontalArrangement`: cómo se reparte el espacio en el eje principal.
 * `horizontalAlignment` / `verticalAlignment`: cómo se alinean en el eje cruzado.
 
+![Row y Column: el eje principal (reparto con Arrangement) y el eje cruzado (alineación con Alignment)](../assets/img/ejes-row-column.svg)
+
+*Figura. Los dos ejes de `Row` y `Column`: en azul, el eje principal (cómo se reparten los hijos, `Arrangement`); en naranja, el eje cruzado (cómo se alinean, `Alignment`).*
+
+| Layout | Eje principal (reparto) | Eje cruzado (alineación) |
+|---|---|---|
+| `Row` | horizontal: `horizontalArrangement` | vertical: `verticalAlignment` (`Top`, `CenterVertically`, `Bottom`) |
+| `Column` | vertical: `verticalArrangement` | horizontal: `horizontalAlignment` (`Start`, `CenterHorizontally`, `End`) |
+
 ```kotlin
 Column(
     modifier = Modifier.fillMaxSize(),

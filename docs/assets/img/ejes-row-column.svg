@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="880" viewBox="0 0 1000 880" role="img" aria-label="Row y Column: eje principal (reparto con Arrangement) y eje cruzado (alineación con Alignment)">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="878" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<line x1="500" y1="30" x2="500" y2="790" stroke="#e1e4e8" stroke-width="2"/>
+<line x1="30" y1="420" x2="970" y2="420" stroke="#e1e4e8" stroke-width="2"/>
+<text x="250" y="56" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2937" text-anchor="middle">Row (fila)</text>
+<text x="250" y="90" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#2f6fdc" text-anchor="middle">Eje principal: horizontal</text>
+<rect x="138" y="150" width="64" height="64" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="170.0" y="188.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="218" y="150" width="64" height="64" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="250.0" y="188.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="298" y="150" width="64" height="64" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="330.0" y="188.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<line x1="138" y1="250" x2="362" y2="250" stroke="#2f6fdc" stroke-width="3" marker-start="url(#p2f6fdc)" marker-end="url(#p2f6fdc)"/>
+<text x="250" y="300" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#5b6472" text-anchor="middle">Los hijos se colocan</text>
+<text x="250" y="322" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#5b6472" text-anchor="middle">de izquierda a derecha.</text>
+<text x="250" y="366" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#2f6fdc" text-anchor="middle">horizontalArrangement</text>
+<text x="250" y="388" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">reparte los hijos en este eje</text>
+<text x="750" y="56" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2937" text-anchor="middle">Column (columna)</text>
+<text x="750" y="90" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#2f6fdc" text-anchor="middle">Eje principal: vertical</text>
+<rect x="722" y="112" width="56" height="56" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="750.0" y="146.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="722" y="178" width="56" height="56" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="750.0" y="212.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="722" y="244" width="56" height="56" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="750.0" y="278.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<line x1="826" y1="112" x2="826" y2="298" stroke="#2f6fdc" stroke-width="3" marker-start="url(#p2f6fdc)" marker-end="url(#p2f6fdc)"/>
+<text x="750" y="340" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#5b6472" text-anchor="middle">Los hijos se colocan de arriba abajo.</text>
+<text x="750" y="366" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#2f6fdc" text-anchor="middle">verticalArrangement</text>
+<text x="750" y="388" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">reparte los hijos en este eje</text>
+<text x="250" y="466" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Row: alineación cruzada</text>
+<text x="250" y="496" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="600" fill="#e08a1e" text-anchor="middle">verticalAlignment</text>
+<rect x="40" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="50" y="530" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="66.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="86" y="530" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="102.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="122" y="530" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="138.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="100" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Top</text>
+<rect x="200" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="210" y="579.0" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="226.0" y="599.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="246" y="579.0" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="262.0" y="599.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="282" y="579.0" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="298.0" y="599.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="260" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">CenterVertically</text>
+<rect x="360" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="370" y="628" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="386.0" y="648.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="406" y="628" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="422.0" y="648.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="442" y="628" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="458.0" y="648.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="420" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Bottom</text>
+<text x="250" y="740" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">Controla cómo se alinean los hijos en vertical:</text>
+<text x="250" y="762" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">es el eje cruzado de una Row.</text>
+<text x="750" y="466" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Column: alineación cruzada</text>
+<text x="750" y="496" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="600" fill="#e08a1e" text-anchor="middle">horizontalAlignment</text>
+<rect x="520" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="530" y="530" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="546.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="530" y="570" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="546.0" y="590.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="530" y="610" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="546.0" y="630.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="580" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Start</text>
+<rect x="680" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="724.0" y="530" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="740.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="724.0" y="570" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="740.0" y="590.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="724.0" y="610" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="740.0" y="630.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="740" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">CenterHorizontally</text>
+<rect x="840" y="520" width="120" height="150" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="918" y="530" width="32" height="32" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="934.0" y="550.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">A</text>
+<rect x="918" y="570" width="32" height="32" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="934.0" y="590.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">B</text>
+<rect x="918" y="610" width="32" height="32" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="934.0" y="630.55" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="900" y="692" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">End</text>
+<text x="750" y="740" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">Controla cómo se alinean los hijos en horizontal:</text>
+<text x="750" y="762" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">es el eje cruzado de una Column.</text>
+<line x1="262" y1="822" x2="312" y2="822" stroke="#2f6fdc" stroke-width="3" marker-start="url(#p2f6fdc)" marker-end="url(#p2f6fdc)"/>
+<text x="322" y="828" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#1f2937" text-anchor="start">eje principal: Arrangement (cómo se reparten)</text>
+<line x1="262" y1="852" x2="312" y2="852" stroke="#e08a1e" stroke-width="2.5" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="322" y="858" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#1f2937" text-anchor="start">eje cruzado: Alignment (cómo se alinean)</text>
+</svg>
