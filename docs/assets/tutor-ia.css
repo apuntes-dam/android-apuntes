@@ -1,0 +1,21 @@
+/* Tutor de IA para los exámenes de desarrollo (tutor-ia.js). Usa los colores de Material y tiene valores propios por si se abre fuera de la web. */
+.tutor-ia-caja { border: 1px solid var(--md-default-fg-color--lighter, rgba(128, 128, 128, .4)); border-radius: 8px; margin: .6rem 0 1rem; padding: .1rem .9rem .7rem;
+  background: var(--md-code-bg-color, rgba(128, 128, 128, .08)); }
+.tutor-ia-caja > summary { cursor: pointer; font-weight: 600; padding: .45rem 0; }
+.tutor-ia-resp { display: block; width: 100%; box-sizing: border-box; min-height: 7rem; resize: vertical; font: inherit; font-size: .8rem; line-height: 1.45; padding: .55rem;
+  border: 1px solid var(--md-default-fg-color--lighter, rgba(128, 128, 128, .5)); border-radius: 6px;
+  background: var(--md-default-bg-color, #fff); color: var(--md-default-fg-color, #222); }
+.tutor-ia-resp:focus { outline: 2px solid var(--md-accent-fg-color, #3f51b5); outline-offset: 1px; }
+.tutor-ia-fila { display: flex; flex-wrap: wrap; gap: .5rem .9rem; align-items: center; margin: .6rem 0 .2rem; }
+.tutor-ia-fila label { display: flex; align-items: center; gap: .35rem; font-size: .75rem; }
+.tutor-ia-fila select { font: inherit; font-size: .75rem; max-width: 100%; padding: .25rem .35rem; border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--lighter, rgba(128, 128, 128, .5)); background: var(--md-default-bg-color, #fff); color: var(--md-default-fg-color, #222); }
+.tutor-ia-btn { cursor: pointer; font: inherit; font-size: .78rem; padding: .4rem .95rem; border-radius: 6px; border: 1px solid var(--md-primary-fg-color, #3f51b5);
+  background: var(--md-primary-fg-color, #3f51b5); color: #fff; }
+.tutor-ia-btn:hover { filter: brightness(1.12); }
+.tutor-ia-btn.sec { background: none; color: var(--md-primary-fg-color, #3f51b5); }
+[data-md-color-scheme="slate"] .tutor-ia-btn.sec { color: var(--md-accent-fg-color, #9fa8da); border-color: var(--md-accent-fg-color, #9fa8da); }
+.tutor-ia-nota { margin: .25rem 0 0; font-size: .72rem; color: var(--md-default-fg-color--light, #666); }
+.tutor-ia-aviso { margin: .35rem 0 0; font-size: .78rem; font-weight: 600; color: var(--md-accent-fg-color, #3f51b5); }
+.tutor-ia-aviso:empty { display: none; }
+@media (max-width: 40em) { .tutor-ia-fila { flex-direction: column; align-items: stretch; } .tutor-ia-fila select { width: 100%; } .tutor-ia-btn { width: 100%; } }
