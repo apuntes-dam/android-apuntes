@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="ConstraintLayout: el título se ata al padre con 16.dp y el botón se ata al título con 8.dp">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="418" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="250" y="46" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">ConstraintLayout: cada hijo se ata a otros</text>
+<rect x="40.0" y="80.0" width="420.0" height="300.0" rx="20" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<text x="446" y="104" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#5b6472" text-anchor="end">parent</text>
+<rect x="76.0" y="116.0" width="150.0" height="48.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="151.0" y="146.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Título</text>
+<rect x="76.0" y="188.0" width="110.0" height="48.0" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="131.0" y="218.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">OK</text>
+<line x1="116" y1="80" x2="116" y2="116" stroke="#e08a1e" stroke-width="2.5" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="128" y="104" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="start">16.dp</text>
+<line x1="40" y1="140" x2="76" y2="140" stroke="#e08a1e" stroke-width="2.5" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="58" y="162" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="middle">16.dp</text>
+<line x1="136" y1="164" x2="136" y2="188" stroke="#2f6fdc" stroke-width="2.5" marker-start="url(#p2f6fdc)" marker-end="url(#p2f6fdc)"/>
+<text x="148" y="181" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2f6fdc" text-anchor="start">8.dp</text>
+<line x1="76" y1="164" x2="76" y2="262" stroke="#2f6fdc" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="82" y="282" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#2f6fdc" text-anchor="start">mismo borde de inicio (start)</text>
+<text x="520" y="110" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f2937" text-anchor="start">Título (titulo)</text>
+<text x="520" y="142" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#e08a1e" text-anchor="start">top.linkTo(parent.top, 16.dp)</text>
+<text x="520" y="170" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#e08a1e" text-anchor="start">start.linkTo(parent.start, 16.dp)</text>
+<text x="520" y="200" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">su arriba y su inicio, atados al padre</text>
+<text x="520" y="270" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f2937" text-anchor="start">Botón OK (boton)</text>
+<text x="520" y="302" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#2f6fdc" text-anchor="start">top.linkTo(titulo.bottom, 8.dp)</text>
+<text x="520" y="330" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#2f6fdc" text-anchor="start">start.linkTo(titulo.start)</text>
+<text x="520" y="360" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">su arriba, atado al abajo del título;</text>
+<text x="520" y="380" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">su inicio, atado al inicio del título</text>
+<text x="520" y="440" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">Cada referencia sale de createRefs() y cada ajuste de</text>
+<text x="520" y="460" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="start">Modifier.constrainAs(referencia) { … }</text>
+</svg>

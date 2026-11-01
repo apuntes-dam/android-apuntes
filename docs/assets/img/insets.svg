@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-label="Insets: sin padding el título queda tapado por la cámara; con safeDrawingPadding queda en la zona segura">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="678" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="46" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">enableEdgeToEdge(): la app se dibuja también bajo las barras del sistema y la cámara</text>
+<rect x="120.0" y="90.0" width="240.0" height="460.0" rx="28" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<text x="146" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1c2a4a" text-anchor="start">Mis tareas</text>
+<rect x="146.0" y="160.0" width="150.4" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="146.0" y="190.0" width="112.8" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="146.0" y="220.0" width="131.6" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="128.0" y="98.0" width="224.0" height="38.0" rx="20" fill="rgba(40,48,62,0.88)" stroke="none" stroke-width="0"/>
+<text x="148" y="123" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">9:41</text>
+<circle cx="240.0" cy="117" r="8" fill="#10131a"/>
+<rect x="290.0" y="112.0" width="40.0" height="12.0" rx="6" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="128.0" y="512.0" width="224.0" height="30.0" rx="20" fill="rgba(40,48,62,0.88)" stroke="none" stroke-width="0"/>
+<rect x="200.0" y="528.0" width="80.0" height="5.0" rx="3" fill="#ffffff" stroke="none" stroke-width="0"/>
+<circle cx="240.0" cy="117" r="26" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="6 4"/>
+<rect x="640.0" y="90.0" width="240.0" height="460.0" rx="28" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<text x="666" y="174" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1c2a4a" text-anchor="start">Mis tareas</text>
+<rect x="666.0" y="204.0" width="150.4" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="666.0" y="234.0" width="112.8" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="666.0" y="264.0" width="131.6" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="652.0" y="140.0" width="216.0" height="368.0" rx="6" fill="none" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="648.0" y="98.0" width="224.0" height="38.0" rx="20" fill="rgba(40,48,62,0.88)" stroke="none" stroke-width="0"/>
+<text x="668" y="123" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="start">9:41</text>
+<circle cx="760.0" cy="117" r="8" fill="#10131a"/>
+<rect x="810.0" y="112.0" width="40.0" height="12.0" rx="6" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="648.0" y="512.0" width="224.0" height="30.0" rx="20" fill="rgba(40,48,62,0.88)" stroke="none" stroke-width="0"/>
+<rect x="720.0" y="528.0" width="80.0" height="5.0" rx="3" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="240" y="590" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="21" font-weight="700" fill="#c0392b" text-anchor="middle">Sin padding</text>
+<text x="240" y="616" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">el título queda detrás de la cámara</text>
+<text x="240" y="636" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">y de la barra de estado.</text>
+<text x="760" y="590" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="21" font-weight="700" fill="#2e7d32" text-anchor="middle">Con safeDrawingPadding()</text>
+<text x="760" y="616" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">el contenido empieza en la zona segura</text>
+<text x="760" y="636" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">(el recuadro naranja), entre las barras.</text>
+<line x1="500" y1="76" x2="500" y2="650" stroke="#e1e4e8" stroke-width="2"/>
+</svg>
