@@ -7,6 +7,7 @@ Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escri
     2. Elige una IA y un **modo**: *Tutor* (te hace preguntas y te da pistas, sin darte la solución de golpe), *Corregir como el profesor* (qué está bien, qué falta y una nota orientativa), *Solo pistas* o *Explícamelo*.
     3. Pulsa **Abrir en…**: se abre la web de esa IA con el texto ya escrito (la pregunta, la respuesta del profesor para que pueda evaluarte, y tu respuesta). Si esa IA no admite texto en el enlace, se **copia** y lo pegas con Ctrl+V.
     4. Sigue la conversación en la IA hasta que lo tengas claro. Después mira la **respuesta del profesor** y compárala con la tuya.
+    5. **Para corregirlo todo de una vez:** contesta las preguntas en sus recuadros (se guardan en tu navegador) y, al terminar, usa **Corrección final**: junta tus respuestas y las referencias en un solo texto para que la IA te ponga nota, te diga qué falló en cada una y qué repasar. Se pega una vez con Ctrl+V.
 
 !!! tip "Sin API, sin claves y, si quieres, sin cuenta"
     No hay ninguna API ni clave: la web solo **abre el chat de la IA que tú elijas**. **ChatGPT y Perplexity funcionan sin iniciar sesión**; Claude, Gemini, Copilot y Le Chat piden una cuenta (si ya has iniciado sesión en alguna, se usa tu sesión). Puedes usar la que prefieras: el texto es el mismo.
@@ -422,4 +423,4 @@ Por si el examen incluye código o cálculos. Resuélvelos primero en papel.
 
 <link rel="stylesheet" href="../assets/tutor-ia.css?v=02da5ced">
 <script src="../assets/examen-din-desarrollo-t34-datos.js?v=921d716b"></script>
-<script src="../assets/tutor-ia.js?v=4bc6f84b"></script>
+<script src="../assets/tutor-ia.js?v=9c8cb5a9"></script>

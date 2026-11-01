@@ -154,11 +154,37 @@
     ]));
   }
 
+  /* ---------- corrección final: todas las respuestas escritas, en un solo texto ---------- */
+  function guardada(bancoId, n) { return (leer("resp:" + bancoId + ":" + n) || "").trim(); }
+  function contestadas(bancoId, banco) {
+    return banco.preguntas.filter(function (p) { return p.pts && guardada(bancoId, p.n); }).length;
+  }
+  function promptCorreccion(bancoId, banco, repasar) {
+    var lista = banco.preguntas.filter(function (p) { return p.pts; });
+    var bloques = lista.map(function (p, i) {
+      return "--- PREGUNTA " + (i + 1) + (p.tema ? " (" + p.tema + ")" : "") + " ---\n" + p.q + "\nREFERENCIA: " + p.r.replace(/\n+/g, "\n") +
+             "\nMI RESPUESTA: " + (guardada(bancoId, p.n) || "(sin contestar)");
+    }).join("\n\n");
+    var maximo = String(lista.length * 0.25).replace(".", ",");
+    return "Actúa como mi PROFESOR Y TUTOR de «" + banco.asig + "» (ciclo DAM, España) y corrige mi examen de prueba. Es un examen ESCRITO de desarrollo: se responde con lo explicado en clase " +
+           "y lo que se pide en cada pregunta es exactamente lo que debe constar en la respuesta. Cada pregunta vale 0,25 puntos; las " + lista.length + " suman " + maximo + ".\n\n" +
+           "CÓMO CORREGIR\n" +
+           "1. Para cada pregunta, en una línea: ✅ (0,25), ⚠️ (parcial: 0,10 o 0,15) o ❌ (0), y qué falta o qué está mal, comparando con la REFERENCIA. Las que están sin contestar valen 0: dilo.\n" +
+           "2. Si algo de lo que digo es cierto aunque no esté en la referencia, indícalo.\n" +
+           "3. Al final: mi nota total sobre " + maximo + ", los puntos por tema y los 5 puntos que más debo repasar, por orden de importancia.\n" +
+           (repasar ? "4. Cuando termines la corrección, repasamos mis fallos como TUTOR: empieza por la pregunta en la que más puntos he perdido; hazme UNA pregunta o dame UNA pista para que lo descubra yo, " +
+                      "espera mi respuesta y no pases a la siguiente hasta que lo tenga claro.\n"
+                    : "4. Termina preguntándome qué quiero repasar primero.\n") + "\n" +
+           NORMAS + "\n\n" +
+           "PREGUNTAS, REFERENCIAS DEL PROFESOR (solo para que me evalúes) Y MIS RESPUESTAS\n\n" + bloques;
+  }
+
   /* ---------- todo el examen ---------- */
   function montarExamen(el) {
     var banco = (window.TUTOR_IA || {})[el.getAttribute("data-banco")];
     if (!banco || el.getAttribute("data-montado")) return;
     el.setAttribute("data-montado", "1");
+    var bancoId = el.getAttribute("data-banco");
     var pr = prefs(), total = banco.preguntas.filter(function (p) { return p.pts; }).length;
     var selIA = h("select", { "aria-label": "IA" }, IAS.map(function (a) { return h("option", { value: a.id }, a.nombre); }));
     var selModo = h("select", { "aria-label": "Modo" }, Object.keys(MODOS).filter(function (m) { return m === "tutor" || m === "corregir"; })
@@ -185,6 +211,47 @@
                  "Es largo (lleva las referencias), así que se copia y lo pegas con Ctrl+V en el chat."),
       h("div", { class: "tutor-ia-fila" }, [h("label", {}, ["IA ", selIA]), h("label", {}, ["Modo ", selModo]), h("label", {}, ["Orden ", selOrden]), h("label", {}, [selNum]), boton, copia]),
       aviso, area
+    ]));
+
+    /* corrección final: contestas todo en la página y al terminar se manda de una vez */
+    var selIA2 = h("select", { "aria-label": "IA" }, IAS.map(function (a) { return h("option", { value: a.id }, a.nombre); }));
+    var selFin = h("select", { "aria-label": "Después de corregir" }, [h("option", { value: "corregir" }, "Solo corregir"),
+      h("option", { value: "repasar" }, "Corregir y repasar mis fallos como tutor")]);
+    selIA2.value = pr.ia || "chatgpt";
+    var cuenta = h("p", { class: "tutor-ia-nota" }), aviso2 = h("p", { class: "tutor-ia-aviso", role: "status" });
+    var area2 = h("textarea", { class: "tutor-ia-resp", rows: "6", readonly: "readonly", "aria-label": "Texto que se envía a la IA", style: "display:none" });
+    function pintarCuenta() {
+      cuenta.textContent = "Has contestado " + contestadas(bancoId, banco) + " de " + total + " preguntas. Las respuestas se guardan en tu navegador al escribirlas; las que dejes vacías cuentan como sin contestar.";
+    }
+    pintarCuenta();
+    document.addEventListener("input", function (ev) { if (ev.target && ev.target.className === "tutor-ia-resp" && !ev.target.readOnly) pintarCuenta(); });
+    function texto2() { return promptCorreccion(bancoId, banco, selFin.value === "repasar"); }
+    var abrir = h("button", { type: "button", class: "tutor-ia-btn sec" }, "Abrir todos los recuadros");
+    abrir.addEventListener("click", function () {
+      Array.prototype.forEach.call(document.querySelectorAll(".tutor-ia > details"), function (d) { d.open = true; });
+      aviso2.textContent = "Recuadros abiertos: contesta en cada pregunta y vuelve aquí al terminar.";
+    });
+    var corregir = h("button", { type: "button", class: "tutor-ia-btn" }, "Corregir todas mis respuestas");
+    corregir.addEventListener("click", function () {
+      pintarCuenta();
+      if (!contestadas(bancoId, banco)) { aviso2.textContent = "Todavía no has escrito ninguna respuesta: contesta en los recuadros de cada pregunta y vuelve."; return; }
+      var t = texto2(); area2.value = t; area2.style.display = "block";
+      var q = prefs(); q.ia = selIA2.value; guardarPrefs(q);
+      enviar(ia(selIA2.value), t, function (m) { aviso2.textContent = m; }, true);        // es largo: siempre se copia y se pega
+    });
+    var copia2 = h("button", { type: "button", class: "tutor-ia-btn sec" }, "Copiar el texto");
+    copia2.addEventListener("click", function () {
+      pintarCuenta();
+      var t = texto2(); area2.value = t; area2.style.display = "block";
+      aviso2.textContent = copiar(t) ? "Texto copiado: pégalo en el chat de la IA que prefieras." : "No he podido copiar solo: selecciona el texto de abajo y cópialo.";
+    });
+    el.appendChild(h("details", { class: "tutor-ia-caja" }, [
+      h("summary", {}, "📝 Corrección final: contesta las " + total + " y mándalas todas juntas"),
+      h("p", {}, "Contesta las preguntas en sus recuadros (puedes dejarlo a medias y volver: se guarda). Al terminar, pulsa el botón: se prepara un solo texto con tus respuestas y las referencias del profesor, " +
+                 "para que la IA te ponga nota, te diga qué falló en cada una y qué repasar. Es largo, así que se copia y lo pegas una vez con Ctrl+V."),
+      cuenta,
+      h("div", { class: "tutor-ia-fila" }, [h("label", {}, ["IA ", selIA2]), h("label", {}, ["Después ", selFin]), abrir, corregir, copia2]),
+      aviso2, area2
     ]));
   }
 
