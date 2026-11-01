@@ -153,6 +153,10 @@ nav:
       - "12.6 Evaluar la usabilidad": u12/06-evaluacion.md
       - "12.7 Lo marcado en verde": u12/07-verde.md
       - "A12 Ejercicios": u12/ejercicios.md
+  - "Examen DIN · Tema 1": examen-din.md
+  - "Examen DIN · Temas 4, 5 y 6": examen-din-t456.md
+  - "Examen DIN · Desarrollo (temas 3 y 4)": examen-din-desarrollo-t34.md
+  - "Examen DIN · Desarrollo (temas 4, 5 y 6)": examen-din-desarrollo-t456.md
   - "Avanzado": avanzado/index.md
   - "AA1 · Arquitectura y estado":
       - avanzado/a1/index.md

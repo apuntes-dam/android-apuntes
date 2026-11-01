@@ -3,7 +3,7 @@
 En la web del profesor, los textos con **fondo verde** son los que hay que repasar cada semana: según su leyenda, **son los datos que se preguntan en el examen**. Aquí están todos los del tema 6 **con otras palabras** y con la página de esta unidad donde se explican. Si puedes explicar cada punto sin mirar, lo tienes.
 
 !!! success "Cómo usar esta página"
-    Lee el punto, tápalo y repítelo en voz alta.
+    Lee el punto, tápalo y repítelo en voz alta. Después haz el [examen de prueba](../examen-din-t456.md): sus preguntas salen de estos puntos.
 
 ## Resultado de aprendizaje y definiciones (12.1)
 
