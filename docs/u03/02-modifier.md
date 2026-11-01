@@ -44,6 +44,39 @@ Modifier.padding(start = 10.dp, top = 20.dp, end = 10.dp, bottom = 30.dp)   // u
 
 *Figura. Las tres formas de `padding`: la franja naranja es el espacio que se añade y el recuadro azul, el contenido, que no cambia de tamaño.*
 
+## `fillMaxWidth`: ocupar todo el ancho
+
+`Modifier.fillMaxWidth()` hace que el elemento ocupe **todo el ancho que le deja su contenedor**. Existen también `fillMaxHeight()` (la altura) y `fillMaxSize()` (ancho y alto a la vez).
+
+```kotlin
+Button(
+    onClick = { },
+    modifier = Modifier.fillMaxWidth()
+) { Text("Aceptar") }
+```
+
+!!! note "El ancho es el del contenedor, no el de la pantalla"
+    Dentro de una `Column` que mide 200.dp de ancho, un botón con `fillMaxWidth()` mide 200.dp.
+
+[![fillMaxWidth ocupa todo el ancho del contenedor; fillMaxHeight la altura; fillMaxSize ambos; dentro de una Column de 200.dp mide 200.dp](../assets/img/fillmax.svg)](../assets/img/fillmax.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Con y sin `fillMaxWidth()`, las tres variantes y qué pasa dentro de un contenedor estrecho.*
+
+## `size`: dimensiones fijas
+
+`Modifier.size()` fija el ancho y el alto **a la vez**. Con `width()` y `height()` se fija solo una de las dos medidas:
+
+```kotlin
+Modifier.size(150.dp)                            // cuadrado de 150.dp
+Modifier.size(width = 200.dp, height = 100.dp)   // rectángulo
+Modifier.width(200.dp)                           // solo el ancho
+Modifier.height(100.dp)                          // solo el alto
+```
+
+[![size fija ancho y alto a la vez: 150.dp o 200.dp por 100.dp; width y height fijan una sola medida](../assets/img/size-dimensiones.svg)](../assets/img/size-dimensiones.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. `size` fija las dos medidas; `width` y `height`, solo una (la otra la decide el contenido).*
+
 ## El orden importa
 
 ```kotlin

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="474" viewBox="0 0 1000 474" role="img" aria-label="fillMaxWidth ocupa todo el ancho del contenedor; fillMaxHeight la altura; fillMaxSize ambos; dentro de una Column de 200.dp mide 200.dp">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="472" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">fillMaxWidth(): ocupar lo que deja el contenedor</text>
+<rect x="15.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<rect x="345.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<rect x="675.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<text x="170" y="98" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="middle">fillMaxWidth()</text>
+<text x="170" y="122" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">el ancho que deja el contenedor</text>
+<text x="170" y="150" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">sin modifier: lo justo para su contenido</text>
+<rect x="45.0" y="160.0" width="250.0" height="60.0" rx="8" fill="#f1f3f6" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="55.0" y="171.0" width="100.0" height="38.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="105.0" y="195.25" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">Aceptar</text>
+<text x="170" y="250" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">con fillMaxWidth(): todo el ancho</text>
+<rect x="45.0" y="260.0" width="250.0" height="60.0" rx="8" fill="#f1f3f6" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="55.0" y="271.0" width="230.0" height="38.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="170.0" y="295.25" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">Aceptar</text>
+<line x1="45" y1="340" x2="295" y2="340" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="170" y="362" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="middle">ancho del contenedor</text>
+<text x="500" y="98" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Tres variantes</text>
+<text x="500" y="122" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">según el eje que ocupan</text>
+<rect x="365.0" y="150.0" width="120.0" height="58.0" rx="8" fill="#f1f3f6" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="368.0" y="168.0" width="114.0" height="22.0" rx="6" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="497" y="176" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">fillMaxWidth()</text>
+<text x="497" y="196" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">el ancho</text>
+<rect x="365.0" y="224.0" width="120.0" height="58.0" rx="8" fill="#f1f3f6" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="405.0" y="228.0" width="40.0" height="50.0" rx="6" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="497" y="250" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">fillMaxHeight()</text>
+<text x="497" y="270" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">la altura</text>
+<rect x="365.0" y="298.0" width="120.0" height="58.0" rx="8" fill="#f1f3f6" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="368.0" y="302.0" width="114.0" height="50.0" rx="6" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="497" y="324" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">fillMaxSize()</text>
+<text x="497" y="344" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">ancho y alto</text>
+<text x="830" y="98" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Dentro de una Column estrecha</text>
+<text x="830" y="122" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">el 100 % es el del contenedor</text>
+<rect x="705.0" y="146.0" width="250.0" height="222.0" rx="16" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<text x="715" y="166" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="600" fill="#5b6472" text-anchor="start">pantalla</text>
+<rect x="717.0" y="180.0" width="150.0" height="100.0" rx="6" fill="#fdecd0" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="725.0" y="211.0" width="134.0" height="38.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="792.0" y="235.25" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">Aceptar</text>
+<line x1="717" y1="300" x2="867" y2="300" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="792" y="322" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">Column de 200.dp</text>
+<text x="911" y="224" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="11" font-weight="400" fill="#5b6472" text-anchor="middle">resto de</text>
+<text x="911" y="238" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="11" font-weight="400" fill="#5b6472" text-anchor="middle">la pantalla</text>
+<text x="830" y="392" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">el botón mide 200.dp, no el ancho de la pantalla</text>
+<text x="500" y="446" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">fillMaxWidth() no mide «lo que cabe en la pantalla»: mide lo que le deja su contenedor.</text>
+</svg>
