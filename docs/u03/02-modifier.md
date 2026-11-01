@@ -26,6 +26,10 @@ Text(
 | `weight(1f)` | Repartir espacio en Row/Column |
 | `alpha(0.5f)` | Transparencia |
 
+[![Qué hace cada Modifier de la tabla: size, fillMaxWidth, padding, background, border, clip, clickable, alpha y weight](../assets/img/modifier-metodos.svg)](../assets/img/modifier-metodos.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Cada modificador de la tabla, con su efecto.*
+
 ## El orden importa
 
 ```kotlin
@@ -53,6 +57,10 @@ Column {
 ```
 
 `Spacer` es un hueco vacío. Para líneas de separación existe `HorizontalDivider()`.
+
+[![Spacer deja un hueco vacío y HorizontalDivider dibuja una línea de separación](../assets/img/espacios.svg)](../assets/img/espacios.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. `Spacer` separa con un hueco; `HorizontalDivider` separa con una línea.*
 
 ## Reutilizar un modifier
 
