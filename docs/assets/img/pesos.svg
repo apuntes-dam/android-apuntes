@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-label="Modifier.weight reparte el espacio libre de una Row en partes proporcionales">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="538" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="50" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#1f2937" text-anchor="start">A y B se reparten el espacio libre en 3 partes (1 + 2): B ocupa el doble de ancho que A.</text>
+<rect x="50.0" y="58.0" width="900.0" height="76.0" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="54.0" y="64.0" width="292.0" height="64.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="200.0" y="101.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">A · weight(1f)</text>
+<line x1="58" y1="152" x2="342.0" y2="152" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="200.0" y="176" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#e08a1e" text-anchor="middle">1 parte</text>
+<rect x="354.0" y="64.0" width="592.0" height="64.0" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="650.0" y="101.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">B · weight(2f)</text>
+<line x1="358.0" y1="152" x2="942.0" y2="152" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="650.0" y="176" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#e08a1e" text-anchor="middle">2 partes</text>
+<text x="50" y="206" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#1f2937" text-anchor="start">Tres hijos con weight(1f): cada uno se queda con un tercio.</text>
+<rect x="50.0" y="224.0" width="900.0" height="76.0" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="54.0" y="230.0" width="292.0" height="64.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="200.0" y="267.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">A · weight(1f)</text>
+<line x1="58" y1="318" x2="342.0" y2="318" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="200.0" y="342" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#e08a1e" text-anchor="middle">1 parte</text>
+<rect x="354.0" y="230.0" width="292.0" height="64.0" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="500.0" y="267.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">B · weight(1f)</text>
+<line x1="358.0" y1="318" x2="642.0" y2="318" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="500.0" y="342" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#e08a1e" text-anchor="middle">1 parte</text>
+<rect x="654.0" y="230.0" width="292.0" height="64.0" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="800.0" y="267.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">C · weight(1f)</text>
+<line x1="658.0" y1="318" x2="942.0" y2="318" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="800.0" y="342" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#e08a1e" text-anchor="middle">1 parte</text>
+<text x="50" y="372" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#1f2937" text-anchor="start">Un hijo de tamaño fijo y otro con weight(1f): el segundo se lleva todo el sobrante.</text>
+<rect x="50.0" y="390.0" width="900.0" height="76.0" rx="8" fill="#e3edf9" stroke="#9db4d3" stroke-width="1.5"/>
+<rect x="54.0" y="396.0" width="142.0" height="64.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="125.0" y="433.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">A · width(80.dp)</text>
+<rect x="204.0" y="396.0" width="742.0" height="64.0" rx="9" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/><text x="575.0" y="433.6" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">B · weight(1f)</text>
+</svg>

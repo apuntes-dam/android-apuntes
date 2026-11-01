@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" role="img" aria-label="Scaffold: topBar, contenido con margen, floatingActionButton y bottomBar">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="658" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<rect x="40.0" y="40.0" width="300.0" height="580.0" rx="26" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<rect x="64.0" y="120.0" width="196.6" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="64.0" y="150.0" width="138.6" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="64.0" y="180.0" width="166.3" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="50.0" y="50.0" width="280.0" height="54.0" rx="8" fill="#c9d8fb" stroke="#8aa6e8" stroke-width="1.5"/>
+<text x="66" y="83.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1c2a4a" text-anchor="start">Mis tareas</text>
+<rect x="50.0" y="548.0" width="280.0" height="62.0" rx="8" fill="#e3e9f6" stroke="#9db0d6" stroke-width="1.5"/>
+<circle cx="96.7" cy="570" r="9" fill="#8aa6e8"/>
+<text x="96.66666666666666" y="598" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#1c2a4a" text-anchor="middle">Inicio</text>
+<circle cx="190.0" cy="570" r="9" fill="#8aa6e8"/>
+<text x="190.0" y="598" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#1c2a4a" text-anchor="middle">Buscar</text>
+<circle cx="283.3" cy="570" r="9" fill="#8aa6e8"/>
+<text x="283.33333333333337" y="598" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#1c2a4a" text-anchor="middle">Perfil</text>
+<circle cx="288.0" cy="504.0" r="28" fill="#f6c07a" stroke="#d99a45" stroke-width="2"/>
+<text x="288" y="515" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="34" font-weight="700" fill="#2b2b2b" text-anchor="middle">+</text>
+<rect x="54.0" y="108.0" width="272.0" height="436.0" rx="6" fill="none" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="320" y1="77.0" x2="372" y2="76" stroke="#9aa4b2" stroke-width="1.5"/>
+<circle cx="320" cy="77.0" r="4" fill="#5b6472"/>
+<text x="384" y="82" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="start">topBar = { TopAppBar(…) }</text>
+<text x="384" y="104" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">la barra superior, con el título</text>
+<line x1="300" y1="270" x2="372" y2="244" stroke="#9aa4b2" stroke-width="1.5"/>
+<circle cx="300" cy="270" r="4" fill="#5b6472"/>
+<text x="384" y="250" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e08a1e" text-anchor="start">{ margen -&gt; … }  (el contenido)</text>
+<text x="384" y="272" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">lo que se dibuja entre las barras;</text>
+<text x="384" y="291" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">margen = el espacio que ocupan las barras</text>
+<line x1="288" y1="504" x2="372" y2="440" stroke="#9aa4b2" stroke-width="1.5"/>
+<circle cx="288" cy="504" r="4" fill="#5b6472"/>
+<text x="384" y="446" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="start">floatingActionButton = { … }</text>
+<text x="384" y="468" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">el botón flotante, sobre el contenido</text>
+<line x1="310" y1="580" x2="372" y2="532" stroke="#9aa4b2" stroke-width="1.5"/>
+<circle cx="310" cy="580" r="4" fill="#5b6472"/>
+<text x="384" y="538" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="start">bottomBar = { NavigationBar { … } }</text>
+<text x="384" y="560" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">la barra inferior</text>
+<text x="850" y="24" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="1" font-weight="400" fill="#1f2937" text-anchor="middle"></text>
+<rect x="740.0" y="40.0" width="220.0" height="330.0" rx="26" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<rect x="764.0" y="80.0" width="134.2" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="764.0" y="110.0" width="94.6" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="764.0" y="140.0" width="113.5" height="14.0" rx="7" fill="#cfd6e0" stroke="none" stroke-width="0"/>
+<rect x="750.0" y="50.0" width="200.0" height="54.0" rx="8" fill="#c9d8fb" stroke="#8aa6e8" stroke-width="1.5"/>
+<text x="766" y="83.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1c2a4a" text-anchor="start">Mis tareas</text>
+<text x="850" y="410" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#c0392b" text-anchor="middle">Sin padding(margen)</text>
+<text x="850" y="436" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">el contenido empieza detrás de la barra</text>
+<text x="850" y="456" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">y la primera línea queda tapada.</text>
+<text x="850" y="520" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2e7d32" text-anchor="middle">Con Modifier.padding(margen)</text>
+<text x="850" y="542" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">empieza justo debajo de la barra</text>
+</svg>

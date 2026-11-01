@@ -26,6 +26,10 @@ fun Pantalla() {
 !!! warning "No olvides `padding(margen)`"
     La lambda del contenido recibe un parámetro con el espacio que ocupan las barras. Si no lo aplicas, el contenido queda **tapado** por la barra superior.
 
+[![Scaffold: topBar, contenido con margen, floatingActionButton y bottomBar](../assets/img/scaffold.svg)](../assets/img/scaffold.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las zonas de un `Scaffold` y qué pasa con el contenido si no se aplica `padding(margen)`.*
+
 ## Card: agrupar información
 
 `Card` dibuja una tarjeta con sombra y esquinas redondeadas:

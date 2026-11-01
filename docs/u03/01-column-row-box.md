@@ -58,7 +58,7 @@ Cada layout tiene dos ejes. En una `Column` el eje **principal** es el vertical 
 * `verticalArrangement` / `horizontalArrangement`: cómo se reparte el espacio en el eje principal.
 * `horizontalAlignment` / `verticalAlignment`: cómo se alinean en el eje cruzado.
 
-![Row y Column: el eje principal (reparto con Arrangement) y el eje cruzado (alineación con Alignment)](../assets/img/ejes-row-column.svg)
+[![Row y Column: el eje principal (reparto con Arrangement) y el eje cruzado (alineación con Alignment)](../assets/img/ejes-row-column.svg)](../assets/img/ejes-row-column.svg){ target=_blank title="Abrir a tamaño completo" }
 
 *Figura. Los dos ejes de `Row` y `Column`: en azul, el eje principal (cómo se reparten los hijos, `Arrangement`); en naranja, el eje cruzado (cómo se alinean, `Alignment`).*
 
@@ -85,6 +85,10 @@ Column(
 | `SpaceEvenly` | Todos los huecos iguales |
 | `spacedBy(8.dp)` | Separación fija entre hijos |
 
+[![Cómo reparte cada Arrangement los tres hijos de una Row de ancho completo](../assets/img/reparto-arrangement.svg)](../assets/img/reparto-arrangement.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Los siete `Arrangement` aplicados a una `Row` de ancho completo con tres hijos (A, B y C).*
+
 ## Pesos: repartir el sitio sobrante
 
 `Modifier.weight(1f)` hace que un hijo ocupe la parte proporcional del espacio libre:
@@ -98,6 +102,10 @@ Row(Modifier.fillMaxWidth()) {
 
 Aquí `B` ocupa el doble de ancho que `A`.
 
+[![Modifier.weight reparte el espacio libre de una Row en partes proporcionales](../assets/img/pesos.svg)](../assets/img/pesos.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. El peso (`weight`) reparte el espacio libre entre los hijos; un hijo con tamaño fijo se lleva solo lo suyo.*
+
 ## Box: apilar
 
 En un `Box` el parámetro `contentAlignment` coloca el contenido, y cada hijo puede usar `Modifier.align(...)`:
@@ -108,3 +116,7 @@ Box(Modifier.size(200.dp)) {
     Text("Abajo derecha", Modifier.align(Alignment.BottomEnd))
 }
 ```
+
+[![Box apila los hijos (el último queda encima) y los coloca con Alignment](../assets/img/box.svg)](../assets/img/box.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. `Box` dibuja los hijos uno encima de otro, en el orden en que se escriben, y `Alignment` coloca el contenido en una de las nueve posiciones.*

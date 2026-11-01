@@ -38,6 +38,10 @@ Modifier.background(Color.Yellow).padding(16.dp)
 
 En el primero el amarillo es más pequeño, con aire alrededor. En el segundo el amarillo ocupa todo y el texto queda separado del borde. Piensa en el `padding` como un **marco**: lo que va antes queda fuera, lo que va después queda dentro.
 
+[![El orden del Modifier importa: padding antes o después de background](../assets/img/modifier-orden.svg)](../assets/img/modifier-orden.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Los mismos dos modificadores en distinto orden dan resultados distintos.*
+
 ## Espacios y separadores
 
 ```kotlin

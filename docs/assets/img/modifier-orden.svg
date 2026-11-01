@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="El orden del Modifier importa: padding antes o después de background">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="438" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="250" y="52" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="middle">Modifier.padding(16.dp).background(Color.Yellow)</text>
+<text x="250" y="80" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">primero el padding</text>
+<rect x="100.0" y="120.0" width="300.0" height="150.0" rx="6" fill="#eef0f3" stroke="#7b8494" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="128.0" y="148.0" width="244.0" height="94.0" rx="4" fill="#f8e27a" stroke="#c9a800" stroke-width="1.5"/>
+<text x="250" y="202.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#2b2b2b" text-anchor="middle">Hola</text>
+<line x1="100" y1="235.0" x2="128" y2="235.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="114.0" y="257.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#e08a1e" text-anchor="middle">16.dp</text>
+<line x1="350" y1="120" x2="350" y2="148" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="380" y="139.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#e08a1e" text-anchor="middle">16.dp</text>
+<text x="250" y="320" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">El amarillo es más pequeño, con aire alrededor.</text>
+<text x="250" y="344" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">El margen queda FUERA del color.</text>
+<text x="750" y="52" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="middle">Modifier.background(Color.Yellow).padding(16.dp)</text>
+<text x="750" y="80" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">primero el background</text>
+<rect x="600.0" y="120.0" width="300.0" height="150.0" rx="6" fill="#f8e27a" stroke="#7b8494" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="628.0" y="148.0" width="244.0" height="94.0" rx="3" fill="none" stroke="#7b8494" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="750" y="202.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#2b2b2b" text-anchor="middle">Hola</text>
+<line x1="600" y1="235.0" x2="628" y2="235.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="614.0" y="257.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#e08a1e" text-anchor="middle">16.dp</text>
+<line x1="850" y1="120" x2="850" y2="148" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="880" y="139.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#e08a1e" text-anchor="middle">16.dp</text>
+<text x="750" y="320" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">El amarillo ocupa todo y el texto queda</text>
+<text x="750" y="344" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">separado del borde. El margen queda DENTRO del color.</text>
+<line x1="500" y1="30" x2="500" y2="360" stroke="#e1e4e8" stroke-width="2"/>
+<text x="500" y="392" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="600" fill="#1f2937" text-anchor="middle">El padding es un marco: lo que va antes queda fuera; lo que va después, dentro.</text>
+<text x="500" y="418" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">Los ajustes de un Modifier se aplican de izquierda a derecha.</text>
+</svg>
