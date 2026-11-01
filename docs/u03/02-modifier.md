@@ -30,6 +30,20 @@ Text(
 
 *Figura. Cada modificador de la tabla, con su efecto.*
 
+## `padding`: el espacio de cada lado
+
+Con un solo valor, el espacio es igual en los cuatro lados. También puedes darlo por parejas o lado por lado. Se usan `start` y `end` (no izquierda y derecha) para que la pantalla se adapte a los idiomas que se leen de derecha a izquierda:
+
+```kotlin
+Modifier.padding(20.dp)                                    // los cuatro lados
+Modifier.padding(horizontal = 20.dp, vertical = 10.dp)     // por parejas
+Modifier.padding(start = 10.dp, top = 20.dp, end = 10.dp, bottom = 30.dp)   // uno a uno
+```
+
+[![Modifier.padding: con un valor, por parejas con horizontal y vertical, o cada lado con start, top, end y bottom](../assets/img/padding-lados.svg)](../assets/img/padding-lados.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las tres formas de `padding`: la franja naranja es el espacio que se añade y el recuadro azul, el contenido, que no cambia de tamaño.*
+
 ## El orden importa
 
 ```kotlin

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="Modifier.padding: con un valor, por parejas con horizontal y vertical, o cada lado con start, top, end y bottom">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="498" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Modifier.padding(): el espacio alrededor del contenido</text>
+<rect x="15.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<text x="29" y="100" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">padding(20.dp)</text>
+<text x="170" y="158" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">los cuatro lados, iguales</text>
+<rect x="66.0" y="210.0" width="208.0" height="138.0" rx="6" fill="#fdecd0" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="110.0" y="254.0" width="120.0" height="50.0" rx="8" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="170.0" y="285.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Text</text>
+<line x1="70.0" y1="279.0" x2="106.0" y2="279.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="234.0" y1="279.0" x2="270.0" y2="279.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="170.0" y1="214" x2="170.0" y2="250.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="170.0" y1="308.0" x2="170.0" y2="344.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="58.0" y="275.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="end">start</text>
+<text x="58.0" y="292.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="end">20.dp</text>
+<text x="282.0" y="275.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="start">end</text>
+<text x="282.0" y="292.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">20.dp</text>
+<text x="170.0" y="202" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">top 20.dp</text>
+<text x="170.0" y="366.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">bottom 20.dp</text>
+<rect x="345.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<text x="359" y="100" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">padding(horizontal = 20.dp,</text>
+<text x="359" y="120" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">        vertical = 10.dp)</text>
+<text x="500" y="158" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">por parejas de lados opuestos</text>
+<rect x="396.0" y="210.0" width="208.0" height="94.0" rx="6" fill="#fdecd0" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="440.0" y="232.0" width="120.0" height="50.0" rx="8" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="500.0" y="263.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Text</text>
+<line x1="400.0" y1="257.0" x2="436.0" y2="257.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="564.0" y1="257.0" x2="600.0" y2="257.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="500.0" y1="214" x2="500.0" y2="228.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="500.0" y1="286.0" x2="500.0" y2="300.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="388.0" y="253.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="end">start</text>
+<text x="388.0" y="270.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="end">20.dp</text>
+<text x="612.0" y="253.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="start">end</text>
+<text x="612.0" y="270.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">20.dp</text>
+<text x="500.0" y="202" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">top 10.dp</text>
+<text x="500.0" y="322.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">bottom 10.dp</text>
+<rect x="675.0" y="66.0" width="310.0" height="346.0" rx="14" fill="#ffffff" stroke="#d6d9de" stroke-width="2"/>
+<text x="689" y="100" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">padding(start = 10.dp, top = 20.dp,</text>
+<text x="689" y="120" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="start">        end = 10.dp, bottom = 30.dp)</text>
+<text x="830" y="158" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">cada lado por separado</text>
+<rect x="748.0" y="210.0" width="164.0" height="160.0" rx="6" fill="#fdecd0" stroke="#e08a1e" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="770.0" y="254.0" width="120.0" height="50.0" rx="8" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="830.0" y="285.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Text</text>
+<line x1="752.0" y1="279.0" x2="766.0" y2="279.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="894.0" y1="279.0" x2="908.0" y2="279.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="830.0" y1="214" x2="830.0" y2="250.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<line x1="830.0" y1="308.0" x2="830.0" y2="366.0" stroke="#e08a1e" stroke-width="2" marker-start="url(#pe08a1e)" marker-end="url(#pe08a1e)"/>
+<text x="740.0" y="275.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="end">start</text>
+<text x="740.0" y="292.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="end">10.dp</text>
+<text x="920.0" y="275.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="start">end</text>
+<text x="920.0" y="292.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">10.dp</text>
+<text x="830.0" y="202" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">top 20.dp</text>
+<text x="830.0" y="388.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="12" font-weight="700" fill="#e08a1e" text-anchor="middle">bottom 30.dp</text>
+<text x="500" y="448" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2937" text-anchor="middle">start y end (no left y right): se adaptan a los idiomas que se leen de derecha a izquierda.</text>
+<text x="500" y="472" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">La franja naranja es el espacio que añade padding; el recuadro azul es el contenido.</text>
+</svg>
