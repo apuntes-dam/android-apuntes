@@ -31,6 +31,10 @@ Column {
 }
 ```
 
+[![Button, FilledTonalButton, OutlinedButton, TextButton, IconButton y FloatingActionButton: aspecto de cada uno y cuándo usarlos](../assets/img/botones-material3.svg)](../assets/img/botones-material3.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Los seis botones de Material 3, del más llamativo al más discreto, y para qué se usa cada uno.*
+
 ## Cambiar los colores de un botón
 
 Los colores se cambian con el parámetro `colors`, que recibe un objeto creado con `ButtonDefaults.buttonColors`. `containerColor` es el **fondo** y `contentColor` el color del **texto o icono**:
