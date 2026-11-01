@@ -1,3 +1,15 @@
+---
+search:
+  exclude: true
+noindex: true
+---
+
+---
+search:
+  exclude: true
+noindex: true
+---
+
 # Examen de desarrollo · DIN · Temas 3 y 4
 
 Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escrito y con lo explicado en clase**. Son **40 preguntas de 0,25 puntos** (120 minutos en el examen real), hechas a partir de lo **marcado en verde** en la web del profesor. En cada una puedes escribir tu respuesta y **pedirle a una IA que te corrija o te guíe como un tutor**.

@@ -3,7 +3,7 @@
 En la web del profesor, los textos con **fondo verde** son los que hay que repasar cada semana y los que entran en el examen. Aquí están todos los del tema 4, **con otras palabras** y con el apartado de esta unidad donde se explican. Úsalo como lista de comprobación: si puedes explicar cada punto sin mirar, lo tienes.
 
 !!! success "Cómo usar esta página"
-    Lee el punto, tápalo y repítelo en voz alta. Después haz el [examen de prueba](../examen-din-t456.md): sus preguntas salen de estos puntos.
+    Lee el punto, tápalo y repítelo en voz alta.
 
 ## El resultado de aprendizaje
 

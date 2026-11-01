@@ -1,3 +1,9 @@
+---
+search:
+  exclude: true
+noindex: true
+---
+
 # Examen de prueba · DIN · Tema 1
 
 Practica el **examen de Desarrollo de Interfaces (Tema 1)**, todo **tipo test**: preguntas de teoría y también de **código** (elegir el código correcto, encontrar el error, completar un hueco, prever lo que se verá y decisiones de proyecto).

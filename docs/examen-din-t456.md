@@ -1,3 +1,9 @@
+---
+search:
+  exclude: true
+noindex: true
+---
+
 # Examen de prueba · DIN · Temas 4, 5 y 6
 
 Practica el **examen de Desarrollo de Interfaces (Temas 4, 5 y 6)**, todo **tipo test**: preguntas de teoría y también de **código** (elegir el código correcto, encontrar el error, completar un hueco, prever lo que se verá y decisiones de proyecto).
