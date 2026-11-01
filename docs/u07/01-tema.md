@@ -12,6 +12,10 @@ Un tema (`MaterialTheme`) reúne tres cosas:
 | `typography` | Estilos de letra: `titleLarge`, `bodyMedium`, `labelSmall`… |
 | `shapes` | Formas de las esquinas |
 
+[![MaterialTheme: colorScheme (colores), typography (letra) y shapes (formas)](../assets/img/tema-material.svg)](../assets/img/tema-material.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las tres partes de `MaterialTheme`.*
+
 Al crear un proyecto, Android Studio genera `ui/theme/Theme.kt`, `Color.kt` y `Type.kt`.
 
 ## Usar el tema en vez de valores fijos

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="remember se pierde al girar el móvil; rememberSaveable lo guarda en el Bundle y lo recupera">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="518" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Girar el móvil: qué sobrevive y qué no</text>
+<text x="170" y="92" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Antes de girar</text>
+<text x="500" y="92" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Se gira: la actividad se destruye y se recrea</text>
+<text x="830" y="92" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Después de girar</text>
+<line x1="335" y1="110" x2="335" y2="500" stroke="#e1e4e8" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="665" y1="110" x2="665" y2="500" stroke="#e1e4e8" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="500" y="148" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#c0392b" text-anchor="middle">var sePierde by remember { mutableStateOf("") }</text>
+<rect x="105.0" y="180.0" width="130.0" height="56.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="170.0" y="214.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">«Ana»</text>
+<rect x="435.0" y="180.0" width="130.0" height="56.0" rx="10" fill="#fdecea" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="500" y="206" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">nada que guardar</text>
+<text x="500" y="224" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">✗ se pierde</text>
+<rect x="765.0" y="180.0" width="130.0" height="56.0" rx="10" fill="#ffffff" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="830" y="214" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#5b6472" text-anchor="middle">vacío</text>
+<text x="830" y="262" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">vive solo en la composición</text>
+<text x="500" y="340" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2e7d32" text-anchor="middle">var sobrevive by rememberSaveable { mutableStateOf("") }</text>
+<rect x="105.0" y="372.0" width="130.0" height="56.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="170.0" y="406.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">«Ana»</text>
+<line x1="238" y1="400" x2="432" y2="400" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<rect x="435.0" y="372.0" width="130.0" height="56.0" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+<text x="500" y="396" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Bundle</text>
+<text x="500" y="416" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">del sistema</text>
+<line x1="568" y1="400" x2="762" y2="400" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<rect x="765.0" y="372.0" width="130.0" height="56.0" rx="9" fill="#8db6f2" stroke="#5f8fd6" stroke-width="1.5"/><text x="830.0" y="406.3" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">«Ana»</text>
+<text x="830" y="454" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2e7d32" text-anchor="middle">✓ conserva el texto</text>
+<text x="500" y="492" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2937" text-anchor="middle">Se guarda lo que el usuario escribió o eligió. Lo que se puede volver a pedir va en el ViewModel o en los datos.</text>
+</svg>

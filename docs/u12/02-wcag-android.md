@@ -15,6 +15,10 @@ Las **Web Content Accessibility Guidelines 2.2** son una recomendación del **W3
 * **AA**: el que exige la ley en Europa. **El objetivo realista y legal es AA.**
 * **AAA**: el más exigente; no es obligatorio en general (se persigue en textos críticos).
 
+[![Los cuatro principios de WCAG (perceptible, operable, comprensible, robusto) y sus niveles A, AA y AAA](../assets/img/pour-niveles.svg)](../assets/img/pour-niveles.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Los cuatro principios de WCAG (POUR) y los tres niveles de conformidad; el objetivo realista y legal es AA.*
+
 ## Los criterios que se usan en esta unidad
 
 | Criterio | Nivel | Qué exige |

@@ -40,6 +40,10 @@ Un **componente de interfaz** es una pieza de código que dibuja una parte de la
 5. **Aislado y portable**: no depende de una `Activity` concreta ni de ninguna clase de la aplicación.
 6. **Documentado y probado**: trae explicación, previsualizaciones y al menos una prueba.
 
+[![Anatomía de un componente: parámetros de entrada, eventos de salida e interior privado](../assets/img/componente-anatomia.svg)](../assets/img/componente-anatomia.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Un componente tiene una interfaz pública (parámetros que entran, eventos que salen) y un interior que puede cambiar sin romper a nadie.*
+
 ## En Compose, un componente es una función `@Composable`
 
 No hay que heredar de ninguna clase base ni registrar nada en una paleta. Si una función es `@Composable`, el editor la entiende, la previsualiza y el **Layout Inspector** la muestra.

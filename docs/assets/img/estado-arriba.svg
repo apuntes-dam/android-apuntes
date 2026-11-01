@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="El estado baja de la pantalla al componente como parámetro y los eventos suben como lambdas">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="558" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">El estado baja, los eventos suben</text>
+<rect x="220.0" y="90.0" width="560.0" height="150.0" rx="12" fill="#f4f8ff" stroke="#2f6fdc" stroke-width="1.5"/>
+<text x="500" y="124" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#2f6fdc" text-anchor="middle">La pantalla (quien usa el componente)</text>
+<text x="500" y="158" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">var mesSeleccionado by remember { mutableStateOf&lt;Int?&gt;(null) }</text>
+<text x="500" y="190" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">decide el precio del abono y confirma la recarga</text>
+<text x="500" y="214" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">es la dueña del estado</text>
+<rect x="220.0" y="340.0" width="560.0" height="150.0" rx="12" fill="#fff8ee" stroke="#e08a1e" stroke-width="1.5"/>
+<text x="500" y="374" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#e08a1e" text-anchor="middle">SelectorMes (el componente)</text>
+<text x="500" y="408" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">var abierto by remember { mutableStateOf(false) }</text>
+<text x="500" y="440" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">solo sabe de meses; guarda dentro solo lo suyo:</text>
+<text x="500" y="464" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">si el menú está desplegado</text>
+<line x1="360" y1="244" x2="360" y2="336" stroke="#2f6fdc" stroke-width="4" marker-end="url(#p2f6fdc)"/>
+<text x="344" y="282" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="end">mesSeleccionado: Int?</text>
+<text x="344" y="304" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="end">el estado baja</text>
+<line x1="640" y1="336" x2="640" y2="244" stroke="#e08a1e" stroke-width="4" marker-end="url(#pe08a1e)"/>
+<text x="656" y="282" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e08a1e" text-anchor="start">onSeleccion: (Int) -&gt; Unit</text>
+<text x="656" y="304" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">el evento sube</text>
+<text x="500" y="530" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">El componente no sabe qué es un abono: solo sabe de meses.</text>
+</svg>

@@ -46,6 +46,10 @@ El flujo es ordenado, con otros nombres que en Swing:
 !!! success "El error de concepto que hay que arrancar"
     **La acción de un evento no repinta: cambia el estado.** Quien repinta es el sistema de composición. Todo lo que en Swing era «y al final llamo a `repaint()`» es aquí escribir una variable observada. Y **nunca al revés**.
 
+[![Flujo de un evento: detectar, interpretar, validar, mutar el estado y recomponer](../assets/img/flujo-eventos.svg)](../assets/img/flujo-eventos.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las cinco etapas de un evento en Compose; la acción cambia el estado y es el sistema de composición el que repinta.*
+
 ## Cuatro antipatrones de examen
 
 | Antipatrón | Por qué se rompe |

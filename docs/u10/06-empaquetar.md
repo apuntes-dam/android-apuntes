@@ -56,6 +56,10 @@ dependencies {
 
 Un kit de interfaz usa `api` para Compose, porque quien consume el componente también compila contra Compose. Poner `implementation` donde tocaba `api` obliga al consumidor a volver a declarar Compose.
 
+[![Con api la dependencia llega a quien consume el kit; con implementation queda escondida](../assets/img/api-implementation.svg)](../assets/img/api-implementation.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. `api` filtra la dependencia a quien usa el módulo; `implementation` la esconde.*
+
 ## Compartirlo con otro proyecto
 
 Para usarlo desde **otro** proyecto se publica en un repositorio Maven (Maven Local, GitHub Packages, Artifacts…):

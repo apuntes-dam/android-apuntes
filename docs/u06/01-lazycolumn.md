@@ -2,6 +2,10 @@
 
 Una `Column` dibuja **todos** sus hijos a la vez; con mil elementos la app iría lenta. `LazyColumn` solo dibuja los que **se ven** en pantalla y los recicla al hacer scroll.
 
+[![Una Column compone todos sus hijos; una LazyColumn solo los visibles y recicla el resto](../assets/img/lazycolumn-ventana.svg)](../assets/img/lazycolumn-ventana.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. `Column` crea todos los elementos; `LazyColumn` solo los que caben en pantalla.*
+
 ```kotlin
 val frutas = listOf("Manzana", "Pera", "Plátano", "Fresa", "Uva")
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="Back stack: navigate apila una pantalla y popBackStack la quita">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="498" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">La pila de navegación (back stack)</text>
+<text x="170" y="96" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Al empezar</text>
+<rect x="70.0" y="120.0" width="200.0" height="300.0" rx="12" fill="#f6f7fa" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="85.0" y="130.0" width="170.0" height="56.0" rx="10" fill="#8fd0b3" stroke="#5aa585" stroke-width="2"/>
+<text x="170" y="164" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">inicio</text>
+<text x="275" y="164" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2e7d32" text-anchor="start">← se ve</text>
+<text x="500" y="96" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Tras navigate("detalle")</text>
+<rect x="400.0" y="120.0" width="200.0" height="300.0" rx="12" fill="#f6f7fa" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="415.0" y="130.0" width="170.0" height="56.0" rx="10" fill="#8fd0b3" stroke="#5aa585" stroke-width="2"/>
+<text x="500" y="164" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">detalle</text>
+<text x="605" y="164" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2e7d32" text-anchor="start">← se ve</text>
+<rect x="415.0" y="200.0" width="170.0" height="56.0" rx="10" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="500" y="234" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">inicio</text>
+<text x="830" y="96" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">Tras popBackStack()</text>
+<rect x="730.0" y="120.0" width="200.0" height="300.0" rx="12" fill="#f6f7fa" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="745.0" y="130.0" width="170.0" height="56.0" rx="10" fill="#8fd0b3" stroke="#5aa585" stroke-width="2"/>
+<text x="830" y="164" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">inicio</text>
+<text x="935" y="164" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2e7d32" text-anchor="start">← se ve</text>
+<line x1="285" y1="270" x2="372" y2="270" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="328" y="250" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2f6fdc" text-anchor="middle">apila</text>
+<line x1="615" y1="270" x2="702" y2="270" stroke="#e08a1e" stroke-width="3.5" marker-end="url(#pe08a1e)"/>
+<text x="658" y="250" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="middle">quita</text>
+<text x="500" y="470" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">navigate("detalle") apila una pantalla encima; popBackStack() (o el botón Atrás) la quita y vuelves a la anterior.</text>
+</svg>

@@ -28,6 +28,10 @@ El `+ 0,05` evita dividir por cero cuando el color oscuro es negro puro (luminan
 !!! success "21:1 y 1:1"
     **21:1 es el máximo posible** (negro sobre blanco) y **1:1 el mínimo** (un color contra sí mismo). Son los dos valores con los que se prueba que la fórmula está bien implementada: si tu código no da exactamente 21 y 1, está mal.
 
+[![Escala del ratio de contraste con los umbrales 3:1, 4,5:1 y 7:1 de WCAG](../assets/img/contraste-escala.svg)](../assets/img/contraste-escala.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. El ratio va de 1:1 a 21:1; los umbrales son 3:1, 4,5:1 y 7:1 según el tipo de elemento y el nivel.*
+
 ## El código que lo calcula (ejecutado)
 
 Tres detalles que se preguntan: `canalLineal` tiene **dos tramos**; `ratio` **ordena** con `max`/`min` antes de dividir (da igual el orden de los argumentos); y `sobre` **compone un color con alfa** sobre su fondo (siguiente apartado).

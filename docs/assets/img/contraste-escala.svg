@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="Escala del ratio de contraste con los umbrales 3:1, 4,5:1 y 7:1 de WCAG">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="498" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">El ratio de contraste: de 1:1 a 21:1</text>
+<text x="500" y="78" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#2f6fdc" text-anchor="middle">ratio = (L_claro + 0,05) / (L_oscuro + 0,05)</text>
+<rect x="60.0" y="130.0" width="240.0" height="64.0" rx="0" fill="#e57373" stroke="#7b8494" stroke-width="1.5"/>
+<text x="180.0" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">no cumple</text>
+<rect x="300.0" y="130.0" width="180.0" height="64.0" rx="0" fill="#ffb74d" stroke="#7b8494" stroke-width="1.5"/>
+<text x="390.0" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">solo texto grande</text>
+<rect x="480.0" y="130.0" width="200.0" height="64.0" rx="0" fill="#aed581" stroke="#7b8494" stroke-width="1.5"/>
+<text x="580.0" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">AA texto normal</text>
+<rect x="680.0" y="130.0" width="260.0" height="64.0" rx="0" fill="#4caf50" stroke="#7b8494" stroke-width="1.5"/>
+<text x="810.0" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">AAA</text>
+<line x1="60" y1="120" x2="60" y2="204" stroke="#1f2937" stroke-width="2"/>
+<text x="60" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">1:1</text>
+<line x1="300" y1="120" x2="300" y2="204" stroke="#1f2937" stroke-width="2"/>
+<text x="300" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">3:1</text>
+<line x1="480" y1="120" x2="480" y2="204" stroke="#1f2937" stroke-width="2"/>
+<text x="480" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">4,5:1</text>
+<line x1="680" y1="120" x2="680" y2="204" stroke="#1f2937" stroke-width="2"/>
+<text x="680" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">7:1</text>
+<line x1="940" y1="120" x2="940" y2="204" stroke="#1f2937" stroke-width="2"/>
+<text x="940" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">21:1</text>
+<line x1="300" y1="204" x2="300" y2="242" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="60" y="262" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#2f6fdc" text-anchor="start">3:1</text>
+<text x="150" y="262" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#1f2937" text-anchor="start">texto grande (AA) · iconos, bordes y controles (1.4.11)</text>
+<line x1="480" y1="204" x2="480" y2="294" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="60" y="314" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#2f6fdc" text-anchor="start">4,5:1</text>
+<text x="150" y="314" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#1f2937" text-anchor="start">texto normal (AA) · texto grande (AAA)</text>
+<line x1="680" y1="204" x2="680" y2="346" stroke="#9aa4b2" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="60" y="366" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="20" font-weight="700" fill="#2f6fdc" text-anchor="start">7:1</text>
+<text x="150" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="400" fill="#1f2937" text-anchor="start">texto normal (AAA)</text>
+<text x="500" y="450" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">El máximo es 21:1 (negro sobre blanco) y el mínimo 1:1 (un color contra sí mismo).</text>
+<text x="500" y="476" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">Un color con alfa se compone sobre el fondo real antes de medirlo; si no, sale 1:1 y la auditoría miente.</text>
+</svg>

@@ -20,6 +20,10 @@ fun Contador() {
 * `remember { }` lo **recuerda** entre recomposiciones; sin `remember`, la variable volvería a 0 cada vez que se redibuja.
 * `by` permite usar `cuenta` directamente en lugar de `cuenta.value`.
 
+[![El estado cambia con un evento y Compose vuelve a dibujar la interfaz que depende de él](../assets/img/estado-recomposicion.svg)](../assets/img/estado-recomposicion.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. El ciclo de Compose: un evento cambia el estado y Compose recompone solo lo que depende de él.*
+
 ## ¿Y si giro la pantalla?
 
 Al girar el móvil la *activity* se destruye y se crea de nuevo, y `remember` pierde su valor. Para sobrevivir al giro se usa `rememberSaveable`:
@@ -32,6 +36,10 @@ var cuenta by rememberSaveable { mutableStateOf(0) }
 |---|---|---|
 | `remember` | Sí | No |
 | `rememberSaveable` | Sí | Sí |
+
+[![remember se pierde al girar el móvil; rememberSaveable lo guarda en el Bundle y lo recupera](../assets/img/remember-rotacion.svg)](../assets/img/remember-rotacion.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Al girar el móvil la actividad se destruye y se recrea: `remember` se pierde y `rememberSaveable` sobrevive en el `Bundle`.*
 
 ## Reglas de oro
 

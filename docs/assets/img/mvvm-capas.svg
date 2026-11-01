@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="La pantalla muestra el estado del ViewModel y le envía eventos; el ViewModel pide los datos al repositorio">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="418" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Pantalla, ViewModel y repositorio: quién hace qué</text>
+<rect x="40.0" y="100.0" width="260.0" height="190.0" rx="14" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2.5"/>
+<text x="170" y="146" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Pantalla (Compose)</text>
+<text x="170" y="200" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">solo dibuja y avisa</text>
+<text x="170" y="224" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">de los eventos</text>
+<rect x="370.0" y="100.0" width="260.0" height="190.0" rx="14" fill="#8fd0b3" stroke="#5aa585" stroke-width="2.5"/>
+<text x="500" y="146" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">ViewModel</text>
+<text x="500" y="200" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">decide qué hacer y</text>
+<text x="500" y="224" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">expone el estado</text>
+<rect x="700.0" y="100.0" width="260.0" height="190.0" rx="14" fill="#f6c07a" stroke="#d99a45" stroke-width="2.5"/>
+<text x="830" y="146" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Repositorio</text>
+<text x="830" y="200" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">obtiene los datos:</text>
+<text x="830" y="224" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#1f2937" text-anchor="middle">red o base de datos</text>
+<line x1="368" y1="155" x2="304" y2="155" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="336" y="138" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="middle">estado</text>
+<line x1="304" y1="240" x2="366" y2="240" stroke="#e08a1e" stroke-width="3.5" marker-end="url(#pe08a1e)"/>
+<text x="336" y="268" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#e08a1e" text-anchor="middle">eventos</text>
+<line x1="698" y1="190" x2="634" y2="190" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="666" y="172" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#2f6fdc" text-anchor="middle">datos</text>
+<text x="500" y="360" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">La interfaz no sabe de dónde vienen los datos: solo muestra el estado que le da el ViewModel.</text>
+<text x="500" y="390" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">Cada capa se puede probar y cambiar sin tocar las demás.</text>
+</svg>

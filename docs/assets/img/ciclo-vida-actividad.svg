@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-label="Estados de una Activity: onCreate, onStart, onResume, onPause, onStop, onRestart y onDestroy">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="648" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">El ciclo de vida de una Activity</text>
+<rect x="275.0" y="80.0" width="210.0" height="52.0" rx="10" fill="#8db6f2" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="113" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onCreate</text>
+<text x="499.0" y="112" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">se crea la pantalla (inicializar la interfaz)</text>
+<rect x="275.0" y="170.0" width="210.0" height="52.0" rx="10" fill="#9bc7e8" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="203" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onStart</text>
+<text x="499.0" y="202" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">va a hacerse visible</text>
+<rect x="275.0" y="260.0" width="210.0" height="52.0" rx="10" fill="#8fd0b3" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="293" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onResume</text>
+<text x="499.0" y="292" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">en primer plano e interactiva</text>
+<rect x="275.0" y="370.0" width="210.0" height="52.0" rx="10" fill="#f2d28b" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="403" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onPause</text>
+<text x="499.0" y="402" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">pierde el foco (otra pantalla encima)</text>
+<rect x="275.0" y="460.0" width="210.0" height="52.0" rx="10" fill="#f6c07a" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="493" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onStop</text>
+<text x="499.0" y="492" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">deja de ser visible</text>
+<rect x="275.0" y="570.0" width="210.0" height="52.0" rx="10" fill="#e8a0a0" stroke="#7b8494" stroke-width="2"/>
+<text x="380" y="603" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">onDestroy</text>
+<text x="499.0" y="602" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">se destruye (se cierra)</text>
+<line x1="380" y1="132" x2="380" y2="170" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<line x1="380" y1="222" x2="380" y2="260" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<line x1="380" y1="312" x2="380" y2="370" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<line x1="380" y1="422" x2="380" y2="460" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<line x1="380" y1="512" x2="380" y2="570" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<path d="M275.0,396.0 C205,370 205,312 275.0,286.0" fill="none" stroke="#e08a1e" stroke-width="2.5" marker-end="url(#pe08a1e)"/>
+<text x="212" y="334" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="end">vuelve</text>
+<text x="212" y="352" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="end">el foco</text>
+<rect x="20.0" y="300.0" width="110.0" height="44.0" rx="10" fill="#e3edf9" stroke="#7b8494" stroke-width="2"/>
+<text x="75" y="328" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">onRestart</text>
+<path d="M275.0,486.0 C40,486.0 40,420 75,346" fill="none" stroke="#e08a1e" stroke-width="2.5" marker-end="url(#pe08a1e)"/>
+<path d="M75,300 C75,230 205,196 275.0,196.0" fill="none" stroke="#e08a1e" stroke-width="2.5" marker-end="url(#pe08a1e)"/>
+<text x="30" y="540" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="start">el usuario vuelve</text>
+<text x="30" y="558" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="start">a una pantalla detenida</text>
+<path d="M692,260 L700,260 L700,422 L692,422" fill="none" stroke="#5b6472" stroke-width="2.5"/>
+<path d="M740,170 L748,170 L748,512 L740,512" fill="none" stroke="#5b6472" stroke-width="2.5"/>
+<path d="M788,80 L796,80 L796,622 L788,622" fill="none" stroke="#5b6472" stroke-width="2.5"/>
+<text x="715" y="264" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="start">primer plano</text>
+<text x="715" y="282" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">(onResume → onPause)</text>
+<text x="763" y="174" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="start">visible</text>
+<text x="763" y="192" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">(onStart → onStop)</text>
+<text x="811" y="84" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="start">vida completa</text>
+<text x="811" y="102" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="12" font-weight="400" fill="#5b6472" text-anchor="start">(onCreate → onDestroy)</text>
+</svg>

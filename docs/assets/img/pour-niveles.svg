@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="515" viewBox="0 0 1000 515" role="img" aria-label="Los cuatro principios de WCAG (perceptible, operable, comprensible, robusto) y sus niveles A, AA y AAA">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="513" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">WCAG 2.2: cuatro principios (POUR) y tres niveles</text>
+<rect x="30.0" y="80.0" width="220.0" height="190.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<circle cx="140" cy="124" r="30" fill="#8db6f2" stroke="#7b8494" stroke-width="1.5"/>
+<text x="140" y="134" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="28" font-weight="700" fill="#1f2937" text-anchor="middle">P</text>
+<text x="140" y="190" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Perceptible</text>
+<text x="140" y="220" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">se puede percibir:</text>
+<text x="140" y="240" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">contraste, alternativas de texto</text>
+<rect x="268.0" y="80.0" width="220.0" height="190.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<circle cx="378" cy="124" r="30" fill="#8fd0b3" stroke="#7b8494" stroke-width="1.5"/>
+<text x="378" y="134" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="28" font-weight="700" fill="#1f2937" text-anchor="middle">O</text>
+<text x="378" y="190" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Operable</text>
+<text x="378" y="220" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">se puede manejar:</text>
+<text x="378" y="240" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">toque, teclado, tiempo</text>
+<rect x="506.0" y="80.0" width="220.0" height="190.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<circle cx="616" cy="124" r="30" fill="#f6c07a" stroke="#7b8494" stroke-width="1.5"/>
+<text x="616" y="134" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="28" font-weight="700" fill="#1f2937" text-anchor="middle">C</text>
+<text x="616" y="190" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Comprensible</text>
+<text x="616" y="220" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">se entiende:</text>
+<text x="616" y="240" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">mensajes claros, coherencia</text>
+<rect x="744.0" y="80.0" width="220.0" height="190.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<circle cx="854" cy="124" r="30" fill="#c9b3e6" stroke="#7b8494" stroke-width="1.5"/>
+<text x="854" y="134" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="28" font-weight="700" fill="#1f2937" text-anchor="middle">R</text>
+<text x="854" y="190" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Robusto</text>
+<text x="854" y="220" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">funciona con ayudas técnicas:</text>
+<text x="854" y="240" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">semántica, lectores de pantalla</text>
+<text x="500" y="316" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Tres niveles de conformidad</text>
+<rect x="90.0" y="340.0" width="300.0" height="34.0" rx="8" fill="#cfd8e3" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="110" y="364" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start">A</text>
+<text x="180" y="364" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#1f2937" text-anchor="start">el mínimo</text>
+<rect x="90.0" y="384.0" width="560.0" height="34.0" rx="8" fill="#8fd0b3" stroke="#2e7d32" stroke-width="3"/>
+<text x="110" y="408" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start">AA</text>
+<text x="180" y="408" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="start">el objetivo realista y legal</text>
+<rect x="90.0" y="428.0" width="820.0" height="34.0" rx="8" fill="#cfd8e3" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="110" y="452" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="start">AAA</text>
+<text x="180" y="452" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#1f2937" text-anchor="start">el más exigente</text>
+<text x="500" y="490" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">Cada nivel incluye al anterior: AA = A + los criterios de AA.</text>
+</svg>

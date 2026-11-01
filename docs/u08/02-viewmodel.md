@@ -4,6 +4,10 @@ Hasta ahora el estado vivía dentro de los composables. En apps grandes eso se v
 
 El **ViewModel** es una clase que **guarda el estado y la lógica** de una pantalla y **sobrevive a los giros** y cambios de configuración.
 
+[![El ViewModel conserva el estado cuando la actividad se destruye y se recrea al girar el móvil](../assets/img/viewmodel-giro.svg)](../assets/img/viewmodel-giro.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Al girar, la actividad se recrea; el `ViewModel` sigue vivo y `remember` empieza de cero.*
+
 ## Esquema
 
 ```
@@ -15,6 +19,10 @@ Pantalla (Compose)  ←─ estado ─  ViewModel  ←── datos ──  Reposi
 * La **UI** solo dibuja y avisa de eventos.
 * El **ViewModel** decide qué hacer y expone el estado.
 * El **repositorio** obtiene los datos (red o base de datos).
+
+[![La pantalla muestra el estado del ViewModel y le envía eventos; el ViewModel pide los datos al repositorio](../assets/img/mvvm-capas.svg)](../assets/img/mvvm-capas.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Quién hace qué: la pantalla dibuja, el `ViewModel` decide y el repositorio trae los datos.*
 
 ## Un ViewModel con estado
 

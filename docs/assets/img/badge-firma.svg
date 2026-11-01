@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="Firma de BadgeEstado con el significado de cada parámetro">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="518" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">La firma de BadgeEstado, parámetro a parámetro</text>
+<rect x="30.0" y="80.0" width="520.0" height="380.0" rx="12" fill="#1f2937" stroke="#111827" stroke-width="1"/>
+<text x="50" y="124" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">@Composable</text>
+<text x="50" y="170" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">fun BadgeEstado(</text>
+<text x="50" y="216" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">    estado: Estado,</text>
+<text x="50" y="262" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">    texto: String = estado.etiqueta,</text>
+<text x="50" y="308" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">    modifier: Modifier = Modifier,</text>
+<text x="50" y="354" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">    conPunto: Boolean = true,</text>
+<text x="50" y="400" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">    relleno: Color = estado.acento.copy(alpha = 0.15f),</text>
+<text x="50" y="446" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#e5e7eb" text-anchor="start">) { /* dibuja la píldora */ }</text>
+<line x1="552" y1="211" x2="586" y2="211" stroke="#c0392b" stroke-width="2.5"/>
+<text x="596" y="210" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#c0392b" text-anchor="start">único obligatorio</text>
+<text x="596" y="230" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">de él salen el color, el punto y el texto por defecto</text>
+<line x1="552" y1="257" x2="586" y2="257" stroke="#2f6fdc" stroke-width="2.5"/>
+<text x="596" y="256" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">valor por defecto calculado</text>
+<text x="596" y="276" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">sustituye la etiqueta sin crear otro componente</text>
+<line x1="552" y1="303" x2="586" y2="303" stroke="#2f6fdc" stroke-width="2.5"/>
+<text x="596" y="302" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">el modificador</text>
+<text x="596" y="322" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">coloca y da tamaño sin tocar el código del componente</text>
+<line x1="552" y1="349" x2="586" y2="349" stroke="#2f6fdc" stroke-width="2.5"/>
+<text x="596" y="348" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">opcional</text>
+<text x="596" y="368" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">apaga el punto de color</text>
+<line x1="552" y1="395" x2="586" y2="395" stroke="#2f6fdc" stroke-width="2.5"/>
+<text x="596" y="394" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">valor por defecto calculado</text>
+<text x="596" y="414" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="start">el acento del estado al 15 % de opacidad</text>
+<text x="500" y="492" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2937" text-anchor="middle">Un parámetro con valor por defecto es documentación: dice qué es opcional y cuál es el comportamiento normal.</text>
+</svg>

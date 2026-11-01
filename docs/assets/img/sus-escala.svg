@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="Escala del SUS: inaceptable por debajo de 51, marginal de 51 a 67, aceptable de 68 a 80 y excelente por encima de 80">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="438" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">El SUS: una nota de 0 a 100</text>
+<text x="500" y="76" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="middle">diez afirmaciones puntuadas de 1 a 5 → una nota de 0 a 100</text>
+<rect x="60.0" y="150.0" width="448.8" height="70.0" rx="0" fill="#e57373" stroke="#7b8494" stroke-width="1.5"/>
+<text x="284.4" y="192" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">inaceptable</text>
+<rect x="508.8" y="150.0" width="149.6" height="70.0" rx="0" fill="#ffb74d" stroke="#7b8494" stroke-width="1.5"/>
+<text x="583.6" y="192" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">marginal</text>
+<rect x="658.4" y="150.0" width="105.6" height="70.0" rx="0" fill="#fff176" stroke="#7b8494" stroke-width="1.5"/>
+<text x="711.2" y="192" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">aceptable</text>
+<rect x="764.0" y="150.0" width="176.0" height="70.0" rx="0" fill="#81c784" stroke="#7b8494" stroke-width="1.5"/>
+<text x="852.0" y="192" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">excelente</text>
+<line x1="60.0" y1="140" x2="60.0" y2="230" stroke="#1f2937" stroke-width="2"/>
+<text x="60.0" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">0</text>
+<line x1="508.8" y1="140" x2="508.8" y2="230" stroke="#1f2937" stroke-width="2"/>
+<text x="508.8" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">51</text>
+<line x1="658.4" y1="140" x2="658.4" y2="230" stroke="#1f2937" stroke-width="2"/>
+<text x="658.4" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">68</text>
+<line x1="764.0" y1="140" x2="764.0" y2="230" stroke="#1f2937" stroke-width="2"/>
+<text x="764.0" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">80</text>
+<line x1="940.0" y1="140" x2="940.0" y2="230" stroke="#1f2937" stroke-width="2"/>
+<text x="940.0" y="130" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">100</text>
+<line x1="658.4" y1="230" x2="658.4" y2="300" stroke="#2f6fdc" stroke-width="3"/>
+<text x="658.4" y="324" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#2f6fdc" text-anchor="middle">68: la media del sector</text>
+<text x="658.4" y="346" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">por debajo, la app está bajo la mitad del mercado</text>
+<line x1="654.0" y1="230" x2="654.0" y2="262" stroke="#e08a1e" stroke-width="3"/>
+<text x="644.0" y="258" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="700" fill="#e08a1e" text-anchor="end">67,5 (el ejemplo): marginal</text>
+<text x="500" y="414" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">Con cinco usuarios se encuentra el 85 % de los problemas (Nielsen y Landauer, 1993).</text>
+</svg>

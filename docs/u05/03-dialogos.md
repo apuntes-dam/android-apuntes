@@ -37,6 +37,10 @@ if (mostrar) {
 }
 ```
 
+[![AlertDialog: title, text, confirmButton, dismissButton y onDismissRequest](../assets/img/dialogo-alerta.svg)](../assets/img/dialogo-alerta.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las piezas de un `AlertDialog` sobre la pantalla que queda atenuada.*
+
 ## Snackbar: un aviso con acción
 
 Más moderno que el `Toast`: aparece abajo, puede llevar un botón («Deshacer») y se integra con `Scaffold`.

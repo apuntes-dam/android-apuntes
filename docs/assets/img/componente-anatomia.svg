@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="Anatomía de un componente: parámetros de entrada, eventos de salida e interior privado">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="518" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Un componente: una interfaz pública y un interior que no se ve</text>
+<rect x="300.0" y="90.0" width="400.0" height="360.0" rx="16" fill="#f4f8ff" stroke="#2f6fdc" stroke-width="3"/>
+<text x="500" y="122" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#2f6fdc" text-anchor="middle">Componente (función @Composable)</text>
+<text x="500" y="146" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">su interfaz pública es lo que cruza este borde</text>
+<rect x="340.0" y="175.0" width="320.0" height="235.0" rx="10" fill="#eef0f3" stroke="#7b8494" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="500" y="204" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Interior (privado)</text>
+<text x="500" y="246" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">estado interno (remember)</text>
+<text x="500" y="286" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">cómo se dibuja</text>
+<text x="500" y="326" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="400" fill="#5b6472" text-anchor="middle">detalles que pueden cambiar</text>
+<text x="500" y="394" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#5b6472" text-anchor="middle">puede cambiar sin romper a nadie</text>
+<text x="150" y="104" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#2f6fdc" text-anchor="middle">Entradas: parámetros</text>
+<rect x="40.0" y="150.0" width="220.0" height="50.0" rx="8" fill="#ffffff" stroke="#2f6fdc" stroke-width="2"/>
+<text x="150" y="181" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">estado: Estado</text>
+<line x1="262" y1="175" x2="296" y2="175" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<rect x="40.0" y="240.0" width="220.0" height="50.0" rx="8" fill="#ffffff" stroke="#2f6fdc" stroke-width="2"/>
+<text x="150" y="271" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">texto: String</text>
+<line x1="262" y1="265" x2="296" y2="265" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<rect x="40.0" y="330.0" width="220.0" height="50.0" rx="8" fill="#ffffff" stroke="#2f6fdc" stroke-width="2"/>
+<text x="150" y="361" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#1f2937" text-anchor="middle">modifier: Modifier</text>
+<line x1="262" y1="355" x2="296" y2="355" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<text x="850" y="104" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#e08a1e" text-anchor="middle">Salidas: eventos (lambdas)</text>
+<line x1="704" y1="195" x2="738" y2="195" stroke="#e08a1e" stroke-width="3" marker-end="url(#pe08a1e)"/>
+<rect x="740.0" y="170.0" width="230.0" height="50.0" rx="8" fill="#ffffff" stroke="#e08a1e" stroke-width="2"/>
+<text x="855" y="201" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">onSeleccion: (Int) -&gt; Unit</text>
+<line x1="704" y1="305" x2="738" y2="305" stroke="#e08a1e" stroke-width="3" marker-end="url(#pe08a1e)"/>
+<rect x="740.0" y="280.0" width="230.0" height="50.0" rx="8" fill="#ffffff" stroke="#e08a1e" stroke-width="2"/>
+<text x="855" y="311" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">onCerrar: () -&gt; Unit</text>
+<text x="500" y="490" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Todo lo que no está en esa interfaz es interno y puede cambiar sin romper a nadie.</text>
+</svg>

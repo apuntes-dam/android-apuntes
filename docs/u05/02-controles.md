@@ -55,6 +55,10 @@ Column {
 }
 ```
 
+[![Checkbox para varias opciones, RadioButton para una sola, Switch para activar y Slider para un valor en un rango](../assets/img/controles-seleccion.svg)](../assets/img/controles-seleccion.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Cuatro controles de selección y para qué sirve cada uno.*
+
 ## Resumen
 
 | Quieres… | Usa |

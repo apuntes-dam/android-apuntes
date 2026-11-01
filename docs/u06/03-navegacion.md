@@ -51,6 +51,10 @@ fun PantallaDetalle(alVolver: () -> Unit) {
 * `navigate("detalle")` **apila** una pantalla encima.
 * `popBackStack()` (o el botón *Atrás* del móvil) la **quita** y vuelves a la anterior.
 
+[![Back stack: navigate apila una pantalla y popBackStack la quita](../assets/img/pila-navegacion.svg)](../assets/img/pila-navegacion.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. La pila de navegación: `navigate` apila una pantalla encima y `popBackStack` la quita.*
+
 !!! tip "Las pantallas no conocen al NavController"
     Fíjate en que `PantallaInicio` recibe una lambda (`alIrADetalle`) y no el `NavController`. Así la pantalla es reutilizable y se puede previsualizar sin navegación: es el mismo patrón de «estado abajo, eventos arriba».
 

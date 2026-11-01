@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-label="El ViewModel conserva el estado cuando la actividad se destruye y se recrea al girar el móvil">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="538" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">El ViewModel sobrevive a los giros</text>
+<text x="150" y="118" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Activity 1</text>
+<rect x="60.0" y="135.0" width="180.0" height="56.0" rx="10" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="150" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2937" text-anchor="middle">se destruye al girar</text>
+<rect x="380.0" y="135.0" width="240.0" height="56.0" rx="10" fill="#fdecea" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="500" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#c0392b" text-anchor="middle">giro: la actividad se recrea</text>
+<text x="850" y="118" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">Activity 2</text>
+<rect x="760.0" y="135.0" width="180.0" height="56.0" rx="10" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2"/>
+<text x="850" y="168" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2937" text-anchor="middle">nueva, recién creada</text>
+<text x="60" y="252" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#2e7d32" text-anchor="start">ViewModel</text>
+<rect x="60.0" y="270.0" width="880.0" height="66.0" rx="12" fill="#8fd0b3" stroke="#5aa585" stroke-width="2.5"/>
+<text x="500" y="310" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">sigue vivo: conserva el estado y la lógica de la pantalla</text>
+<text x="60" y="396" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#c0392b" text-anchor="start">remember</text>
+<rect x="60.0" y="414.0" width="180.0" height="50.0" rx="10" fill="#e3edf9" stroke="#9aa4b2" stroke-width="2"/>
+<text x="150" y="445" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">valor: «Ana»</text>
+<rect x="760.0" y="414.0" width="180.0" height="50.0" rx="10" fill="#ffffff" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="850" y="445" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#5b6472" text-anchor="middle">valor: «» (vacío)</text>
+<line x1="246" y1="439" x2="754" y2="439" stroke="#c0392b" stroke-width="2.5" marker-end="url(#pc0392b)"/>
+<text x="500" y="430" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#c0392b" text-anchor="middle">✗ se pierde con la actividad</text>
+<line x1="150" y1="191" x2="150" y2="270" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="850" y1="191" x2="850" y2="270" stroke="#9aa4b2" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="500" y="510" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">Por eso el estado que no debe perderse al girar vive en el ViewModel (o en rememberSaveable).</text>
+</svg>

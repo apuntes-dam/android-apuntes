@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-label="Eficacia, eficiencia y satisfacción: las tres medidas de usabilidad de la ISO 9241-11">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="548" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Usabilidad según la ISO 9241-11: tres medidas, no una</text>
+<circle cx="390" cy="235" r="130" fill="#8db6f2" fill-opacity="0.45" stroke="#5f8fd6" stroke-width="2.5"/>
+<circle cx="610" cy="235" r="130" fill="#8fd0b3" fill-opacity="0.45" stroke="#5aa585" stroke-width="2.5"/>
+<circle cx="500" cy="370" r="130" fill="#f6c07a" fill-opacity="0.45" stroke="#d99a45" stroke-width="2.5"/>
+<text x="345" y="215" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Eficacia</text>
+<text x="655" y="215" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Eficiencia</text>
+<text x="500" y="425" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Satisfacción</text>
+<text x="500" y="285" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f2937" text-anchor="middle">USABLE</text>
+<text x="30" y="150" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#2f6fdc" text-anchor="start">Eficacia</text>
+<text x="30" y="176" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">se consigue el objetivo</text>
+<text x="790" y="150" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#2e7d32" text-anchor="start">Eficiencia</text>
+<text x="790" y="176" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">con pocos recursos:</text>
+<text x="790" y="196" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">tiempo, toques, pasos</text>
+<text x="780" y="440" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="18" font-weight="700" fill="#e08a1e" text-anchor="start">Satisfacción</text>
+<text x="780" y="466" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">el usuario queda a gusto</text>
+<text x="780" y="486" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="400" fill="#5b6472" text-anchor="start">(por ejemplo, con el SUS)</text>
+<text x="500" y="520" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#c0392b" text-anchor="middle">Si una de las tres falla, la interfaz no es usable.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="515" viewBox="0 0 1000 515" role="img" aria-label="Área de toque: un icono de 24 dp necesita una zona de 48 dp; la tecla de 44 dp de ancho no cumple">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="513" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#1f2937" text-anchor="middle">Área de toque: se mide la zona que responde, no el dibujo</text>
+<rect x="120.0" y="130.0" width="144.0" height="144.0" rx="8" fill="#e3edf9" stroke="#2f6fdc" stroke-width="3" stroke-dasharray="8 5"/>
+<rect x="156.0" y="166.0" width="72.0" height="72.0" rx="9" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/><text x="192.0" y="206.9" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">icono</text>
+<line x1="120" y1="298.0" x2="264.0" y2="298.0" stroke="#2f6fdc" stroke-width="2.5" marker-start="url(#p2f6fdc)" marker-end="url(#p2f6fdc)"/>
+<text x="192.0" y="324.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="middle">zona pulsable: 48 dp</text>
+<text x="192.0" y="346.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">el dibujo puede medir 24 dp</text>
+<text x="192.0" y="366.0" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">(relleno o minimumInteractiveComponentSize())</text>
+<line x1="400" y1="80" x2="400" y2="450" stroke="#e1e4e8" stroke-width="2"/>
+<text x="700" y="96" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Audita cada control (Android pide 48 × 48 dp)</text>
+<rect x="440.0" y="130.0" width="52.8" height="52.8" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="466.4" y="161.4" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">48×48</text>
+<text x="466.4" y="206.8" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#2e7d32" text-anchor="middle">✓</text>
+<text x="466.4" y="228.8" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Botón M3</text>
+<rect x="538.0" y="130.0" width="61.6" height="52.8" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/>
+<text x="568.8" y="161.4" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">56×48</text>
+<text x="568.8" y="206.8" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#2e7d32" text-anchor="middle">✓</text>
+<text x="568.8" y="228.8" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Fila</text>
+<rect x="636.0" y="130.0" width="48.4" height="165.0" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2.5"/>
+<text x="660.2" y="217.5" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">44×150</text>
+<text x="660.2" y="319.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#c0392b" text-anchor="middle">✗</text>
+<text x="660.2" y="341.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Tecla de piano</text>
+<rect x="734.0" y="130.0" width="44.0" height="44.0" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2.5"/>
+<text x="756.0" y="157.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#1f2937" text-anchor="middle">40×40</text>
+<text x="756.0" y="198.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#c0392b" text-anchor="middle">✗</text>
+<text x="756.0" y="220.0" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">Icono</text>
+<text x="700" y="396" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">Hay que cumplir las dos dimensiones: la tecla tiene alto de sobra,</text>
+<text x="700" y="416" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">pero 44 dp de ancho no llegan a 48.</text>
+<text x="500" y="484" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">WCAG 2.5.8 (AA): 24 px · WCAG 2.5.5 (AAA): 44 px · Android: 48 dp (más exigente que el mínimo legal)</text>
+</svg>

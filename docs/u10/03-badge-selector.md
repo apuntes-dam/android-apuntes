@@ -50,6 +50,10 @@ Fíjate en lo que **no** hace: no sabe en qué pantalla está, no sabe qué idio
 !!! tip "Un componente sin estado propio es más fácil de reutilizar"
     El estado lo decide quien lo usa; el componente solo dibuja lo que le cuentan.
 
+[![Firma de BadgeEstado con el significado de cada parámetro](../assets/img/badge-firma.svg)](../assets/img/badge-firma.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. La firma de `BadgeEstado`, parámetro a parámetro: un único obligatorio y el resto con valor por defecto.*
+
 ## Un componente con evento: `SelectorMes`
 
 El desplegable de meses es el mismo tipo de componente, con una diferencia: **devuelve información** a la pantalla mediante un evento.
@@ -79,6 +83,10 @@ fun SelectorMes(
 
 !!! note "Estado interno solo para lo interno"
     Que el menú esté abierto es asunto del componente (`remember`). Qué mes hay elegido es asunto de la **pantalla**: llega como parámetro y se cambia con el evento.
+
+[![El estado baja de la pantalla al componente como parámetro y los eventos suben como lambdas](../assets/img/estado-arriba.svg)](../assets/img/estado-arriba.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. El estado baja como parámetro y el evento sube como lambda: la pantalla es la dueña del estado y `SelectorMes` solo guarda lo suyo.*
 
 ## Caso práctico: recarga del abono del metro
 

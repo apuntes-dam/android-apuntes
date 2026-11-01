@@ -54,6 +54,10 @@ controles que se quedan cortos: 2 de 4
 
 Arreglo para la tecla: envolverla en un `Box` de 48 dp con el dibujo de 44 dentro, o añadir relleno horizontal. Se ve igual y responde mejor.
 
+[![Área de toque: un icono de 24 dp necesita una zona de 48 dp; la tecla de 44 dp de ancho no cumple](../assets/img/area-toque.svg)](../assets/img/area-toque.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Se mide la zona que responde al dedo, no el dibujo; hay que cumplir el ancho y el alto.*
+
 ## Letra al 200 %: la prueba que casi nadie hace
 
 El criterio 1.4.4 (AA) pide que el texto se pueda ampliar al **200 %** sin perder contenido ni funcionalidad. En Android no se hace con zoom: se cambia la **escala de fuente del sistema**, y para que funcione hay que haber escrito las letras en **`sp`**, no en `dp`.

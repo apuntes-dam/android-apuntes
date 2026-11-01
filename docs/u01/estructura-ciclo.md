@@ -93,6 +93,10 @@ onCreate -> onStart -> onResume   (la app está visible y activa)
 
 Si el usuario vuelve a una pantalla que estaba detenida, se llama a `onRestart` y se repite `onStart` → `onResume`.
 
+[![Estados de una Activity: onCreate, onStart, onResume, onPause, onStop, onRestart y onDestroy, con las tres vidas anidadas](../assets/img/ciclo-vida-actividad.svg)](../assets/img/ciclo-vida-actividad.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. El ciclo de vida de una `Activity`: la vida completa va de `onCreate` a `onDestroy`, es visible entre `onStart` y `onStop`, y está en primer plano entre `onResume` y `onPause`.*
+
 | Método | Cuándo se llama |
 |---|---|
 | `onCreate` | Se crea la pantalla (inicializar la interfaz) |

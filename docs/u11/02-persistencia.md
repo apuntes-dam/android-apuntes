@@ -17,6 +17,10 @@ var sePierde  by remember         { mutableStateOf("") }   // vive solo en la co
 
 Tras girar el dispositivo, el campo de `rememberSaveable` conserva el texto y el de `remember` aparece vacío.
 
+[![remember se pierde al girar el móvil; rememberSaveable lo guarda en el Bundle y lo recupera](../assets/img/remember-rotacion.svg)](../assets/img/remember-rotacion.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Al girar el móvil la actividad se destruye y se recrea: `remember` se pierde y `rememberSaveable` sobrevive en el `Bundle`.*
+
 ## `Saver`: enseñar a guardarse a un tipo propio
 
 `rememberSaveable` solo sabe guardar lo que cabe en un `Bundle`: números, texto, `Parcelable` y listas de eso. Un **tipo de dominio propio** hay que enseñarle a guardarse con un **`Saver`**: dos funciones, una que **reduce** el objeto a algo serializable y otra que lo **reconstruye**. Es el papel que jugaba `Serializable` / `persistState()` en AWT.

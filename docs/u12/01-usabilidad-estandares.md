@@ -16,6 +16,10 @@ Una interfaz es **usable** cuando el usuario consigue su objetivo sin pelearse c
 !!! success "Si una de las tres falla, la interfaz no es usable"
     Una app en la que todos terminan la tarea pero tardando veinte minutos y enfadados cumple la eficacia y suspende las otras dos.
 
+[![Eficacia, eficiencia y satisfacción: las tres medidas de usabilidad de la ISO 9241-11](../assets/img/iso-usabilidad.svg)](../assets/img/iso-usabilidad.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Las tres medidas de la ISO 9241-11: si una falla, la interfaz no es usable.*
+
 ## La definición que hay que saber
 
 > **Usabilidad**: grado en que un sistema, producto o servicio puede ser utilizado por **usuarios específicos** para lograr **objetivos concretos** con **eficacia, eficiencia y satisfacción** en un **contexto de uso** especificado.

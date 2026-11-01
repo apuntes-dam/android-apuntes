@@ -125,6 +125,10 @@ cuestionario peor      SUS = 0.0 -> Inaceptable
 10 usuarios encuentran 97,6 % de los problemas
 ```
 
+[![Escala del SUS: inaceptable por debajo de 51, marginal de 51 a 67, aceptable de 68 a 80 y excelente por encima de 80](../assets/img/sus-escala.svg)](../assets/img/sus-escala.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. La nota del SUS y cómo se lee; la media del sector es 68.*
+
 ## El informe de usabilidad
 
 1. **Objetivo y alcance**: qué se ha evaluado y qué no.

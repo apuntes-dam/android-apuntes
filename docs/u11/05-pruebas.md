@@ -16,6 +16,10 @@ El esquema de las pruebas clásicas (clase de prueba, métodos anotados, asercio
 
 Las anotaciones y aserciones son las de siempre: `@Test`, `@Before`, `@After`, `assertEquals`, `assertThrows`.
 
+[![Pruebas en src/test (JVM) frente a src/androidTest (dispositivo)](../assets/img/test-carpetas.svg)](../assets/img/test-carpetas.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Si la prueba solo piensa, va a `src/test`; si necesita ver la pantalla o tocar algo, a `src/androidTest`.*
+
 ## El vocabulario nuevo de Compose
 
 | Quiero… | Cómo |

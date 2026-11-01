@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-label="El estado cambia con un evento y Compose vuelve a dibujar la interfaz que depende de él">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="528" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="44" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Estado, interfaz y eventos: un ciclo</text>
+<rect x="340.0" y="90.0" width="320.0" height="110.0" rx="12" fill="#f4f8ff" stroke="#2f6fdc" stroke-width="1.5"/>
+<text x="500" y="126" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#2f6fdc" text-anchor="middle">Estado</text>
+<text x="500" y="160" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">var cuenta by remember { mutableStateOf(0) }</text>
+<text x="500" y="184" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">un valor que Compose observa</text>
+<rect x="620.0" y="330.0" width="340.0" height="110.0" rx="12" fill="#f1faf3" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="790" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#2e7d32" text-anchor="middle">Interfaz</text>
+<text x="790" y="400" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">Text("Pulsaciones: $cuenta")</text>
+<text x="790" y="424" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">lo que ve el usuario</text>
+<rect x="40.0" y="330.0" width="340.0" height="110.0" rx="12" fill="#fff8ee" stroke="#e08a1e" stroke-width="1.5"/>
+<text x="210" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="22" font-weight="700" fill="#e08a1e" text-anchor="middle">Evento</text>
+<text x="210" y="400" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">Button(onClick = { cuenta++ })</text>
+<text x="210" y="424" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="middle">el usuario pulsa</text>
+<path d="M640,200 C720,250 760,290 790,326" fill="none" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="742" y="258" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2f6fdc" text-anchor="start">Compose dibuja</text>
+<text x="742" y="278" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">lo que depende</text>
+<text x="742" y="296" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">del estado</text>
+<path d="M616,385 C520,420 460,420 384,385" fill="none" stroke="#e08a1e" stroke-width="3.5" marker-end="url(#pe08a1e)"/>
+<text x="500" y="450" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="middle">el usuario toca la pantalla</text>
+<path d="M210,326 C230,260 280,220 336,190" fill="none" stroke="#e08a1e" stroke-width="3.5" marker-end="url(#pe08a1e)"/>
+<text x="176" y="258" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="end">cambia el estado:</text>
+<text x="176" y="278" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#e08a1e" text-anchor="end">cuenta++</text>
+<text x="500" y="500" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Al cambiar el estado, Compose recompone: vuelve a dibujar solo lo que depende de él.</text>
+</svg>
