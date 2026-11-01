@@ -51,7 +51,7 @@ Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escri
 <div class="tutor-ia" data-banco="t34" data-n="4"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
-    Un metalenguaje: no describe nada por sí mismo, pero permite definir lenguajes que sí lo hacen.
+    XML son las siglas de eXtensible Markup Language («lenguaje de marcas extensible»). Es un metalenguaje: no describe nada por sí mismo, pero permite definir lenguajes que sí lo hacen.
 
 
 **5.** XHTML: ¿qué es, qué exige y cómo se usa dentro de una app de Compose? *[0,25]*
@@ -67,7 +67,7 @@ Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escri
 <div class="tutor-ia" data-banco="t34" data-n="6"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
-    Describe datos geográficos (puntos, rutas, zonas) como documentos XML. Por ejemplo, la ficha de un mirador (coordenadas, nombre, descripción) es un documento GML y la pantalla que lo muestra se genera a partir de él.
+    GML son las siglas de Geography Markup Language («lenguaje de marcas geográfico»). Describe datos geográficos (puntos, rutas, zonas) como documentos XML. Por ejemplo, la ficha de un mirador (coordenadas, nombre, descripción) es un documento GML y la pantalla que lo muestra se genera a partir de él.
 
 
 **7.** MathML: ¿qué describe y cómo se muestra en Android? *[0,25]*
@@ -422,5 +422,5 @@ Por si el examen incluye código o cálculos. Resuélvelos primero en papel.
 
 
 <link rel="stylesheet" href="../assets/tutor-ia.css?v=02da5ced">
-<script src="../assets/examen-din-desarrollo-t34-datos.js?v=8623383c"></script>
+<script src="../assets/examen-din-desarrollo-t34-datos.js?v=4d50df05"></script>
 <script src="../assets/tutor-ia.js?v=9c8cb5a9"></script>
