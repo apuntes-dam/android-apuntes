@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="504" viewBox="0 0 1000 504" role="img" aria-label="Una función composable: marca @Composable, nombre con mayúscula, parámetros y llamadas a otros composables como Text">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="502" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2937" text-anchor="middle">Una función composable, por dentro</text>
+<rect x="30.0" y="66.0" width="450.0" height="200.0" rx="12" fill="#f6f8fa" stroke="#c9d1d9" stroke-width="2"/>
+<rect x="52.0" y="93.0" width="126.8" height="27.0" rx="5" fill="#fde3bd" stroke="none" stroke-width="0"/>
+<rect x="95.2" y="135.0" width="72.8" height="27.0" rx="5" fill="#cfe0fb" stroke="none" stroke-width="0"/>
+<rect x="170.8" y="135.0" width="159.2" height="27.0" rx="5" fill="#cdeedd" stroke="none" stroke-width="0"/>
+<rect x="95.2" y="177.0" width="234.8" height="27.0" rx="5" fill="#e5d6f7" stroke="none" stroke-width="0"/>
+<text x="56" y="112" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start">@Composable</text>
+<text x="56" y="154" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="400" fill="#1f2937" text-anchor="start">fun</text>
+<text x="99.2" y="154" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start">Saludo</text>
+<text x="164.0" y="154" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="400" fill="#1f2937" text-anchor="start">(</text>
+<text x="174.8" y="154" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start">nombre: String</text>
+<text x="326.0" y="154" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="400" fill="#1f2937" text-anchor="start">) {</text>
+<text x="99.2" y="196" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="700" fill="#1f2937" text-anchor="start">Text("Hola, $nombre")</text>
+<text x="56" y="238" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="19" font-weight="400" fill="#1f2937" text-anchor="start">}</text>
+<rect x="510.0" y="90.0" width="22.0" height="22.0" rx="5" fill="#fde3bd" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="544" y="107" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">@Composable</text>
+<text x="544" y="128" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">la marca: esta función dibuja interfaz</text>
+<rect x="510.0" y="140.0" width="22.0" height="22.0" rx="5" fill="#cfe0fb" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="544" y="157" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">Saludo</text>
+<text x="544" y="178" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">nombre con mayúscula, como una clase</text>
+<rect x="510.0" y="190.0" width="22.0" height="22.0" rx="5" fill="#cdeedd" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="544" y="207" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">nombre: String</text>
+<text x="544" y="228" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">datos de entrada, como en cualquier función</text>
+<rect x="510.0" y="240.0" width="22.0" height="22.0" rx="5" fill="#e5d6f7" stroke="#9aa4b2" stroke-width="1.5"/>
+<text x="544" y="257" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="start">Text("Hola, $nombre")</text>
+<text x="544" y="278" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#5b6472" text-anchor="start">dibuja el texto; no devuelve ningún valor</text>
+<text x="500" y="316" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2937" text-anchor="middle">Se llama desde otro composable y forman un árbol</text>
+<rect x="40.0" y="344.0" width="210.0" height="76.0" rx="12" fill="#8db6f2" stroke="#5f8fd6" stroke-width="2.5"/>
+<text x="145.0" y="380" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">setContent { }</text>
+<text x="145.0" y="404" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#1f2937" text-anchor="middle">arranca la interfaz</text>
+<rect x="300.0" y="344.0" width="230.0" height="76.0" rx="12" fill="#8fd0b3" stroke="#5aa585" stroke-width="2.5"/>
+<text x="415.0" y="380" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Saludo("Ana")</text>
+<text x="415.0" y="404" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#1f2937" text-anchor="middle">tu composable</text>
+<rect x="580.0" y="344.0" width="210.0" height="76.0" rx="12" fill="#f6c07a" stroke="#d99a45" stroke-width="2.5"/>
+<text x="685.0" y="380" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Text("Hola, Ana")</text>
+<text x="685.0" y="404" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="400" fill="#1f2937" text-anchor="middle">dibuja el texto</text>
+<line x1="252" y1="382" x2="296" y2="382" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="274" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="middle">llama a</text>
+<line x1="532" y1="382" x2="576" y2="382" stroke="#2f6fdc" stroke-width="3.5" marker-end="url(#p2f6fdc)"/>
+<text x="554" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2f6fdc" text-anchor="middle">llama a</text>
+<line x1="792" y1="382" x2="840" y2="382" stroke="#e08a1e" stroke-width="3.5" marker-end="url(#pe08a1e)"/>
+<text x="816" y="366" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#e08a1e" text-anchor="middle">se ve</text>
+<rect x="846.0" y="336.0" width="124.0" height="92.0" rx="14" fill="#ffffff" stroke="#9aa4b2" stroke-width="3"/>
+<text x="908" y="388" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f2937" text-anchor="middle">Hola, Ana</text>
+<text x="500" y="474" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="600" fill="#1f2937" text-anchor="middle">Un composable no devuelve un valor: cada llamada añade una pieza a la pantalla.</text>
+</svg>

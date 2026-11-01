@@ -17,6 +17,10 @@ setContent {
 }
 ```
 
+[![Anatomía de una función composable: la marca @Composable, el nombre con mayúscula, los parámetros y las llamadas a otros composables](../assets/img/composable-anatomia.svg)](../assets/img/composable-anatomia.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Una función composable por dentro, y cómo se encadenan las llamadas: `setContent` llama a `Saludo` y este a `Text`, que dibuja.*
+
 ## El componente Text
 
 `Text` muestra texto. Casi todo se personaliza con parámetros con nombre:
