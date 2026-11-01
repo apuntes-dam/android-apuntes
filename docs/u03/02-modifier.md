@@ -77,6 +77,21 @@ Modifier.height(100.dp)                          // solo el alto
 
 *Figura. `size` fija las dos medidas; `width` y `height`, solo una (la otra la decide el contenido).*
 
+## `background`: el color de fondo
+
+`Modifier.background()` pinta el fondo del elemento. Admite un color predefinido o uno propio en hexadecimal:
+
+```kotlin
+Modifier.background(Color.Red)              // color predefinido
+Modifier.background(Color(0xFFE91E63))      // color propio
+```
+
+El color propio se escribe como `0xAARRGGBB`: alfa (opacidad), rojo, verde y azul, cada uno de `00` a `FF`. Con `FF` de alfa el color es totalmente opaco. Además, el fondo cubre el área que le dejan los modificadores que van **antes**, y por eso el orden importa (siguiente apartado).
+
+[![background pinta el fondo: colores predefinidos como Color.Red, un color propio con Color(0xFFE91E63) y el área que le dejan los modificadores anteriores](../assets/img/background-fondo.svg)](../assets/img/background-fondo.svg){ target=_blank title="Abrir a tamaño completo" }
+
+*Figura. Colores predefinidos, un color propio desglosado en alfa, rojo, verde y azul, y el área que pinta `background`.*
+
 ## El orden importa
 
 ```kotlin
