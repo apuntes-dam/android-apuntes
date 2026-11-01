@@ -184,124 +184,124 @@ Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escri
 
 ## T4 · Crear componentes
 
-**21.** Hasta ahora usabas componentes. ¿Qué haces en este tema? *[0,25]*
+**21.** Define componente. *[0,25]*
 
 <div class="tutor-ia" data-banco="t34" data-n="21"></div>
-
-??? success "Respuesta del profesor (mírala después de intentarlo)"
-    Los fabricas: creas piezas propias que la librería estándar no trae. Antes les cambiabas propiedades y les conectabas eventos; ahora los diseñas tú.
-
-
-**22.** Define componente. *[0,25]*
-
-<div class="tutor-ia" data-banco="t34" data-n="22"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Código probado y reutilizable que se comunica con el resto de la aplicación a través de su interfaz pública: sus parámetros de entrada y sus eventos de salida. Todo lo que no está en esa interfaz es interno y puede cambiar sin romper a nadie.
 
 
-**23.** ¿Qué significa programar «en componentes»? *[0,25]*
+**22.** ¿Qué significa programar «en componentes»? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="23"></div>
+<div class="tutor-ia" data-banco="t34" data-n="22"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Ensamblar piezas ya hechas en lugar de escribirlo todo desde cero.
 
 
-**24.** Define componente de interfaz. *[0,25]*
+**23.** Define componente de interfaz. *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="24"></div>
+<div class="tutor-ia" data-banco="t34" data-n="23"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Pieza de código que dibuja una parte de la pantalla y se comporta de forma predecible.
 
 
-**25.** ¿Qué seis cosas se le piden a un componente de interfaz? *[0,25]*
+**24.** ¿Qué seis cosas se le piden a un componente de interfaz? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="25"></div>
+<div class="tutor-ia" data-banco="t34" data-n="24"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Interfaz pública clara; valores por defecto sensatos; sin efectos sorpresa (no guarda datos en sitios raros, no escribe ficheros, no lanza redes); comunicación por eventos (lambdas); aislado y portable (no depende de una Activity ni de clases de la app); documentado y probado.
 
 
-**26.** En Jetpack Compose, ¿qué es un componente? *[0,25]*
+**25.** En Jetpack Compose, ¿qué es un componente? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="26"></div>
+<div class="tutor-ia" data-banco="t34" data-n="25"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Una función `@Composable`. No hay clase base que heredar ni paleta en la que registrarlo: si es `@Composable`, el editor la entiende, la previsualiza y Layout Inspector la muestra.
 
 
-**27.** En Compose, ¿qué son las propiedades de un componente y qué es su valor por defecto? *[0,25]*
+**26.** En Compose, ¿qué son las propiedades de un componente y qué es su valor por defecto? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="27"></div>
+<div class="tutor-ia" data-banco="t34" data-n="26"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Las propiedades son los parámetros de la función, y el valor por defecto de una propiedad es el valor por defecto del parámetro.
 
 
-**28.** ¿Qué parámetro va siempre como primer parámetro opcional de un componente y para qué sirve? *[0,25]*
+**27.** ¿Qué parámetro va siempre como primer parámetro opcional de un componente y para qué sirve? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="28"></div>
+<div class="tutor-ia" data-banco="t34" data-n="27"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     `modifier: Modifier = Modifier`. Permite a quien llama colocar y dar tamaño al componente sin tocar su código. Se aplica al contenedor raíz.
 
 
-**29.** ¿Qué pedía un JavaBean? *[0,25]*
+**28.** ¿Qué pedía un JavaBean? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="29"></div>
+<div class="tutor-ia" data-banco="t34" data-n="28"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Una clase pública con constructor sin argumentos, que implementa `Serializable`, con propiedades privadas accesibles por `getX()`/`setX()` y eventos por escucha.
 
 
-**30.** ¿Qué queda de JavaBean en Kotlin y Compose? *[0,25]*
+**29.** ¿Qué queda de JavaBean en Kotlin y Compose? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="30"></div>
+<div class="tutor-ia" data-banco="t34" data-n="29"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     La idea (datos públicos bien definidos, constructor sencillo, comportamiento predecible). La sintaxis sobra: Kotlin convierte cada propiedad en getter y setter automáticamente.
 
 
-**31.** ¿Qué es `BadgeEstado` y por qué se elige como primer componente? *[0,25]*
+**30.** Escribe la firma de `BadgeEstado` (el componente del tema): ¿qué parámetro es obligatorio y qué valor por defecto tiene `relleno`? *[0,25]*
+
+<div class="tutor-ia" data-banco="t34" data-n="30"></div>
+
+??? success "Respuesta del profesor (mírala después de intentarlo)"
+    `@Composable fun BadgeEstado(estado: Estado, texto: String = estado.etiqueta, modifier: Modifier = Modifier, conPunto: Boolean = true, relleno: Color = estado.acento.copy(alpha = 0.15f))`. El único obligatorio es `estado` (de él salen el color, el punto y el texto por defecto). `texto` sustituye la etiqueta sin crear otro componente, `conPunto` apaga el punto y `relleno` es por defecto el acento del estado al 15 % de opacidad. (En el código del profesor `texto` va antes que `modifier`; la regla que se pregunta es «`modifier` siempre como primer parámetro opcional».)
+
+
+**31.** ¿Qué es `Estado` en el kit y por qué lleva `etiqueta`, `acento` y `mensaje`? *[0,25]*
 
 <div class="tutor-ia" data-banco="t34" data-n="31"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
-    Una píldora de estado con un punto de color y un texto. Es el caso más simple que cumple todas las reglas de un componente.
+    Un `enum class` con datos: sus tres valores (`OK` «Completado», `AVISO` «Revisa» y `ERROR` «Fallido») traen las propiedades puestas. `etiqueta` es el texto que ve el usuario, `acento` el color de referencia (punto, texto y borde) y `mensaje` la frase larga para los sitios donde el estado se explica. Así el color y el mensaje viajan dentro del estado y no repartidos por las pantallas: cambiar el verde de «Completado» es tocar una línea.
 
 
-**32.** ¿Por qué un componente sin estado propio es más fácil de reutilizar? *[0,25]*
+**32.** ¿Qué hace `BadgeEstado` por dentro y qué no hace? *[0,25]*
 
 <div class="tutor-ia" data-banco="t34" data-n="32"></div>
+
+??? success "Respuesta del profesor (mírala después de intentarlo)"
+    Es una `Row` con `testTag("badge_" + estado.name)` (nombre estable para las pruebas), recorte en píldora (`clip(RoundedCornerShape(percent = 50))`), fondo `relleno` y relleno interior de 12 dp y 6 dp. Dentro, si `conPunto`, un `Box` de 10 dp recortado en círculo con el acento, y un `Text` con el acento y la tipografía `labelLarge` del tema (la decide el tema, no el componente). No sabe en qué pantalla está, ni qué idioma habla, ni crea estado propio. Lleva un `@Preview` con los tres estados (el último con `conPunto = false`) como documentación viva.
+
+
+**33.** ¿Por qué un componente sin estado propio es más fácil de reutilizar? *[0,25]*
+
+<div class="tutor-ia" data-banco="t34" data-n="33"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Porque el estado lo decide quien lo usa y el componente solo dibuja lo que le cuentan. El estado interno se deja solo para lo interno (por ejemplo, si un menú está abierto).
 
 
-**33.** ¿En qué se diferencia `SelectorMes` de `BadgeEstado`? *[0,25]*
+**34.** ¿En qué se diferencia `SelectorMes` de `BadgeEstado`? *[0,25]*
 
-<div class="tutor-ia" data-banco="t34" data-n="33"></div>
+<div class="tutor-ia" data-banco="t34" data-n="34"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
     Que devuelve información a la pantalla mediante un evento (un parámetro lambda, por ejemplo `onSeleccion: (Int) -> Unit`).
 
 
-**34.** Caso de la recarga del abono del metro: ¿qué sabe el componente y qué la pantalla? *[0,25]*
-
-<div class="tutor-ia" data-banco="t34" data-n="34"></div>
-
-??? success "Respuesta del profesor (mírala después de intentarlo)"
-    El componente no sabe qué es un abono: `SelectorMes` solo sabe de meses. La lógica del precio y de la confirmación es de la pantalla. Ese reparto permite reutilizar el desplegable en una cita médica, una reserva o una matrícula.
-
-
-**35.** ¿Qué herramientas sirven para crear el material gráfico y cuáles para diseñar y probar el componente? *[0,25]*
+**35.** Caso de la recarga del abono del metro: ¿qué sabe el componente y qué la pantalla? *[0,25]*
 
 <div class="tutor-ia" data-banco="t34" data-n="35"></div>
 
 ??? success "Respuesta del profesor (mírala después de intentarlo)"
-    El material gráfico (iconos, logos) se crea con los editores de siempre (Figma, Inkscape, Vector Asset Studio). El componente se diseña y se prueba con `@Preview`, `@PreviewParameter`, la vista previa en tema oscuro, Layout Inspector, Compose Testing (`createComposeRule`) y lint/Detekt.
+    El componente no sabe qué es un abono: `SelectorMes` solo sabe de meses. La lógica del precio y de la confirmación es de la pantalla. Ese reparto permite reutilizar el desplegable en una cita médica, una reserva o una matrícula.
 
 
 **36.** ¿Qué comprueba una prueba de un componente? *[0,25]*
@@ -422,5 +422,5 @@ Por si el examen incluye código o cálculos. Resuélvelos primero en papel.
 
 
 <link rel="stylesheet" href="../assets/tutor-ia.css?v=02da5ced">
-<script src="../assets/examen-din-desarrollo-t34-datos.js?v=921d716b"></script>
+<script src="../assets/examen-din-desarrollo-t34-datos.js?v=8623383c"></script>
 <script src="../assets/tutor-ia.js?v=9c8cb5a9"></script>
