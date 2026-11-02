@@ -12,7 +12,7 @@ Para practicar **a mano**, descarga la **hoja de examen en PDF**: tiene el mismo
 !!! tip "Los tres niveles"
     **Muy probable**: definiciones y listas que el profesor marca como imprescindibles. **Probable**: código del componente, casos y herramientas. **Menos probable**: los dos casos prácticos del tema 3. La tabla de editores XML lleva en verde «entran en el examen tipo test»: si hay alguna pregunta de opciones, será esa.
 
-<link rel="stylesheet" href="../assets/hoja-din.css?v=0da184a3">
+<link rel="stylesheet" href="../assets/hoja-din.css?v=e0146243">
 <div class="hd" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir (una página)</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Muy probable (20)</span><span class="hd-lB">Probable (20)</span><span class="hd-lC">Menos probable (2)</span></div>
@@ -66,6 +66,6 @@ Para practicar **a mano**, descarga la **hoja de examen en PDF**: tiene el mismo
 </div>
 <div class="hd-reserva"><b>Reserva: fuera de las 42, por si acaso</b><ul><li><b>RA3</b>: crea componentes visuales valorando y empleando herramientas específicas (RD 405/2023, módulo 0488).</li><li><b>¿Cuándo crear un componente en vez de copiar y pegar?</b> Cuando aparece dos veces con el mismo aspecto; si solo cambia color, texto o tamaño, parámetros; si lo necesita otro proyecto, módulo de librería.</li><li><b>Tres detalles de las propiedades</b>: <code>modifier</code> siempre primero · un valor por defecto es documentación · lo calculado va en el valor por defecto (<code>estado.acento.copy(alpha = 0.15f)</code>).</li><li><b><code>contentDescription = null</code></b> solo en imágenes decorativas. <b><code>BadgeEstado</code></b>: píldora de estado con punto de color y texto, el caso más simple que cumple las reglas.</li><li><b>Layout Inspector</b>: el árbol de composición en vivo, el «análisis del documento XML» del documento vivo. <b><code>Column</code></b> = <code>LinearLayout</code> vertical.</li></ul></div>
 </div>
-<script src="../assets/hoja-din.js?v=5d5a8f58"></script>
+<script src="../assets/hoja-din.js?v=b7341a32"></script>
 
 Para practicar escribiendo, usa el [examen de desarrollo de los temas 3 y 4](examen-din-desarrollo-t34.md) (40 preguntas con tutor de IA); para estudiar el tema 4 con calma, la [unidad 10](u10/index.md). Las preguntas de los temas anteriores (1 y 2) están en la [hoja de los temas 1 y 2](hoja-din-t12.md).

@@ -17,8 +17,13 @@
     hoja.addEventListener("click", function (e) {
       if (!hoja.classList.contains("hd-tapadas")) return;
       var el = e.target;
+      if (el.closest && el.closest("summary")) return;
       while (el && el !== hoja && !(el.classList && el.classList.contains("hd-i"))) el = el.parentNode;
       if (el && el !== hoja) el.classList.toggle("hd-ver");
+    });
+    window.addEventListener("beforeprint", function () {
+      var d = hoja.querySelectorAll("details");
+      for (var i = 0; i < d.length; i++) d[i].open = true;
     });
     if (imprimir) imprimir.addEventListener("click", function () { window.print(); });
   }
