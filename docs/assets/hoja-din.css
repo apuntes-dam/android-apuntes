@@ -30,7 +30,7 @@
 @media print {
   @page { size: A4; margin: 6mm; }
   .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-source-file, .md-content__button, .md-feedback, nav, #__comments,
-  .hd-no-imprimir, h1 + p, .admonition, .narrador, [class*="narrador"] { display: none !important; }
+  .hd-no-imprimir, .md-button, h1 + p, .admonition, .narrador, [class*="narrador"] { display: none !important; }
   .md-main__inner, .md-content, .md-content__inner { margin: 0 !important; padding: 0 !important; max-width: none !important; }
   .md-content__inner > h1 { display: block !important; margin: 0 0 1mm !important; font-size: 11pt !important; }
   body, .md-main, .md-container { background: #fff !important; }
