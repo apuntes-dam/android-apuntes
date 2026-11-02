@@ -3,7 +3,7 @@
 .hd-barra { display: flex; flex-wrap: wrap; gap: .5rem; margin: .6rem 0 .9rem; }
 .hd-btn { cursor: pointer; font: inherit; font-size: .8rem; padding: .4rem .9rem; border: 1px solid var(--md-primary-fg-color, #3f51b5); border-radius: 6px;
   background: var(--md-primary-fg-color, #3f51b5); color: #fff; }
-.hd-btn.hd-sec { background: none; color: var(--md-primary-fg-color, #3f51b5); }
+.hd-btn.hd-sec { background: none; color: var(--md-default-fg-color, #222); border-color: var(--md-default-fg-color--light, rgba(128, 128, 128, .7)); }
 .hd-leyenda { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; font-size: .75rem; margin: .2rem 0 .6rem; }
 .hd-leyenda span::before { content: ""; display: inline-block; width: .7rem; height: .7rem; margin-right: .35rem; border-radius: 2px; vertical-align: -1px; }
 .hd-leyenda .hd-lA::before { background: #2e9e5b; }

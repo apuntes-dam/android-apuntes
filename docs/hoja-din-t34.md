@@ -4,7 +4,7 @@ Las **42 preguntas que más probablemente caerán** en el examen de **Desarrollo
 
 Para practicar **a mano**, descarga la **hoja de examen en PDF**: tiene el mismo formato que la del examen real (cabecera con nombre, grupo y fecha, 0,25 por pregunta y líneas para escribir) con estas 42 preguntas. Las respuestas están aquí, en esta hoja.
 
-<p><a class="md-button" href="../assets/hoja-examen-din-t34.pdf" download>Descargar la hoja de examen (PDF)</a></p>
+<p><a class="md-button" href="../assets/hoja-examen-din-t34.pdf" target="_blank" rel="noopener">Abrir la hoja de examen (PDF)</a></p>
 
 !!! info "De dónde sale la predicción"
     El profesor marca en **verde** lo que entra en el examen, y en el examen anterior casi cada pregunta salía de un fragmento verde. Las páginas de teoría traen unos 46 fragmentos verdes ([tema 3](https://revilofe.github.io/section6/u03/teoria/DI-U3.1.-GeneracionInterfacesXML/) y [tema 4](https://revilofe.github.io/section6/u04/teoria/DI-U4.1.-CreacionDeComponentes/)) para 40 huecos. El verde suele marcar solo la frase que **introduce** una lista o una tabla; lo de debajo también cuenta. Es una predicción por la estructura, no una certeza.
@@ -12,7 +12,7 @@ Para practicar **a mano**, descarga la **hoja de examen en PDF**: tiene el mismo
 !!! tip "Los tres niveles"
     **Muy probable**: definiciones y listas que el profesor marca como imprescindibles. **Probable**: código del componente, casos y herramientas. **Menos probable**: los dos casos prácticos del tema 3. La tabla de editores XML lleva en verde «entran en el examen tipo test»: si hay alguna pregunta de opciones, será esa.
 
-<link rel="stylesheet" href="../assets/hoja-din.css?v=c9f20e26">
+<link rel="stylesheet" href="../assets/hoja-din.css?v=a782fd67">
 <div class="hd" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir (una página)</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Muy probable (20)</span><span class="hd-lB">Probable (20)</span><span class="hd-lC">Menos probable (2)</span></div>
