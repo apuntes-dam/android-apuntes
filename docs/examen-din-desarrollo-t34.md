@@ -16,7 +16,7 @@ Practica el examen de **Desarrollo de Interfaces** como será de verdad: **escri
     Solo lo que ves en el texto, y solo a la IA que elijas, **cuando pulsas el botón**. Esta web no lo guarda en ningún servidor: lo que escribes se queda en tu navegador. Las IA pueden equivocarse: compara siempre con la respuesta del profesor y con tus apuntes.
 
 !!! note "No es el examen real"
-    Es un examen de prueba con el formato del «Examen escrito UF1 y UF2» de la Moodle. Repasa antes el tema 3 en [la web del profesor](https://revilofe.github.io/section6/u03/teoria/DI-U3.1.-GeneracionInterfacesXML/) y el tema 4 en [U10](u10/index.md) de esta web. Y, si te queda poco tiempo, la [hoja de las 42 preguntas probables](hoja-din-t34.md). El mismo examen, para imprimir, está en tus apuntes.
+    Es un examen de prueba con el formato del «Examen escrito UF1 y UF2» de la Moodle. Repasa antes el tema 3 en [la web del profesor](https://revilofe.github.io/section6/u03/teoria/DI-U3.1.-GeneracionInterfacesXML/) y el tema 4 en [U10](u10/index.md) de esta web. Y, si te queda poco tiempo, la [hoja de las 42 preguntas probables](hoja-din-t34.md) y, para las preguntas de los temas anteriores, la [hoja de los temas 1 y 2](hoja-din-t12.md). El mismo examen, para imprimir, está en tus apuntes.
 
 <div class="tutor-ia-examen" data-banco="t34"></div>
 

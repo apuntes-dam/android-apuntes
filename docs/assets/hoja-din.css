@@ -46,4 +46,8 @@
   .hd-reserva { margin-top: 1.5mm; padding: .8mm 1.5mm; font-size: 5.9pt; line-height: 1.2; border-width: .2mm; border-radius: .8mm; }
   .hd-reserva ul { columns: 2; column-gap: 4mm; }
   .hd-reserva li { break-inside: avoid; }
+  .hd-2p, .hd-2p .hd-i, .hd-2p .hd-leyenda { font-size: 7.4pt; }
+  .hd-2p .hd-r code { font-size: 7.1pt; }
+  .hd-2p .hd-tema { font-size: 9.5pt; }
+  .hd-2p .hd-lista + .hd-tema { break-before: page; }
 }
