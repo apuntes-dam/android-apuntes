@@ -1,5 +1,94 @@
 # Hoja de repaso · DIN · Temas 1 y 2
 
+<div class="narrador" data-slug="hoja-din-t12" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Escucha las 40 preguntas con su respuesta corta"></div>
+
+??? note "Leer el resumen"
+    Repaso de las cuarenta preguntas de los temas uno y dos. Después de cada pregunta hay una pausa: contesta tú primero y luego escucha la respuesta.
+    Tema uno.
+    Pregunta 1. ¿Qué es un lenguaje de programación?
+    Reglas y normas para escribir instrucciones que el ordenador entiende y así controlar una máquina.
+    Pregunta 2. Lenguajes de bajo y de alto nivel: diferencia y cuándo se traducen los de alto nivel?
+    Bajo nivel: cerca del hardware, lenguaje máquina y ensamblador. Alto nivel: cerca de las personas; se traduce durante la compilación.
+    Pregunta 3. ¿Por qué Kotlin es de alto nivel? ¿En qué compila y quién ejecuta el resultado?
+    Reglas fáciles para las personas. Compila a bytecode, que ejecuta una máquina virtual, JVM o ART.
+    Pregunta 4. Además de lógica, ¿qué requieren las aplicaciones móviles y para qué?
+    Una interfaz, lo que se ve y se toca, para que el usuario interactúe con la app.
+    Pregunta 5. ¿Qué es un paradigma de programación?
+    Un estilo de programar: la estructura del programa que da solución a los problemas.
+    Pregunta 6. Programación imperativa: qué es y qué estructuras añade a la secuencia?
+    Instrucciones secuenciales, paso a paso. Añade estructuras de control, decidir, y iterativas, repetir.
+    Pregunta 7. Programación procedimental y programación modular?
+    Procedimental: funciones que simplifican y aligeran implementación y mantenimiento. Modular: módulos independientes; agiliza programación y pruebas.
+    Pregunta 8. Cinco lenguajes que usan programación imperativa?
+    Kotlin, Java, C, C# y Python.
+    Pregunta 9. Modelo declarativo frente a imperativo, con ejemplos?
+    Imperativo: explica cómo, paso a paso. Declarativo: describe qué se quiere. Ejemplos: HTML, CSS y SQL.
+    Pregunta 10. ¿Qué combinación de modelos es clave para las interfaces de este módulo?
+    Los tres juntos: orientada a objetos, dirigida por eventos y basada en componentes.
+    Pregunta 11. Programación orientada a objetos: ¿en qué se basa?
+    En objetos con atributos, propiedades y métodos que interactúan entre sí.
+    Pregunta 12. Programación por eventos, con el ejemplo de clase, y por componentes?
+    Eventos: reacciona a acciones externas, pulsar un botón. Componentes: reutilizar piezas ya hechas.
+    Pregunta 13. ¿Dónde se juntan los tres modelos y cómo se ve cada uno?
+    En Jetpack Compose: los composables son componentes, reaccionan a eventos y se apoyan en objetos y clases.
+    Pregunta 14. ¿Qué es Android Studio?
+    El IDE oficial para apps Android: gratuito, libre, multiplataforma, basado en IntelliJ IDEA.
+    Pregunta 15. ¿Qué librería construye las interfaces en Android con Kotlin y qué son sus componentes?
+    Jetpack Compose. Sus componentes son funciones de Kotlin con arroba Composable que se combinan.
+    Pregunta 16. Importar las librerías de Compose y definir composable?
+    Con import androidx punto compose, Alt más Intro. Composable = función de Kotlin con arroba Composable que describe un trozo de pantalla.
+    Pregunta 17. Orden en que se ensambla la interfaz desde que arranca la app?
+    Actividad, luego set Content, luego composable raíz, luego resto del árbol.
+    Pregunta 18. ¿Qué es Gradle y cuáles son sus tres funciones?
+    El sistema de construcción: descarga librerías, compila el código y genera el APK.
+    Pregunta 19. ¿Hay paleta de arrastrar y soltar? Fuente de la verdad, arroba Preview y los tres modos del editor?
+    No hay paleta. El código es la fuente de la verdad; arroba Preview dibuja sin ejecutar. Modos: Code, Split y Design.
+    Pregunta 20. Componentes gráficos, paleta y propiedades en Compose?
+    Componentes = elementos con los que el usuario interactúa. Paleta = autocompletado, Ctrl más Espacio. Propiedades = parámetros.
+    Pregunta 21. Plantilla al crear un proyecto con Compose y lo mínimo para una interfaz básica?
+    Plantilla Empty Activity. Mínimo: una función composable que describa la pantalla.
+    Pregunta 22. Compose es code-first: ¿qué significa?
+    Primero el código: la interfaz se escribe en Kotlin y Split o Design es su previsualización en vivo. No se arrastra nada.
+    Tema dos.
+    Pregunta 23. ¿De qué depende la distribución de los elementos y qué son los layouts?
+    De los layouts: contenedores que definen la ubicación exacta de los elementos.
+    Pregunta 24. Diálogo modal: qué es y qué papel tiene en la interfaz?
+    Ventana encima que bloquea hasta que respondes. Los no modales dejan seguir usando la pantalla.
+    Pregunta 25. ¿Hay paleta de arrastrar y soltar en Compose? ¿Qué es insertar un elemento?
+    No hay paleta. Insertar = escribir su llamada en el código, dentro del contenedor adecuado.
+    Pregunta 26. ¿Dónde y cada cuánto se renderiza la interfaz mientras escribes? ¿Qué dibuja arroba Preview?
+    En la vista Split, en vivo, casi al segundo. arroba Preview dibuja sin ejecutar la app.
+    Pregunta 27. Clase, métodos y atributos?
+    Clase = molde. Atributos = características. Métodos = lo que sabe hacer.
+    Pregunta 28. Instanciar una clase en Kotlin: ¿qué palabra reservada no se usa?
+    Nombre de la clase más paréntesis. No se usa niu.
+    Pregunta 29. La actividad, Component Activity, y set Content?
+    Actividad = pantalla que aloja la interfaz. set Content monta dentro los composables.
+    Pregunta 30. Los contenedores y qué trae Scaffold?
+    Contenedores: invisibles, organizan a otros. Scaffold: pantalla completa con top bar, bottom bar, floating action button y contenido.
+    Pregunta 31. Sistema estándar de navegación y qué registra el Nav Jost?
+    Estándar: Navigation Compose. Nav Jost registra las pantallas con su ruta; se salta con Nav Jost Controller.
+    Pregunta 32. ¿Cómo se pasa un evento a un componente? ¿Hacen lo mismo en todos los elementos?
+    Como parámetro: una lambda, on Clic, on Valiu Chéinch. No hacen lo mismo en todos: depende del elemento.
+    Pregunta 33. Button frente a Text, jerarquías de botón y estilo de los textos?
+    En Button el texto va dentro de las llaves. Tres jerarquías: Button, Áutlaind Button, Text Button. Textos con estilos del tema.
+    Pregunta 34. Campo de texto: qué necesita; para qué sirven válue y on Valiu Chéinch?
+    Necesita estado. válue muestra el texto; on Valiu Chéinch lo actualiza.
+    Pregunta 35. Casillas de verificación entre sí y qué usar cuando se necesita exclusividad?
+    Casillas independientes. Exclusividad: Réidio Button.
+    Pregunta 36. Selección única con botones: ¿con qué compara su opción cada botón?
+    Todos comparan con la misma variable, así solo hay una elegida.
+    Pregunta 37. Menú desplegable: qué permite y su ventaja de espacio?
+    Elegir un valor de una lista sin ocupar espacio permanente. Expóused Drop Daun Menu Box.
+    Pregunta 38. Qué permite un layout; qué hacen Cólumn y Row?
+    Adapta la distribución de los componentes. Cólumn = vertical; Row = horizontal.
+    Pregunta 39. Qué hacen Box y Léisi Vértical Grid?
+    Box = superpone elementos. Léisi Vértical Grid = rejilla que solo prepara lo que se ve.
+    Pregunta 40. Flujo dinámico de Compose: de la acción del usuario al cambio de la interfaz?
+    Evento, luego actualiza el estado, luego redibuja la interfaz.
+    Eso es todo. Si algo no te sale, vuelve a escuchar esa pregunta.
+
+
 Las **40 preguntas del examen anterior** (temas 1 y 2), con la respuesta explicada **para alguien que nunca ha programado**. Lo que conviene escribir en el examen está en **negrita**: son las palabras del profesor. Según lo comentado en el grupo, el siguiente examen será de los temas siguientes **con preguntas de los temas anteriores**: si cae algo de los temas 1 y 2, saldrá de aquí, porque estas 40 recogen **todo lo marcado en verde** de las dos unidades. Cuando te la sepas, pulsa **Tapar respuestas** y comprueba cuáles recuerdas: al pulsar una pregunta se destapa su respuesta.
 
 !!! info "De dónde sale"

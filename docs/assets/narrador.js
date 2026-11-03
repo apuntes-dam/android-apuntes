@@ -25,6 +25,9 @@
     var fila = document.createElement("div");
     fila.className = "narrador-ajustes";
 
+    var descarga = document.createElement("a");
+    descarga.className = "narrador-descarga";
+    descarga.textContent = "Descargar MP3";
     var selVoz = document.createElement("select");
     selVoz.setAttribute("aria-label", "Voz");
     voces.forEach(function (v) { var o = document.createElement("option"); o.value = v.id; o.textContent = v.nombre; selVoz.appendChild(o); });
@@ -37,6 +40,8 @@
     function cargar(conservar) {
       var t = conservar ? audio.currentTime : 0, sonaba = conservar && !audio.paused;
       audio.src = base + "audio/" + slug + "-" + selVoz.value + ".mp3";
+      descarga.href = audio.src;
+      descarga.setAttribute("download", slug + "-" + selVoz.value + ".mp3");
       audio.playbackRate = parseFloat(selVel.value);
       if (conservar) audio.addEventListener("loadedmetadata", function f() {
         audio.removeEventListener("loadedmetadata", f);
@@ -50,7 +55,7 @@
 
     var l1 = document.createElement("label"); l1.textContent = "Voz "; l1.appendChild(selVoz);
     var l2 = document.createElement("label"); l2.textContent = "Velocidad "; l2.appendChild(selVel);
-    fila.appendChild(l1); fila.appendChild(l2);
+    fila.appendChild(l1); fila.appendChild(l2); fila.appendChild(descarga);
     el.appendChild(cab); el.appendChild(audio); el.appendChild(fila);
     cargar(false);
   }
