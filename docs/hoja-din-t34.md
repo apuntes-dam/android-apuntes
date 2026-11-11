@@ -12,7 +12,7 @@ Para practicar **a mano**, descarga la **hoja de examen en PDF**: tiene el mismo
 !!! tip "Los tres niveles"
     **Muy probable**: definiciones y listas que el profesor marca como imprescindibles. **Probable**: código del componente, casos y herramientas. **Menos probable**: los dos casos prácticos del tema 3. La tabla de editores XML lleva en verde «entran en el examen tipo test»: si hay alguna pregunta de opciones, será esa.
 
-<link rel="stylesheet" href="../assets/hoja-din.css?v=e0146243">
+<link rel="stylesheet" href="../assets/hoja-din.css?v=a5fa186e">
 <div class="hd" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir (una página)</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Muy probable (20)</span><span class="hd-lB">Probable (20)</span><span class="hd-lC">Menos probable (2)</span></div>

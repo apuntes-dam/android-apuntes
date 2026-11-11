@@ -58,6 +58,7 @@
   .hd-2p .hd-r code { font-size: 7.1pt; }
   .hd-2p .hd-tema { font-size: 9.5pt; }
   .hd-2p .hd-lista + .hd-tema { break-before: page; }
+  .hd-2p.hd-corrido .hd-lista + .hd-tema { break-before: auto; }   /* sin salto forzado entre temas: las preguntas siguen una tras otra */
   .hd-tabla, .hd-tabla tbody, .hd-tabla tr, .hd-tabla td { display: block; width: auto; border: 0; padding: 0; }
   .hd-tabla thead { display: none; }
   .hd-tabla tr { margin: .5mm 0; padding: .3mm 0 .3mm 1mm; border-left: .3mm solid #9aa4b2; }
