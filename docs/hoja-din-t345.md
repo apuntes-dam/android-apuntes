@@ -6,6 +6,8 @@ Las **40 preguntas del examen que el profesor ha liberado** (temas 3, 4 y 5), co
     Son las preguntas y las respuestas resumidas del documento que el profesor ha liberado (11-nov-2026). El tema 3 son las preguntas 1 a 10, el tema 4 las 11 a 27 y el tema 5 las 28 a 40. Las respuestas siguen las del profesor; los términos de programación se explican al usarlos.
 
 <link rel="stylesheet" href="../assets/hoja-din.css?v=a5fa186e">
+<div class="narrador" data-slug="hoja-din-t345-repaso" data-voces="gabriel:Gabriel (TTSMaker)" data-titulo="Escucha las 40 preguntas: pregunta, pausa para pensar y respuesta corta"></div>
+
 <div class="hd hd-2p hd-corrido" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Del examen liberado (40)</span></div>
