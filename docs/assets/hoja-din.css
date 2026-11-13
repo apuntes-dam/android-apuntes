@@ -34,6 +34,10 @@
 .hd-mas > summary { cursor: pointer; font-size: .9em; opacity: .75; margin: .15rem 0; }
 .hd-mas[open] > summary { margin-bottom: .3rem; }
 @media print { .hd-mas > summary { display: none; } }
+.hd-img { margin: .35rem 0; }
+.hd-img a { display: inline-block; }
+.hd-img img { display: block; max-width: 100%; max-height: 180px; border-radius: 6px; border: 1px solid var(--md-default-fg-color--lightest, rgba(128, 128, 128, .3)); background: #fbfbfa; cursor: zoom-in; }
+@media print { .hd-img { display: none; } }
 
 @media print {
   @page { size: A4; margin: 6mm; }

@@ -17,7 +17,7 @@
     hoja.addEventListener("click", function (e) {
       if (!hoja.classList.contains("hd-tapadas")) return;
       var el = e.target;
-      if (el.closest && el.closest("summary")) return;
+      if (el.closest && (el.closest("summary") || el.closest(".hd-img"))) return;
       while (el && el !== hoja && !(el.classList && el.classList.contains("hd-i"))) el = el.parentNode;
       if (el && el !== hoja) el.classList.toggle("hd-ver");
     });
