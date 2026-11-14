@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-label="Un enum class sin datos solo tiene nombres, y el texto y el color de cada uno viven en otra tabla aparte, así que cambiarlos exige tocar dos sitios. Un enum class con parámetros lleva su propio texto y color en cada variante: los datos están en un solo sitio y se cambian tocando una línea">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="388" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="21" font-weight="700" fill="#1f2937" text-anchor="middle">Un enum class puede llevar sus propios datos</text>
+<text x="240" y="76" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#5b6472" text-anchor="middle">Sin datos en el enum</text>
+<rect x="40.0" y="96.0" width="400.0" height="70.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<text x="240" y="128" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">enum class Estado { OK, ERROR }</text>
+<text x="240" y="148" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">solo nombres: ni texto ni color</text>
+<line x1="240" y1="170" x2="240" y2="206" stroke="#c3c9d4" stroke-width="3" marker-end="url(#pc3c9d4)"/>
+<rect x="40.0" y="210.0" width="400.0" height="130.0" rx="12" fill="#fff7ef" stroke="#e3c08c" stroke-width="1.5"/>
+<text x="240" y="236" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="400" fill="#5b6472" text-anchor="middle">en otro sitio, una tabla aparte:</text>
+<text x="60" y="266" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#1f2937" text-anchor="start">OK      -&gt;  "Correcto"  verde</text>
+<text x="60" y="292" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#1f2937" text-anchor="start">ERROR   -&gt;  "Fallo"      rojo</text>
+<text x="240" y="322" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">cambiar un color: tocar DOS sitios</text>
+<text x="760" y="76" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f6fdc" text-anchor="middle">Con datos en el enum</text>
+<rect x="560.0" y="96.0" width="400.0" height="50.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<text x="760" y="126" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">enum class Estado(val etiqueta: String, val acento: Color) {</text>
+<rect x="560.0" y="160.0" width="400.0" height="50.0" rx="10" fill="#8fd0b3" stroke="#5aa585" stroke-width="1.5"/>
+<text x="760" y="191" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">OK("Correcto", Verde)</text>
+<rect x="560.0" y="224.0" width="400.0" height="50.0" rx="10" fill="#f6c07a" stroke="#d99a45" stroke-width="1.5"/>
+<text x="760" y="255" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#1f2937" text-anchor="middle">ERROR("Fallo", Rojo)</text>
+<text x="760" y="300" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="13" font-weight="600" fill="#1f2937" text-anchor="middle">}</text>
+<text x="760" y="334" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2e7d32" text-anchor="middle">cada valor lleva su texto y su color:</text>
+<text x="760" y="356" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2e7d32" text-anchor="middle">los datos están en un solo sitio</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Una data class con propiedades val es inmutable: ana nunca cambia. Con copy() se crea un valor nuevo, aprobada, a partir de ana, cambiando solo la nota; ana sigue teniendo nota 4">
+<defs><marker id="p2f6fdc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fdc"/></marker><marker id="pe08a1e" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e08a1e"/></marker></defs>
+<rect x="1" y="1" width="998" height="318" rx="14" fill="#fbfbfa" stroke="#d6d9de" stroke-width="2"/>
+<text x="500" y="40" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="21" font-weight="700" fill="#1f2937" text-anchor="middle">data class y copy: un valor nuevo, no un cambio</text>
+<text x="240" y="86" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#5b6472" text-anchor="middle">ana (val, inmutable)</text>
+<rect x="60.0" y="106.0" width="360.0" height="150.0" rx="12" fill="#ffffff" stroke="#d3d8e0" stroke-width="1.5"/>
+<text x="240" y="136" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">Alumno(</text>
+<text x="240" y="162" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="400" fill="#1f2937" text-anchor="middle">nombre = "Ana",</text>
+<text x="240" y="188" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="400" fill="#c0392b" text-anchor="middle">nota = 4</text>
+<text x="240" y="214" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">)</text>
+<text x="240" y="242" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#c0392b" text-anchor="middle">val: no se puede modificar</text>
+<line x1="430" y1="180" x2="570" y2="180" stroke="#2f6fdc" stroke-width="3" marker-end="url(#p2f6fdc)"/>
+<text x="500" y="160" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="14" font-weight="700" fill="#2f6fdc" text-anchor="middle">aprobada =</text>
+<text x="500" y="196" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="14" font-weight="700" fill="#2f6fdc" text-anchor="middle">ana.copy(nota = 7)</text>
+<text x="760" y="86" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="16" font-weight="700" fill="#2e7d32" text-anchor="middle">aprobada (un valor NUEVO)</text>
+<rect x="580.0" y="106.0" width="360.0" height="150.0" rx="12" fill="#eef8f0" stroke="#9bcaa8" stroke-width="1.5"/>
+<text x="760" y="136" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">Alumno(</text>
+<text x="760" y="162" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="400" fill="#1f2937" text-anchor="middle">nombre = "Ana",</text>
+<text x="760" y="188" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#2e7d32" text-anchor="middle">nota = 7</text>
+<text x="760" y="214" font-family="ui-monospace,Consolas,Menlo,monospace" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">)</text>
+<text x="760" y="242" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="13" font-weight="700" fill="#2e7d32" text-anchor="middle">copia con solo ese cambio</text>
+<text x="500" y="292" font-family="system-ui,Segoe UI,Roboto,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2937" text-anchor="middle">ana no cambia: sigue con nota 4. copy() crea un objeto nuevo, cambiando solo lo que le indicas.</text>
+</svg>
