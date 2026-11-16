@@ -94,7 +94,7 @@ Las **40 preguntas del examen anterior** (temas 1 y 2), con la respuesta explica
 !!! info "De dónde sale"
     El profesor marca en **verde** lo que entra en el examen. Las páginas de teoría del [tema 1](https://revilofe.github.io/section6/u01/teoria/DI-U1.1.-IntroduccionConfeccionInterfaces/) y del [tema 2](https://revilofe.github.io/section6/u02/teoria/DI-U2.1.-ClasesYComponentes/) traen 34 y 33 fragmentos verdes (sin contar la leyenda), y cada uno aparece en alguna de las 40 preguntas del examen anterior, el «Examen escrito UF1 y UF2» de la Moodle. La redacción de las preguntas es propia, pero cubren lo mismo, y están numeradas como en ese examen. Para practicar a mano con su formato, usa su PDF.
 
-<link rel="stylesheet" href="../assets/hoja-din.css?v=a5fa186e">
+<link rel="stylesheet" href="../assets/hoja-din.css?v=55d8601c">
 <div class="narrador" data-slug="hoja-din-t12-audiolibro-corto" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2,gabriel:Gabriel (TTSMaker)" data-titulo="Audiolibro corto: las 40 preguntas con la respuesta corta"></div>
 <div class="narrador" data-slug="hoja-din-t12-audiolibro" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Audiolibro: las 40 preguntas con la explicación completa"></div>
 
@@ -148,6 +148,6 @@ Las **40 preguntas del examen anterior** (temas 1 y 2), con la respuesta explica
 <div class="hd-i hd-A" title="Del examen anterior"><div class="hd-q"><span class="hd-n">40</span>Flujo dinámico de Compose: de la acción del usuario al cambio de la interfaz</div><div class="hd-r"><div class="hd-s"><b>Evento → actualiza el estado → redibuja la interfaz.</b></div><details class="hd-mas"><summary>Explicación completa</summary><b>1)</b> El usuario hace algo (por ejemplo, pulsa un botón): eso es un <b>evento</b>. <b>2)</b> <b>El evento actualiza el estado</b> (los datos que recuerda la app). <b>3)</b> <b>El estado redibuja la interfaz</b>: Compose vuelve a pintar lo que depende de esos datos y la pantalla cambia.</details></div></div>
 </div>
 </div>
-<script src="../assets/hoja-din.js?v=b7341a32"></script>
+<script src="../assets/hoja-din.js?v=7cf82153"></script>
 
 Los temas siguientes están en la [hoja de repaso de los temas 3 y 4](hoja-din-t34.md).

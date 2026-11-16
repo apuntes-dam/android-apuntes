@@ -5,7 +5,7 @@ Las **40 preguntas del solucionario del examen de PMDM** (Programación Multimed
 !!! info "De dónde sale"
     Son las preguntas y las respuestas del «Solucionario · Examen PMDM · Temas 1 y 2» (IES Rafael Alberti, curso 2026/27). El tema 1 son las preguntas 1 a 27 (RA1) y el tema 2 las 28 a 40 (RA2). Las respuestas siguen las del solucionario; los términos de programación se explican al usarlos. Lo de Android, Compose y los Intents está explicado con calma en las unidades de esta web.
 
-<link rel="stylesheet" href="../assets/hoja-din.css?v=a5fa186e">
+<link rel="stylesheet" href="../assets/hoja-din.css?v=55d8601c">
 <div class="hd hd-2p hd-corrido" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Del solucionario del examen (40)</span></div>
@@ -56,4 +56,4 @@ Las **40 preguntas del solucionario del examen de PMDM** (Programación Multimed
 <div class="hd-i hd-A" title="Del solucionario del examen"><div class="hd-q"><span class="hd-n">40</span>Explica la diferencia entre un Intent explícito y un Intent implícito. Pon un ejemplo de cada uno.</div><div class="hd-r"><div class="hd-s"><b>Explícito</b>: dice <b>qué pantalla</b> abrir (ficha de un contacto). <b>Implícito</b>: solo la <b>acción</b>, y el sistema busca la app (marcar un número, compartir).</div><details class="hd-mas"><summary>Explicación completa</summary><b>Intent explícito</b>: indica <b>exactamente qué pantalla se quiere abrir</b>, normalmente una de la propia app. Ejemplo: desde la lista de contactos, <b>abrir la ficha de un contacto</b>. <b>Intent implícito</b>: solo indica <b>la acción que se quiere hacer</b>, y <b>es el sistema quien busca qué app puede hacerla</b>. Ejemplo: <b>«marcar este número»</b>, que abre el marcador, o <b>«compartir este texto»</b>, que muestra las apps para compartir.</details></div></div>
 </div>
 </div>
-<script src="../assets/hoja-din.js?v=b7341a32"></script>
+<script src="../assets/hoja-din.js?v=7cf82153"></script>
