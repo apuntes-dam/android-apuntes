@@ -7,6 +7,7 @@ Las **40 preguntas del examen que el profesor ha liberado** (temas 3, 4 y 5), co
 
 <link rel="stylesheet" href="../assets/hoja-din.css?v=55d8601c">
 <div class="narrador" data-slug="hoja-din-t345-repaso" data-voces="gabriel:Gabriel (TTSMaker)" data-titulo="Escucha las 40 preguntas: pregunta, pausa para pensar y respuesta corta"></div>
+<div class="narrador" data-slug="hoja-din-t345-sintitulo" data-voces="gabriel:Gabriel (TTSMaker)" data-titulo="La misma lista, sin presentación: empieza directo en la pregunta 1"></div>
 
 <div class="hd hd-2p hd-corrido" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir</button></div>
