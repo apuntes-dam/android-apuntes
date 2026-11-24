@@ -6,6 +6,9 @@ Las **40 preguntas del solucionario del examen de PMDM** (Programación Multimed
     Son las preguntas y las respuestas del «Solucionario · Examen PMDM · Temas 1 y 2» (IES Rafael Alberti, curso 2026/27). El tema 1 son las preguntas 1 a 27 (RA1) y el tema 2 las 28 a 40 (RA2). Las respuestas siguen las del solucionario; los términos de programación se explican al usarlos. Lo de Android, Compose y los Intents está explicado con calma en las unidades de esta web.
 
 <link rel="stylesheet" href="../assets/hoja-din.css?v=55d8601c">
+<div class="narrador" data-slug="hoja-pmdm-t12-audiolibro-corto" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Audiolibro corto: las 40 preguntas con la respuesta corta"></div>
+<div class="narrador" data-slug="hoja-pmdm-t12-audiolibro" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Audiolibro: las 40 preguntas con la explicación completa"></div>
+
 <div class="hd hd-2p hd-corrido" id="hoja-din">
 <div class="hd-barra"><button class="hd-btn" id="hd-tapar" type="button">Tapar respuestas (practicar)</button><button class="hd-btn hd-sec" id="hd-imprimir" type="button">Imprimir</button></div>
 <div class="hd-leyenda"><span class="hd-lA">Del solucionario del examen (40)</span></div>
